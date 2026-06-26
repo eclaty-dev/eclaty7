@@ -628,7 +628,6 @@ function prodCard(p){
       '<p class="prod-h2">' + t.prod_h2 + '</p>' +
       '<p class="prod-desc">' + desc + '</p>' +
       '<p class="prod-benefits"><b>' + t.benefits_lbl + '</b> ' + ben + '</p>' +
-      '<a href="' + p.link + '" target="_blank" rel="noopener" class="prod-cta">' + t.cta_discover + '</a>' +
       '<a href="' + p.link + '" target="_blank" rel="noopener" class="prod-cta2">' + t.cta_start + '</a>' +
       '<div class="prod-rass">' + t.rass + '</div>' +
       '<a href="' + p.link + '" target="_blank" rel="noopener" class="prod-cta">' + t.cta_official + '</a>' +
