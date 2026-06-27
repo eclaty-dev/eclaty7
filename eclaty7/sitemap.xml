@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://eclaty7.pages.dev/#/fr/accueil</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/fr/apropos</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/fr/produits</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/fr/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/fr/contact</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/en/home</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/en/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/en/products</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/en/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/en/contact</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/es/inicio</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/es/nosotros</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/es/productos</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/es/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://eclaty7.pages.dev/#/es/contacto</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+</urlset>
