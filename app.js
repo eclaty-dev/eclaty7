@@ -29,7 +29,7 @@ fr: {
   ap3_tag:"Notre histoire", ap3_h:"Pourquoi ECLATY7 existe",
   ap3_p:"Face à la saturation des offres et à la difficulté de faire un choix éclairé, notre mission est simple : apporter clarté, transparence et pédagogie à chaque visiteur.",
   ap4_tag:"Mission", ap4_h:"Notre mission",
-  mission:[["Informer clairement","mission_informer.png"],["Sélectionner des produits sérieux","mission_selectionner.png"],["Présenter les avantages objectivement","mission_presenter.png"],["Aider à choisir en confiance","mission_aider.png"]],
+  mission:[["Informer clairement","mission_informer.jpg"],["Sélectionner des produits sérieux","mission_selectionner.jpg"],["Présenter les avantages objectivement","mission_presenter.jpg"],["Aider à choisir en confiance","mission_aider.jpg"]],
   ap5_tag:"Notre processus", ap5_h:"Comment nous sélectionnons les produits",
   ap5_p:"ECLATY7 ne fabrique pas de produits et ne les vend pas directement. Nous collaborons avec des plateformes partenaires spécialisées dans les compléments et solutions bien-être. Nos critères de sélection incluent :",
   crit:["La qualité des formulations","La réputation des fabricants","La clarté des informations fournies","La disponibilité dans plusieurs pays","Les retours et performances observées"],
@@ -101,7 +101,7 @@ en: {
   ap3_tag:"Our story", ap3_h:"Why ECLATY7 exists",
   ap3_p:"Faced with an oversaturated market and the difficulty of making an informed choice, our mission is simple: bring clarity, transparency and education to every visitor.",
   ap4_tag:"Mission", ap4_h:"Our mission",
-  mission:[["Inform clearly","mission_informer.png"],["Select serious products","mission_selectionner.png"],["Present benefits objectively","mission_presenter.png"],["Help you choose with confidence","mission_aider.png"]],
+  mission:[["Inform clearly","mission_informer.jpg"],["Select serious products","mission_selectionner.jpg"],["Present benefits objectively","mission_presenter.jpg"],["Help you choose with confidence","mission_aider.jpg"]],
   ap5_tag:"Our process", ap5_h:"How we select products",
   ap5_p:"ECLATY7 does not manufacture or sell products directly. We partner with platforms specialised in supplements and wellness solutions. Our selection criteria include:",
   crit:["Quality of formulations","Manufacturer reputation","Clarity of information provided","Availability in multiple countries","Observed feedback and performance"],
@@ -169,7 +169,7 @@ es: {
   ap3_tag:"Nuestra historia", ap3_h:"Por qué existe ECLATY7",
   ap3_p:"Ante la saturación de ofertas y la dificultad de elegir con criterio, nuestra misión es simple: aportar claridad, transparencia y pedagogía a cada visitante.",
   ap4_tag:"Misión", ap4_h:"Nuestra misión",
-  mission:[["Informar con claridad","mission_informer.png"],["Seleccionar productos serios","mission_selectionner.png"],["Presentar las ventajas con objetividad","mission_presenter.png"],["Ayudarte a elegir con confianza","mission_aider.png"]],
+  mission:[["Informar con claridad","mission_informer.jpg"],["Seleccionar productos serios","mission_selectionner.jpg"],["Presentar las ventajas con objetividad","mission_presenter.jpg"],["Ayudarte a elegir con confianza","mission_aider.jpg"]],
   ap5_tag:"Nuestro proceso", ap5_h:"Cómo seleccionamos los productos",
   ap5_p:"ECLATY7 no fabrica ni vende productos directamente. Colaboramos con plataformas especializadas en suplementos y soluciones de bienestar. Nuestros criterios de selección incluyen:",
   crit:["La calidad de las formulaciones","La reputación de los fabricantes","La claridad de la información proporcionada","La disponibilidad en varios países","Los resultados y el rendimiento observado"],
@@ -347,143 +347,143 @@ window.addEventListener('hashchange', function(){
 
 var PRODS = {
 ch1: [
-  {n:"Folicerin", sub:{fr:"Cheveux – Anti-chute",en:"Hair – Anti hair-loss",es:"Cabello – Anticaída"}, img:"Locerin.png", emoji:"🌺",
+  {n:"Folicerin", sub:{fr:"Cheveux – Anti-chute",en:"Hair – Anti hair-loss",es:"Cabello – Anticaída"}, img:"folicerin.jpg", emoji:"🌺",
    desc:{fr:"Formule avancée pour stopper la chute et densifier les cheveux.",en:"Advanced formula to stop hair loss and densify hair.",es:"Fórmula avanzada para detener la caída y densificar el cabello."},
    ben:{fr:"Réduit la chute, stimule la pousse, renforce la fibre capillaire.",en:"Reduces hair loss, stimulates growth, strengthens hair fibre.",es:"Reduce la caída, estimula el crecimiento, fortalece la fibra capilar."},
    link:"https://nplink.net/pjo9znwo"},
-  {n:"Dentolan", sub:{fr:"Haleine fraîche",en:"Fresh breath",es:"Aliento fresco"}, img:"Dentolan.png", emoji:"🦷",
+  {n:"Dentolan", sub:{fr:"Haleine fraîche",en:"Fresh breath",es:"Aliento fresco"}, img:"dentolan.jpg", emoji:"🦷",
    desc:{fr:"Élimine la mauvaise haleine de l'intérieur et améliore le confort digestif.",en:"Eliminates bad breath from within and improves digestive comfort.",es:"Elimina el mal aliento desde dentro y mejora el confort digestivo."},
    ben:{fr:"Action durable, confort digestif, fraîcheur naturelle.",en:"Long-lasting action, digestive comfort, natural freshness.",es:"Acción duradera, confort digestivo, frescura natural."},
    link:"https://nplink.net/bpjbysm8"},
-  {n:"Bravona Forte", sub:{fr:"Beauté du buste",en:"Bust beauty",es:"Belleza del busto"}, img:"Collagen-Select.png", emoji:"✨",
+  {n:"Bravona Forte", sub:{fr:"Beauté du buste",en:"Bust beauty",es:"Belleza del busto"}, img:"bravona_forte.jpg", emoji:"✨",
    desc:{fr:"Complexe naturel pour raffermir et sublimer le décolleté.",en:"Natural complex to firm and enhance the décolleté.",es:"Complejo natural para tensar y realzar el escote."},
    ben:{fr:"Fermeté visible, actifs naturels ciblés, peau plus tonique.",en:"Visible firmness, targeted natural actives, toned skin.",es:"Firmeza visible, activos naturales específicos, piel más tonificada."},
    link:"https://nplink.net/4cnizeta"},
-  {n:"Zinamax", sub:{fr:"Peau nette",en:"Clear skin",es:"Piel limpia"}, img:"nonacne.png", emoji:"🫧",
+  {n:"Zinamax", sub:{fr:"Peau nette",en:"Clear skin",es:"Piel limpia"}, img:"zinamax.jpg", emoji:"🫧",
    desc:{fr:"Réduit l'acné, régule le sébum et améliore le teint.",en:"Reduces acne, regulates sebum and improves complexion.",es:"Reduce el acné, regula el sebo y mejora el cutis."},
    ben:{fr:"Actifs anti-inflammatoires, peau plus nette, teint unifié.",en:"Anti-inflammatory actives, clearer skin, even complexion.",es:"Activos antiinflamatorios, piel más limpia, tono uniforme."},
    link:"https://nplink.net/te8nyja7"},
-  {n:"Folisin", sub:{fr:"Cheveux – Homme",en:"Hair – Men",es:"Cabello – Hombre"}, img:"Profolan.png", emoji:"🌿",
+  {n:"Folisin", sub:{fr:"Cheveux – Homme",en:"Hair – Men",es:"Cabello – Hombre"}, img:"folisin.jpg", emoji:"🌿",
    desc:{fr:"AnaGain™ Nu cliniquement prouvé pour renforcer les cheveux et réduire la chute.",en:"Clinically proven AnaGain™ Nu to strengthen hair and reduce loss.",es:"AnaGain™ Nu clínicamente probado para fortalecer el cabello y reducir su caída."},
    ben:{fr:"Densité retrouvée, cheveux plus forts, résultats cliniquement prouvés.",en:"Regained density, stronger hair, clinically proven results.",es:"Densidad recuperada, cabello más fuerte, resultados clínicamente probados."},
    link:"https://nplink.net/pj3oyi02"},
-  {n:"Collagen Select", sub:{fr:"Anti-âge peau",en:"Skin anti-ageing",es:"Anti-edad piel"}, img:"Collagen-Select.png", emoji:"💎",
+  {n:"Collagen Select", sub:{fr:"Anti-âge peau",en:"Skin anti-ageing",es:"Anti-edad piel"}, img:"collagen_select.jpg", emoji:"💎",
    desc:{fr:"Boisson collagène tropicale pour une peau ferme, hydratée et lumineuse.",en:"Tropical collagen drink for firm, hydrated, luminous skin.",es:"Bebida de colágeno tropical para una piel firme, hidratada y luminosa."},
    ben:{fr:"Hydratation profonde, fermeté durable, éclat naturel.",en:"Deep hydration, lasting firmness, natural radiance.",es:"Hidratación profunda, firmeza duradera, brillo natural."},
    link:"https://nplink.net/t2pd6oja"},
-  {n:"Locerin", sub:{fr:"Cheveux – Femme",en:"Hair – Women",es:"Cabello – Mujer"}, img:"Locerin.png", emoji:"💆",
+  {n:"Locerin", sub:{fr:"Cheveux – Femme",en:"Hair – Women",es:"Cabello – Mujer"}, img:"locerin.jpg", emoji:"💆",
    desc:{fr:"Inhibe la chute, stimule la croissance et améliore la brillance.",en:"Inhibits hair loss, stimulates growth and improves shine.",es:"Inhibe la caída, estimula el crecimiento y mejora el brillo."},
    ben:{fr:"Cheveux plus brillants, pousse stimulée, chute ralentie.",en:"Shinier hair, stimulated growth, slowed hair loss.",es:"Cabello más brillante, crecimiento estimulado, caída ralentizada."},
    link:"https://nplink.net/nim15c9a"},
-  {n:"Nonacne", sub:{fr:"Peau nette",en:"Clear skin",es:"Piel limpia"}, img:"nonacne.png", emoji:"🍃",
+  {n:"Nonacne", sub:{fr:"Peau nette",en:"Clear skin",es:"Piel limpia"}, img:"nonacne.jpg", emoji:"🍃",
    desc:{fr:"Régule le sébum et réduit les boutons pour un teint net.",en:"Regulates sebum and reduces blemishes for a clear complexion.",es:"Regula el sebo y reduce los granos para un cutis limpio."},
    ben:{fr:"Teint équilibré, pores resserrés, peau apaisée.",en:"Balanced complexion, tightened pores, soothed skin.",es:"Tono equilibrado, poros cerrados, piel calmada."},
    link:"https://nplink.net/izkctpfr"},
-  {n:"Profolan", sub:{fr:"Cheveux – Homme",en:"Hair – Men",es:"Cabello – Hombre"}, img:"Profolan.png", emoji:"🧴",
+  {n:"Profolan", sub:{fr:"Cheveux – Homme",en:"Hair – Men",es:"Cabello – Hombre"}, img:"profolan.jpg", emoji:"🧴",
    desc:{fr:"Formule Grow3 brevetée — stimule la croissance et préserve la couleur naturelle.",en:"Patented Grow3 formula — stimulates growth, preserves natural colour.",es:"Fórmula Grow3 patentada — estimula el crecimiento y preserva el color natural."},
    ben:{fr:"Croissance stimulée, couleur préservée, formule brevetée.",en:"Stimulated growth, preserved colour, patented formula.",es:"Crecimiento estimulado, color preservado, fórmula patentada."},
    link:"https://nplink.net/23a5e2bi"}
 ],
 ch2: [
-  {n:"Crave Burner", sub:{fr:"Contrôle de l'appétit",en:"Appetite control",es:"Control del apetito"}, img:"Crave_Burner.webp", emoji:"🔥",
+  {n:"Crave Burner", sub:{fr:"Contrôle de l'appétit",en:"Appetite control",es:"Control del apetito"}, img:"crave_burner.jpg", emoji:"🔥",
    desc:{fr:"Réduit naturellement les fringales et soutient la gestion du poids.",en:"Naturally reduces cravings and supports weight management.",es:"Reduce naturalmente los antojos y favorece el control del peso."},
    ben:{fr:"Moins de fringales, gestion du poids facilitée, effet durable.",en:"Fewer cravings, easier weight management, lasting effect.",es:"Menos antojos, control de peso facilitado, efecto duradero."},
    link:"https://nplink.net/9fyew9e8"},
-  {n:"Matcha Extreme", sub:{fr:"Boost métabolisme",en:"Metabolism boost",es:"Impulso metabólico"}, img:"Matcha_Extreme.webp", emoji:"🍵",
+  {n:"Matcha Extreme", sub:{fr:"Boost métabolisme",en:"Metabolism boost",es:"Impulso metabólico"}, img:"matcha_extreme.jpg", emoji:"🍵",
    desc:{fr:"Matcha premium et actifs naturels pour un métabolisme boosté.",en:"Premium matcha and natural actives for a boosted metabolism.",es:"Matcha premium y activos naturales para un metabolismo acelerado."},
    ben:{fr:"Métabolisme activé, énergie stable, silhouette affinée.",en:"Activated metabolism, stable energy, refined figure.",es:"Metabolismo activado, energía estable, figura definida."},
    link:"https://nplink.net/1hidlhsg"},
-  {n:"Night Mega Burner", sub:{fr:"Brûleur nocturne",en:"Night burner",es:"Quemador nocturno"}, img:"Night_Mega_Burner.webp", emoji:"🌙",
+  {n:"Night Mega Burner", sub:{fr:"Brûleur nocturne",en:"Night burner",es:"Quemador nocturno"}, img:"night_mega_burner.jpg", emoji:"🌙",
    desc:{fr:"Optimise la combustion des graisses pendant le sommeil.",en:"Optimises fat burning during sleep.",es:"Optimiza la quema de grasa durante el sueño."},
    ben:{fr:"Combustion nocturne, sommeil réparateur, résultats sans effort.",en:"Night-time burning, restorative sleep, effortless results.",es:"Combustión nocturna, sueño reparador, resultados sin esfuerzo."},
    link:"https://nplink.net/ym8gk5mr"},
-  {n:"Shilajit Extreme", sub:{fr:"Vitalité & minceur",en:"Vitality & slimming",es:"Vitalidad y esbeltez"}, img:"Shilajit_Extreme.webp", emoji:"⚡",
+  {n:"Shilajit Extreme", sub:{fr:"Vitalité & minceur",en:"Vitality & slimming",es:"Vitalidad y esbeltez"}, img:"shilajit_extreme.jpg", emoji:"⚡",
    desc:{fr:"Shilajit pur haute concentration pour drainer et revitaliser.",en:"Pure high-concentration shilajit to drain and revitalise.",es:"Shilajit puro de alta concentración para drenar y revitalizar."},
    ben:{fr:"Drainage naturel, vitalité retrouvée, métabolisme équilibré.",en:"Natural drainage, renewed vitality, balanced metabolism.",es:"Drenaje natural, vitalidad renovada, metabolismo equilibrado."},
    link:"https://nplink.net/zgj2sd51"},
-  {n:"Fat Burn Active", sub:{fr:"Thermogénique actif",en:"Active thermogenic",es:"Termogénico activo"}, img:"Fat_Burn_Active.webp", emoji:"💪",
+  {n:"Fat Burn Active", sub:{fr:"Thermogénique actif",en:"Active thermogenic",es:"Termogénico activo"}, img:"fat_burn_active.jpg", emoji:"💪",
    desc:{fr:"Brûle les graisses, booste l'énergie et améliore les performances sportives.",en:"Burns fat, boosts energy, improves sports performance.",es:"Quema grasa, potencia la energía y mejora el rendimiento deportivo."},
    ben:{fr:"Combustion active, énergie sportive, silhouette tonique.",en:"Active burning, sport-ready energy, toned figure.",es:"Combustión activa, energía deportiva, figura tonificada."},
    link:"https://nplink.net/0cfdkeu9"},
-  {n:"Moringa Actives", sub:{fr:"Minceur naturelle",en:"Natural slimming",es:"Adelgazamiento natural"}, img:"Moringa_Actives.webp", emoji:"🌱",
+  {n:"Moringa Actives", sub:{fr:"Minceur naturelle",en:"Natural slimming",es:"Adelgazamiento natural"}, img:"moringa_actives.jpg", emoji:"🌱",
    desc:{fr:"Moringa oleifera pour réduire l'appétit, purifier et activer le métabolisme.",en:"Moringa oleifera to reduce appetite, purify and activate metabolism.",es:"Moringa oleifera para reducir el apetito, purificar y activar el metabolismo."},
    ben:{fr:"Appétit régulé, organisme purifié, métabolisme activé.",en:"Regulated appetite, purified body, activated metabolism.",es:"Apetito regulado, organismo purificado, metabolismo activado."},
    link:"https://nplink.net/mwo0p524"},
-  {n:"Cappuccino MCT", sub:{fr:"Café minceur",en:"Slimming coffee",es:"Café adelgazante"}, img:"Matcha_Extreme.webp", emoji:"☕",
+  {n:"Cappuccino MCT", sub:{fr:"Café minceur",en:"Slimming coffee",es:"Café adelgazante"}, img:"cappuccino_mct.jpg", emoji:"☕",
    desc:{fr:"Cappuccino savoureux enrichi en MCT pour brûler les graisses en se faisant plaisir.",en:"Delicious cappuccino enriched with MCT to burn fat while enjoying.",es:"Capuchino sabroso enriquecido con MCT para quemar grasa con placer."},
    ben:{fr:"Plaisir gourmand, MCT actifs, combustion facilitée.",en:"Indulgent treat, active MCT, easier fat burning.",es:"Placer gourmet, MCT activos, combustión facilitada."},
    link:"https://nplink.net/33bdtwei"},
-  {n:"Keto Actives", sub:{fr:"Cétose optimisée",en:"Optimised ketosis",es:"Cetosis optimizada"}, img:"Night_Mega_Burner.webp", emoji:"🥑",
+  {n:"Keto Actives", sub:{fr:"Cétose optimisée",en:"Optimised ketosis",es:"Cetosis optimizada"}, img:"keto_actives.jpg", emoji:"🥑",
    desc:{fr:"Accélère l'entrée en cétose et maximise la combustion des graisses.",en:"Accelerates entry into ketosis and maximises fat burning.",es:"Acelera la entrada en cetosis y maximiza la quema de grasas."},
    ben:{fr:"Cétose accélérée, combustion maximale, énergie stable.",en:"Faster ketosis, maximum burning, stable energy.",es:"Cetosis acelerada, combustión máxima, energía estable."},
    link:"https://nplink.net/ryf85ilz"},
-  {n:"Piperinox", sub:{fr:"Métabolisme actif",en:"Active metabolism",es:"Metabolismo activo"}, img:"Crave_Burner.webp", emoji:"🌶️",
+  {n:"Piperinox", sub:{fr:"Métabolisme actif",en:"Active metabolism",es:"Metabolismo activo"}, img:"piperinox.jpg", emoji:"🌶️",
    desc:{fr:"Pipérine noire premium pour accélérer le métabolisme et favoriser la digestion.",en:"Premium black pepper extract to accelerate metabolism and aid digestion.",es:"Pimienta negra premium para acelerar el metabolismo y favorecer la digestión."},
    ben:{fr:"Métabolisme accéléré, digestion facilitée, formule premium.",en:"Accelerated metabolism, easier digestion, premium formula.",es:"Metabolismo acelerado, digestión facilitada, fórmula premium."},
    link:"https://nplink.net/fr3sb5r4"},
-  {n:"Fast Burn Extreme", sub:{fr:"Brûleur puissant",en:"Powerful burner",es:"Quemador potente"}, img:"Fat_Burn_Active.webp", emoji:"🚀",
+  {n:"Fast Burn Extreme", sub:{fr:"Brûleur puissant",en:"Powerful burner",es:"Quemador potente"}, img:"fast_burn_extreme.jpg", emoji:"🚀",
    desc:{fr:"Formule ultra-puissante pour une combustion maximale des graisses.",en:"Ultra-powerful formula for maximum fat burning.",es:"Fórmula ultra potente para una combustión máxima de grasas."},
    ben:{fr:"Combustion maximale, formule ultra-concentrée, résultats rapides.",en:"Maximum burning, ultra-concentrated formula, fast results.",es:"Combustión máxima, fórmula ultra concentrada, resultados rápidos."},
    link:"https://nplink.net/m8c0h6ml"},
-  {n:"Green Barley Plus", sub:{fr:"Détox & minceur",en:"Detox & slimming",es:"Detox y esbeltez"}, img:"Moringa_Actives.webp", emoji:"🌾",
+  {n:"Green Barley Plus", sub:{fr:"Détox & minceur",en:"Detox & slimming",es:"Detox y esbeltez"}, img:"green_barley_plus.jpg", emoji:"🌾",
    desc:{fr:"Orge verte premium pour détoxifier, alcaliniser et soutenir la perte de poids.",en:"Premium green barley to detoxify, alkalise and support weight loss.",es:"Cebada verde premium para desintoxicar, alcalinizar y apoyar la pérdida de peso."},
    ben:{fr:"Détox naturelle, équilibre acido-basique, perte de poids soutenue.",en:"Natural detox, acid-base balance, supported weight loss.",es:"Detox natural, equilibrio ácido-base, pérdida de peso apoyada."},
    link:"https://nplink.net/ma9hor29"},
-  {n:"African Mango", sub:{fr:"Brûleur naturel",en:"Natural burner",es:"Quemador natural"}, img:"Moringa_Actives.webp", emoji:"🥭",
+  {n:"African Mango", sub:{fr:"Brûleur naturel",en:"Natural burner",es:"Quemador natural"}, img:"african_mango.jpg", emoji:"🥭",
    desc:{fr:"Extrait d'Irvingia gabonensis pour réduire l'appétit et favoriser la lipolyse.",en:"Irvingia gabonensis extract to reduce appetite and promote fat breakdown.",es:"Extracto de Irvingia gabonensis para reducir el apetito y favorecer la lipólisis."},
    ben:{fr:"Appétit réduit, lipolyse favorisée, extrait 100% naturel.",en:"Reduced appetite, promoted fat breakdown, 100% natural extract.",es:"Apetito reducido, lipólisis favorecida, extracto 100% natural."},
    link:"https://nplink.net/olhpolk7"},
-  {n:"Acai Berry Extreme", sub:{fr:"Antioxydant minceur",en:"Antioxidant slimming",es:"Antioxidante adelgazante"}, img:"Moringa_Actives.webp", emoji:"🫐",
+  {n:"Acai Berry Extreme", sub:{fr:"Antioxydant minceur",en:"Antioxidant slimming",es:"Antioxidante adelgazante"}, img:"acai_berry_extreme.jpg", emoji:"🫐",
    desc:{fr:"Açaï ultra concentré pour antioxydants, énergie et gestion du poids.",en:"Ultra-concentrated açaí for antioxidants, energy and weight management.",es:"Açaí ultra concentrado para antioxidantes, energía y control del peso."},
    ben:{fr:"Antioxydants puissants, énergie naturelle, poids maîtrisé.",en:"Powerful antioxidants, natural energy, controlled weight.",es:"Antioxidantes potentes, energía natural, peso controlado."},
    link:"https://nplink.net/6ee2fw8m"},
-  {n:"Silvets", sub:{fr:"Minceur premium",en:"Premium slimming",es:"Esbeltez premium"}, img:"Crave_Burner.webp", emoji:"💊",
+  {n:"Silvets", sub:{fr:"Minceur premium",en:"Premium slimming",es:"Esbeltez premium"}, img:"silvets.jpg", emoji:"💊",
    desc:{fr:"Combinaison unique d'actifs pour brûler les graisses et retrouver sa silhouette idéale.",en:"Unique combination of actives to burn fat and regain your ideal figure.",es:"Combinación única de activos para quemar grasa y recuperar la figura ideal."},
    ben:{fr:"Silhouette idéale, combinaison unique, action ciblée.",en:"Ideal figure, unique combination, targeted action.",es:"Figura ideal, combinación única, acción específica."},
    link:"https://nplink.net/ufaywuwo"}
 ],
 ch3: [
-  {n:"EnduNAD", sub:{fr:"Longévité active",en:"Active longevity",es:"Longevidad activa"}, img:"Shilajit_Extreme.webp", emoji:"⚡",
+  {n:"EnduNAD", sub:{fr:"Longévité active",en:"Active longevity",es:"Longevidad activa"}, img:"endunad.jpg", emoji:"⚡",
    desc:{fr:"NAD+ pour revitaliser les cellules, soutenir l'énergie et ralentir le vieillissement cellulaire.",en:"NAD+ to revitalise cells, support energy and slow cellular ageing.",es:"NAD+ para revitalizar las células, apoyar la energía y ralentizar el envejecimiento celular."},
    ben:{fr:"Cellules revitalisées, énergie soutenue, longévité active.",en:"Revitalised cells, sustained energy, active longevity.",es:"Células revitalizadas, energía sostenida, longevidad activa."},
    link:"https://nplink.net/84z0nmo4"},
-  {n:"NuviaLab Flex", sub:{fr:"Articulations",en:"Joints",es:"Articulaciones"}, img:"Shilajit_Extreme.webp", emoji:"🦴",
+  {n:"NuviaLab Flex", sub:{fr:"Articulations",en:"Joints",es:"Articulaciones"}, img:"nuvialab_flex.jpg", emoji:"🦴",
    desc:{fr:"Soutient la mobilité articulaire et réduit l'inconfort pour une activité durable.",en:"Supports joint mobility and reduces discomfort for lasting activity.",es:"Apoya la movilidad articular y reduce el malestar para una actividad duradera."},
    ben:{fr:"Mobilité préservée, inconfort réduit, activité durable.",en:"Preserved mobility, reduced discomfort, lasting activity.",es:"Movilidad preservada, malestar reducido, actividad duradera."},
    link:"https://nplink.net/zgj2sd51"},
-  {n:"Bulk Extreme", sub:{fr:"Masse musculaire",en:"Muscle mass",es:"Masa muscular"}, img:"Bulk_Extreme.webp", emoji:"💪",
+  {n:"Bulk Extreme", sub:{fr:"Masse musculaire",en:"Muscle mass",es:"Masa muscular"}, img:"bulk_extreme.jpg", emoji:"💪",
    desc:{fr:"Clean label pour athlètes — développe une masse musculaire pure et naturelle.",en:"Clean label for athletes — builds pure, natural muscle mass.",es:"Clean label para atletas — desarrolla masa muscular pura y natural."},
    ben:{fr:"Masse pure, formule clean label, performance soutenue.",en:"Pure mass, clean-label formula, sustained performance.",es:"Masa pura, fórmula clean label, rendimiento sostenido."},
    link:"https://nplink.net/588p3joy"},
-  {n:"NuviaLab Vitality", sub:{fr:"Vitalité masculine",en:"Men's vitality",es:"Vitalidad masculina"}, img:"NuviaLab_Vitality.webp", emoji:"🔋",
+  {n:"NuviaLab Vitality", sub:{fr:"Vitalité masculine",en:"Men's vitality",es:"Vitalidad masculina"}, img:"nuvialab_vitality.jpg", emoji:"🔋",
    desc:{fr:"Complexe complet pour la vitalité masculine — énergie, force et bien-être au quotidien.",en:"Complete complex for men's vitality — energy, strength and daily wellbeing.",es:"Complejo completo para la vitalidad masculina — energía, fuerza y bienestar diario."},
    ben:{fr:"Énergie quotidienne, force soutenue, bien-être global.",en:"Daily energy, sustained strength, overall wellbeing.",es:"Energía diaria, fuerza sostenida, bienestar global."},
    link:"https://nplink.net/6hmj2uy9"},
-  {n:"Mass Extreme", sub:{fr:"Performance sportive",en:"Sports performance",es:"Rendimiento deportivo"}, img:"Mass_Extreme.png", emoji:"🏋️",
+  {n:"Mass Extreme", sub:{fr:"Performance sportive",en:"Sports performance",es:"Rendimiento deportivo"}, img:"mass_extreme.jpg", emoji:"🏋️",
    desc:{fr:"Augmente la force, la masse et l'endurance lors des entraînements intenses.",en:"Increases strength, mass and endurance during intense training.",es:"Aumenta la fuerza, la masa y la resistencia en entrenamientos intensos."},
    ben:{fr:"Force accrue, endurance améliorée, masse développée.",en:"Increased strength, improved endurance, developed mass.",es:"Fuerza aumentada, resistencia mejorada, masa desarrollada."},
    link:"https://nplink.net/9nm917u1"},
-  {n:"Testolan", sub:{fr:"Testostérone naturelle",en:"Natural testosterone",es:"Testosterona natural"}, img:"Bulk_Extreme.webp", emoji:"🦁",
+  {n:"Testolan", sub:{fr:"Testostérone naturelle",en:"Natural testosterone",es:"Testosterona natural"}, img:"testolan.jpg", emoji:"🦁",
    desc:{fr:"Stimule la production naturelle de testostérone pour force, libido et vitalité optimales.",en:"Stimulates natural testosterone production for optimal strength, libido and vitality.",es:"Estimula la producción natural de testosterona para fuerza, libido y vitalidad óptimas."},
    ben:{fr:"Testostérone naturelle, force optimale, vitalité retrouvée.",en:"Natural testosterone, optimal strength, renewed vitality.",es:"Testosterona natural, fuerza óptima, vitalidad recuperada."},
    link:"https://nplink.net/rbhg1hd9"},
-  {n:"Brain Actives", sub:{fr:"Performance mentale",en:"Mental performance",es:"Rendimiento mental"}, img:"Shilajit_Extreme.webp", emoji:"🧠",
+  {n:"Brain Actives", sub:{fr:"Performance mentale",en:"Mental performance",es:"Rendimiento mental"}, img:"brain_actives.jpg", emoji:"🧠",
    desc:{fr:"Booste la concentration, la mémoire et la clarté mentale pour une performance cognitive optimale.",en:"Boosts focus, memory and mental clarity for optimal cognitive performance.",es:"Potencia la concentración, la memoria y la claridad mental para un rendimiento cognitivo óptimo."},
    ben:{fr:"Concentration accrue, mémoire renforcée, clarté mentale.",en:"Increased focus, strengthened memory, mental clarity.",es:"Concentración aumentada, memoria reforzada, claridad mental."},
    link:"https://nplink.net/eks85h7g"},
-  {n:"Member XXL", sub:{fr:"Virilité & confiance",en:"Virility & confidence",es:"Virilidad y confianza"}, img:"Bulk_Extreme.webp", emoji:"🔥",
+  {n:"Member XXL", sub:{fr:"Virilité & confiance",en:"Virility & confidence",es:"Virilidad y confianza"}, img:"member_xxl.jpg", emoji:"🔥",
    desc:{fr:"Formule naturelle pour améliorer les performances masculines et renforcer la confiance.",en:"Natural formula to improve male performance and boost confidence.",es:"Fórmula natural para mejorar el rendimiento masculino y reforzar la confianza."},
    ben:{fr:"Performance améliorée, confiance renforcée, formule naturelle.",en:"Improved performance, boosted confidence, natural formula.",es:"Rendimiento mejorado, confianza reforzada, fórmula natural."},
    link:"https://nplink.net/f8ti9ejh"},
-  {n:"Nutrigo Lab Strength", sub:{fr:"Force & récupération",en:"Strength & recovery",es:"Fuerza y recuperación"}, img:"Mass_Extreme.png", emoji:"⚡",
+  {n:"Nutrigo Lab Strength", sub:{fr:"Force & récupération",en:"Strength & recovery",es:"Fuerza y recuperación"}, img:"nutrigo_lab_strength.jpg", emoji:"⚡",
    desc:{fr:"Optimise la force, accélère la récupération et maximise les gains musculaires.",en:"Optimises strength, accelerates recovery and maximises muscle gains.",es:"Optimiza la fuerza, acelera la recuperación y maximiza las ganancias musculares."},
    ben:{fr:"Force optimisée, récupération rapide, gains musculaires.",en:"Optimised strength, fast recovery, muscle gains.",es:"Fuerza optimizada, recuperación rápida, ganancias musculares."},
    link:"https://nplink.net/yc5o4375"},
-  {n:"Restilen", sub:{fr:"Anti-stress",en:"Anti-stress",es:"Antiestrés"}, img:"Shilajit_Extreme.webp", emoji:"🌿",
+  {n:"Restilen", sub:{fr:"Anti-stress",en:"Anti-stress",es:"Antiestrés"}, img:"restilen_stress.jpg", emoji:"🌿",
    desc:{fr:"Réduit le stress et l'anxiété pour une énergie sereine et une récupération optimale.",en:"Reduces stress and anxiety for serene energy and optimal recovery.",es:"Reduce el estrés y la ansiedad para una energía serena y una recuperación óptima."},
    ben:{fr:"Stress réduit, énergie sereine, récupération optimale.",en:"Reduced stress, serene energy, optimal recovery.",es:"Estrés reducido, energía serena, recuperación óptima."},
    link:"https://nplink.net/92np27lg"},
-  {n:"ProFlexen", sub:{fr:"Articulations actives",en:"Active joints",es:"Articulaciones activas"}, img:"Shilajit_Extreme.webp", emoji:"🦴",
+  {n:"ProFlexen", sub:{fr:"Articulations actives",en:"Active joints",es:"Articulaciones activas"}, img:"proflexen.jpg", emoji:"🦴",
    desc:{fr:"Soutient la santé articulaire pour une mobilité optimale et des performances durables.",en:"Supports joint health for optimal mobility and lasting performance.",es:"Apoya la salud articular para una movilidad óptima y un rendimiento duradero."},
    ben:{fr:"Santé articulaire, mobilité optimale, performance durable.",en:"Joint health, optimal mobility, lasting performance.",es:"Salud articular, movilidad óptima, rendimiento duradero."},
    link:"https://nplink.net/4cpfr1rz"}
@@ -501,24 +501,26 @@ function buildAccueil(el){
   var t = T[CL];
 
   var expHtml = '';
-  var expImgs = ['Collagen-Select.png','Matcha_Extreme.webp','Bulk_Extreme.webp','Moringa_Actives.webp'];
+  var expImgs = ['collagen_select.jpg','matcha_extreme.jpg','bulk_extreme.jpg','moringa_actives.jpg'];
   for(var i=0;i<4;i++){
     expHtml += '<div class="exp-card"><div class="exp-ico"><img src="img/' + expImgs[i] + '" alt="' + t.exp[i][0] + '" loading="lazy"></div><h3>' + t.exp[i][0] + '</h3><p>' + t.exp[i][1] + '</p></div>';
   }
 
   var trustHtml = '';
+  var trustImgs = ['trust_selection.jpg','trust_partenaires.jpg','trust_transparence.jpg','trust_infos.jpg','trust_cout.jpg','trust_contenu.jpg'];
   for(var i=0;i<6;i++){
-    trustHtml += '<div class="trust-item"><div class="trust-ico">' + t.trust[i][1] + '</div><div><h4>' + t.trust[i][0] + '</h4></div></div>';
+    trustHtml += '<div class="trust-item"><div class="trust-ico" style="background-size:cover;background-position:center;overflow:hidden;padding:0"><img src="img/' + trustImgs[i] + '" alt="' + t.trust[i][0] + '" style="width:100%;height:100%;object-fit:cover" loading="lazy"></div><div><h4>' + t.trust[i][0] + '</h4></div></div>';
   }
 
   var blogHtml = '';
+  var blogImgs = ['blog_1.jpg','blog_2.jpg','blog_3.jpg'];
   for(var i=0;i<3;i++){
-    blogHtml += '<div class="blog-card"><div class="blog-img">ECLATY7</div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.blog_soon + '</h3></div></div>';
+    blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.blog_soon + '</h3></div></div>';
   }
 
   el.innerHTML =
   '<section class="hero" style="margin-top:0">' +
-    '<div class="hero-bg" style="background-image:url(img/hero_accueil.jpeg)"></div>' +
+    '<div class="hero-bg" style="background-image:url(img/hero_accueil.jpg)"></div>' +
     '<div class="hero-ov"></div>' +
     '<div class="hero-cnt">' +
       '<div class="hero-logo"><img src="img/logo_eclaty7.png" alt="ECLATY7"><span class="hero-logo-name">ECLAT<span>Y</span>7</span></div>' +
@@ -540,7 +542,7 @@ function buildAccueil(el){
 
   '<section><div class="wrap two rev">' +
     '<div><span class="eyebrow">' + t.s4_tag + '</span><h2 class="sec-title">' + t.s4_h + '</h2><p>' + t.s4_p + '</p></div>' +
-    '<div class="two-img"><img src="img/notre_methode.png" alt="' + t.s4_h + '" loading="lazy"></div>' +
+    '<div class="two-img"><img src="img/notre_methode.jpg" alt="' + t.s4_h + '" loading="lazy"></div>' +
   '</div></section>' +
 
   '<section class="bg-alt"><div class="wrap">' +
@@ -602,7 +604,7 @@ function buildApropos(el){
 
   '<section class="bg-alt"><div class="wrap two">' +
     '<div><span class="eyebrow">' + t.ap7_tag + '</span><h2 class="sec-title">' + t.ap7_h + '</h2><p>' + t.ap7_p + '</p></div>' +
-    '<div class="two-img"><img src="img/apropos1.jpg" alt="' + t.ap7_h + '" loading="lazy"></div>' +
+    '<div class="two-img"><img src="img/apropos_public.jpg" alt="' + t.ap7_h + '" loading="lazy"></div>' +
   '</div></section>' +
 
   '<section><div class="wrap">' +
@@ -646,7 +648,7 @@ function buildPilier(num, cls, h, intro, prods){
 function buildProduits(el){
   var t = T[CL];
   el.innerHTML =
-  '<div class="phero"><div class="phero-bg" style="background-image:url(img/hero_apropos.jpg)"></div><div class="phero-ov"></div>' +
+  '<div class="phero"><div class="phero-bg" style="background-image:url(img/hero_produits.jpg)"></div><div class="phero-ov"></div>' +
     '<div class="phero-cnt"><h1>' + t.nav[2] + '</h1></div>' +
   '</div>' +
   '<div class="bread"><a href="#/' + CL + '/' + SLUGS[CL].accueil + '" data-pg="accueil">' + t.nav[0] + '</a> › <span>' + t.nav[2] + '</span></div>' +
@@ -664,12 +666,13 @@ function buildBlog(el){
   for(var i=0;i<t.bl2_pts.length;i++) ptsHtml += '<li style="padding:4px 0">• ' + t.bl2_pts[i] + '</li>';
 
   var blogHtml = '';
+  var blogImgs = ['blog_1.jpg','blog_2.jpg','blog_3.jpg'];
   for(var i=0;i<t.cats.length;i++){
-    blogHtml += '<div class="blog-card"><div class="blog-img">ECLATY7</div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
+    blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i % 3] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
   }
 
   el.innerHTML =
-  '<div class="phero"><div class="phero-bg" style="background-image:url(img/apropos2.jpg)"></div><div class="phero-ov"></div>' +
+  '<div class="phero"><div class="phero-bg" style="background-image:url(img/hero_blog.jpg)"></div><div class="phero-ov"></div>' +
     '<div class="phero-cnt"><h1>' + t.bl_h1 + '</h1><h2>' + t.bl_h2 + '</h2></div>' +
   '</div>' +
   '<div class="bread"><a href="#/' + CL + '/' + SLUGS[CL].accueil + '" data-pg="accueil">' + t.nav[0] + '</a> › <span>' + t.nav[3] + '</span></div>' +
@@ -685,7 +688,7 @@ function buildBlog(el){
 function buildContact(el){
   var t = T[CL];
   el.innerHTML =
-  '<div class="phero"><div class="phero-bg" style="background-image:url(img/apropos1.jpg)"></div><div class="phero-ov"></div>' +
+  '<div class="phero"><div class="phero-bg" style="background-image:url(img/hero_contact.jpg)"></div><div class="phero-ov"></div>' +
     '<div class="phero-cnt"><h1>' + t.ct_h1 + '</h1><h2>' + t.ct_h2 + '</h2></div>' +
   '</div>' +
   '<div class="bread"><a href="#/' + CL + '/' + SLUGS[CL].accueil + '" data-pg="accueil">' + t.nav[0] + '</a> › <span>' + t.nav[4] + '</span></div>' +
