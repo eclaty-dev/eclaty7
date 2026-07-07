@@ -666,9 +666,9 @@ function buildBlog(el){
   for(var i=0;i<t.bl2_pts.length;i++) ptsHtml += '<li style="padding:4px 0">• ' + t.bl2_pts[i] + '</li>';
 
   var blogHtml = '';
-  var blogImgs = ['blog_1.jpg','blog_2.jpg','blog_3.jpg'];
+  var blogImgs = ['blog_1.jpg','blog_2.jpg','blog_3.jpg','blog_supplements.jpg'];
   for(var i=0;i<t.cats.length;i++){
-    blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i % 3] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
+    blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
   }
 
   el.innerHTML =
