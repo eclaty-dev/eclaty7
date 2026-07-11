@@ -146,6 +146,14 @@ h2.sec-title{font-size:clamp(27px,3.2vw,36px);margin-bottom:14px}
 .verdict-box h3{color:var(--gold-d);font-size:20px;margin-bottom:8px}
 .verdict-box p{font-size:17.5px;color:#444;margin:0;line-height:1.75}
 .art-disclaimer{font-size:13.5px;color:#999;font-style:italic;margin-top:24px;line-height:1.6}
+.art-list-title{font-size:24px;margin:44px 0 18px}
+.art-list{display:flex;flex-direction:column;gap:14px}
+.art-list-item{display:flex;gap:16px;background:#fff;border-radius:var(--r);padding:14px;box-shadow:0 3px 14px rgba(0,0,0,.05);text-decoration:none;color:inherit;transition:transform .2s}
+.art-list-item:hover{transform:translateY(-3px)}
+.art-list-thumb{width:100px;height:75px;flex:0 0 auto;border-radius:8px;background-size:cover;background-position:center}
+.art-list-item h4{font-size:18px;margin:6px 0 4px}
+.art-list-item p{font-size:15px;color:#777;margin:0;line-height:1.5}
+@media(max-width:600px){.art-list-item{flex-direction:column}.art-list-thumb{width:100%;height:140px}}
 
 /* CTA BANNER */
 .cta-ban{background:linear-gradient(120deg,#1C2E22,#27402F);border-radius:18px;padding:56px 36px;text-align:center}

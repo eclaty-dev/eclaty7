@@ -74,6 +74,7 @@ fr: {
   art_cta:"Découvrir",
   art_back:"← Retour au blog",
   art_disclaimer:"Ces compléments alimentaires ne se substituent pas à une alimentation variée et équilibrée ni à un mode de vie sain. Demandez conseil à un professionnel de santé en cas de doute, de grossesse, d'allaitement ou de traitement médical en cours.",
+  art_all:"Tous nos articles",
   cats:["Éclat – Beauté (peau & cheveux)","Éclat – Minceur & perte de poids naturelle","Éclat – Énergie & vitalité","Éclat – Suppléments"],
   // FOOTER
   ft_affil:"ECLATY7 peut percevoir une commission via certains liens, sans coût supplémentaire pour vous.",
@@ -147,6 +148,7 @@ en: {
   art_cta:"Discover",
   art_back:"← Back to blog",
   art_disclaimer:"Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Consult a healthcare professional if in doubt, pregnant, breastfeeding, or under medical treatment.",
+  art_all:"All our articles",
   cats:["Glow – Beauty (skin & hair)","Glow – Natural slimming & weight loss","Glow – Energy & vitality","Glow – Supplements"],
   ft_affil:"ECLATY7 may earn a commission through certain links, at no extra cost to you.",
   ft_legal:"Owner: Gamaleu-Serge · Legal notice · GDPR & cookies",
@@ -219,6 +221,7 @@ es: {
   art_cta:"Descubrir",
   art_back:"← Volver al blog",
   art_disclaimer:"Los complementos alimenticios no deben sustituir una dieta variada y equilibrada ni un modo de vida sano. Consulte a un profesional de la salud en caso de duda, embarazo, lactancia o tratamiento médico.",
+  art_all:"Todos nuestros artículos",
   cats:["Brillo – Belleza (piel y cabello)","Brillo – Adelgazamiento natural","Brillo – Energía y vitalidad","Brillo – Suplementos"],
   ft_affil:"ECLATY7 puede recibir una comisión a través de ciertos enlaces, sin coste adicional para ti.",
   ft_legal:"Responsable: Gamaleu-Serge · Aviso legal · RGPD y cookies",
@@ -801,6 +804,100 @@ var BLOG_POSTS = [
       ]}
     ],
     verdict: "Testolan a le mérite d'être honnête sur ce qu'il est : un soutien naturel, pas un raccourci hormonal. Sa formule associant plantes traditionnelles et gestion du stress en fait une option cohérente pour les hommes actifs cherchant à accompagner naturellement leur énergie et leur vitalité au quotidien."
+  },
+  {
+    slug: 'profolan-avis-2026',
+    catIndex: 0,
+    img: 'profolan.jpg',
+    productLink: 'https://nplink.net/23a5e2bi',
+    productName: 'Profolan',
+    title: "Profolan Avis 2026 : La Formule Grow3 Arrête-t-elle Vraiment la Chute de Cheveux ?",
+    excerpt: "Formule Grow3, blocage de la DHT : notre analyse complète de ce complément anti-chute masculin.",
+    meta: "Profolan agit-il vraiment contre la chute de cheveux masculine ? Composition Grow3, mode d'action et verdict honnête dans notre analyse 2026.",
+    intro: "Calvitie naissante, cheveux qui se raréfient sur le dessus du crâne, brosse à cheveux qui se remplit un peu trop vite : la chute de cheveux masculine touche la majorité des hommes tôt ou tard, souvent liée à la DHT, une hormone dérivée de la testostérone. Face aux traitements dermatologiques parfois lourds, <strong>Profolan</strong> propose une approche naturelle centrée sur sa formule brevetée Grow3. On regarde ce qu'elle vaut vraiment.",
+    sections: [
+      {h:"Qu'est-ce que Profolan ?", p:["Profolan est un complément alimentaire masculin conçu spécifiquement pour lutter contre la chute de cheveux d'origine androgénétique (liée aux hormones), la forme la plus fréquente de calvitie chez l'homme. Sa formule repose sur un mélange breveté baptisé <strong>Grow3</strong>, complété par des vitamines et minéraux ciblés."]},
+      {h:"Composition : la formule Grow3 et ses ingrédients", p:["Le cœur du produit repose sur trois actifs principaux :"],
+       ul:["<strong>Prêle des champs</strong> — riche en silice, elle est traditionnellement associée au renforcement de la structure capillaire.",
+           "<strong>Extrait d'ortie</strong> — reconnu en phytothérapie pour son rôle dans la limitation de la production de DHT, l'hormone directement impliquée dans la calvitie masculine.",
+           "<strong>L-cystéine</strong> — un acide aminé soufré qui constitue l'un des composants clés de la kératine, la protéine structurelle du cheveu.",
+           "<strong>Zinc, biotine et vitamines du groupe B</strong> — des micronutriments classiquement associés à la santé du cuir chevelu et à la solidité des cheveux."],
+       p2:["L'angle d'attaque est double : freiner la cause hormonale (DHT) tout en apportant les briques nécessaires à la fabrication d'un cheveu plus fort."]},
+      {h:"Pour qui est fait ce complément ?", p:["Profolan s'adresse principalement aux hommes présentant une chute de cheveux androgénétique (le classique dégarnissement des golfes temporaux ou du sommet du crâne). Les femmes souffrant de chute diffuse peuvent trouver un intérêt dans les nutriments de soutien capillaire de la formule, mais le produit reste pensé et dosé pour un profil hormonal masculin."],
+       p2:["En cas de chute soudaine, localisée en plaques, ou anormalement rapide, un avis médical/dermatologique reste la première étape — ces formes ne relèvent pas de la calvitie androgénétique classique."]},
+      {h:"Comment l'utiliser ?", p:["La posologie usuelle est de <strong>2 gélules par jour</strong>, à prendre pendant les repas avec un verre d'eau. Le cycle capillaire étant lent (la croissance moyenne d'un cheveu est d'environ 1,3 cm par mois), les retours d'utilisateurs et le fabricant recommandent une cure d'au moins <strong>3 mois</strong> avant de juger des résultats — certains signes (moins de perte au brossage) pouvant apparaître dès 6 semaines chez certains hommes."]},
+      {h:"Points forts", ul:["Approche double action : cause hormonale (DHT) + renforcement structurel (kératine).","Composition entièrement naturelle, bien tolérée selon les retours disponibles.","Facile à intégrer au quotidien (2 prises/jour, pendant les repas).","Peut se combiner avec des soins topiques (lotions, shampoings fortifiants) sans contre-indication connue."]},
+      {h:"Points de vigilance", ul:["Les résultats demandent de la patience : compter 3 mois minimum avant un vrai bilan, pas de miracle en 2 semaines.","Réservé en priorité aux hommes ; profil hormonal ciblé pour la calvitie androgénétique.","Ne traite pas les chutes soudaines ou en plaques (alopécie areata), qui nécessitent un avis dermatologique.","Comme tout produit à base de plantes, de rares sensibilités individuelles sont possibles."]},
+      {h:"FAQ", faq:[
+        ["Profolan fonctionne-t-il pour tous les types de calvitie ?", "Il cible principalement la calvitie androgénétique (liée à la DHT), la forme la plus courante chez l'homme. Pour une chute soudaine ou en plaques, un avis dermatologique est recommandé avant tout complément."],
+        ["Combien de temps avant de voir des résultats ?", "Le cycle capillaire est lent : la plupart des retours mentionnent une réduction de la chute perceptible après 6 à 8 semaines, avec un bilan plus complet recommandé après 3 mois de cure continue."],
+        ["Peut-on l'utiliser avec un shampoing anti-chute ?", "Oui, rien n'empêche de combiner une approche interne (complément) et externe (soins topiques) — c'est même souvent l'approche recommandée pour de meilleurs résultats."]
+      ]}
+    ],
+    verdict: "Profolan ne prétend pas faire repousser une calvitie avancée en quelques jours — et c'est cohérent avec ce qu'on sait du cycle capillaire. Sa formule Grow3, en visant à la fois la cause hormonale (DHT) et le renforcement structurel du cheveu, en fait une option sérieuse pour accompagner une chute androgénétique débutante à modérée, à condition d'accepter de jouer la carte de la régularité sur plusieurs mois."
+  },
+  {
+    slug: 'african-mango-avis-2026',
+    catIndex: 1,
+    img: 'african_mango.jpg',
+    productLink: 'https://nplink.net/olhpolk7',
+    productName: 'African Mango',
+    title: "African Mango Avis 2026 : Ce Fruit Africain Aide-t-il Vraiment à Maigrir ?",
+    excerpt: "Irvingia gabonensis, fringales, tour de taille : notre bilan honnête sur ce best-seller minceur.",
+    meta: "African Mango (Irvingia gabonensis) aide-t-il vraiment à perdre du poids ? Composition, effets rapportés et verdict complet dans notre analyse 2026.",
+    intro: "Parmi tous les ingrédients « exotiques » qui traversent régulièrement les rayons minceur, l'African Mango revient sans cesse. Extrait d'un fruit d'Afrique de l'Ouest peu connu du grand public, il est présenté comme un allié pour réduire les fringales et soutenir la perte de poids. Info ou grosse tendance marketing ? On démêle le vrai du survendu.",
+    sections: [
+      {h:"Qu'est-ce que l'African Mango ?", p:["L'African Mango est un complément alimentaire à base d'extrait de graines d'<strong>Irvingia gabonensis</strong>, un arbre originaire des forêts tropicales d'Afrique de l'Ouest (Cameroun, Nigeria, Gabon). Attention à ne pas confondre ce fruit avec la mangue classique que l'on trouve en supermarché (Mangifera indica) : il s'agit d'une espèce botaniquement différente, parfois surnommée « mangue sauvage »."]},
+      {h:"Composition et mécanisme d'action", p:["La formule repose principalement sur l'extrait de graines d'Irvingia gabonensis, riche en fibres solubles et en composés phytochimiques qui agiraient sur plusieurs leviers :"],
+       ul:["<strong>Réduction de l'appétit</strong> — les fibres solubles ralentissent la vidange gastrique, favorisant une sensation de satiété plus durable.",
+           "<strong>Soutien du métabolisme lipidique</strong> — certains composés de la graine sont étudiés pour leur effet sur la gestion des graisses par l'organisme.",
+           "<strong>Contrôle glycémique</strong> — un intérêt supplémentaire pour limiter les pics de glycémie souvent associés aux fringales sucrées."],
+       p2:["Il existe une littérature scientifique préliminaire sur l'Irvingia gabonensis (dont une étude publiée dans le Journal of Medicinal Food), mais comme pour beaucoup d'extraits de plantes, les résultats varient selon les études et les protocoles utilisés — la prudence reste de mise sur l'ampleur réelle des effets."]},
+      {h:"Pour qui est-ce fait ?", ul:["Les personnes qui peinent à contrôler leurs fringales, notamment sucrées, entre les repas.","Celles qui cherchent un complément 100% naturel plutôt qu'un brûleur de graisse à base de stimulants forts.","Les personnes suivant déjà une démarche de rééquilibrage alimentaire et cherchant un coup de pouce complémentaire."],
+       p2:["Déconseillé aux femmes enceintes ou allaitantes, ainsi qu'aux personnes sous traitement antidiabétique ou anticoagulant sans avis médical préalable, certains composés pouvant interagir avec ces traitements."]},
+      {h:"Comment l'utiliser ?", p:["La posologie généralement recommandée est de <strong>1 à 2 gélules par jour</strong>, avant les repas principaux, avec un grand verre d'eau. Comme pour tout complément minceur, il n'a de sens réel que couplé à une alimentation adaptée et une activité physique régulière — ce n'est pas un substitut à ces deux piliers."]},
+      {h:"Points forts", ul:["Ingrédient unique et bien identifié (pas un cocktail fourre-tout), ce qui facilite la compréhension de son action.","Approche douce, sans stimulant fort (contrairement à beaucoup de brûleurs à base de caféine forte).","Convient aux profils cherchant avant tout un soutien sur les fringales plutôt qu'un effet thermogénique brutal.","Compatible avec un régime végane."]},
+      {h:"Points de vigilance", ul:["Les preuves scientifiques sur l'Irvingia gabonensis restent préliminaires et hétérogènes selon les études — à considérer comme un soutien, pas une solution miracle.","Interactions possibles avec les traitements antidiabétiques ou anticoagulants : avis médical nécessaire dans ce cas.","Les effets rapportés (réduction du tour de taille) sont progressifs et modestes, jamais spectaculaires du jour au lendemain.","Comme tout produit minceur, l'efficacité dépend fortement du contexte alimentaire global."]},
+      {h:"FAQ", faq:[
+        ["African Mango fait-il maigrir tout seul, sans rien changer d'autre ?", "Non. C'est un soutien aux fringales et à la gestion du poids, pas une solution isolée. Il n'a d'intérêt réel que combiné à une alimentation adaptée et de l'activité physique."],
+        ["Combien de temps pour voir un effet sur le tour de taille ?", "Les retours disponibles mentionnent des effets progressifs sur plusieurs semaines, cohérents avec une démarche minceur de fond plutôt qu'un résultat express."],
+        ["Y a-t-il des contre-indications ?", "Oui : grossesse, allaitement, traitement antidiabétique ou anticoagulant en cours nécessitent un avis médical préalable avant utilisation."]
+      ]}
+    ],
+    verdict: "L'African Mango n'est pas le brûleur de graisse miracle que certains sites vendent parfois de façon too-good-to-be-true. C'est en revanche un soutien naturel intéressant et bien documenté pour la gestion des fringales, particulièrement adapté à qui cherche une alternative douce aux stimulants puissants, dans le cadre d'une démarche minceur globale et réaliste."
+  },
+  {
+    slug: 'brain-actives-avis-2026',
+    catIndex: 3,
+    img: 'brain_actives.jpg',
+    productLink: 'https://nplink.net/eks85h7g',
+    productName: 'Brain Actives',
+    title: "Brain Actives Avis 2026 : Un Vrai Coup de Boost pour la Concentration ?",
+    excerpt: "Bacopa monnieri, L-théanine, caféine : notre analyse de ce nootropique pour la mémoire et la concentration.",
+    meta: "Brain Actives améliore-t-il vraiment la concentration et la mémoire ? Composition, mode d'action et verdict honnête dans notre analyse 2026.",
+    intro: "Réunions interminables, examens qui s'enchaînent, écrans qui sollicitent l'attention en continu : la fatigue mentale est devenue un mal courant, et les compléments dits « nootropiques » — censés soutenir la concentration et la mémoire — ont le vent en poupe. <strong>Brain Actives</strong> fait partie de cette vague. Voici ce que sa composition permet raisonnablement d'en attendre.",
+    sections: [
+      {h:"Qu'est-ce que Brain Actives ?", p:["Brain Actives est un complément alimentaire nootropique, conçu pour soutenir les fonctions cognitives : concentration, mémoire, énergie mentale et résistance à la fatigue intellectuelle. Il s'adresse aussi bien aux étudiants en période d'examens qu'aux professionnels en surcharge mentale ou aux personnes qui souhaitent simplement retrouver plus de clarté d'esprit au quotidien."]},
+      {h:"Composition : les ingrédients clés", ul:[
+        "<strong>Bacopa monnieri</strong> — une plante ayurvédique parmi les nootropiques les plus étudiés scientifiquement, associée à l'amélioration de la mémoire de travail sur un usage prolongé (plusieurs semaines).",
+        "<strong>L-théanine</strong> — un acide aminé présent dans le thé vert, souvent associé à la caféine pour offrir une vigilance posée, sans la nervosité des stimulants seuls.",
+        "<strong>Caféine naturelle</strong> — pour un coup de fouet sur la vigilance et le temps de réaction.",
+        "<strong>Rhodiola Rosea et/ou Ashwagandha</strong> (adaptogènes) — traditionnellement utilisés pour la résistance au stress mental et la fatigue.",
+        "<strong>Vitamines du groupe B</strong> — impliquées dans le métabolisme énergétique normal des cellules nerveuses.",
+        "<strong>Poivre noir (pipérine)</strong> — pour favoriser l'absorption des autres actifs."],
+       p2:["Le duo caféine + L-théanine est particulièrement intéressant : plusieurs travaux suggèrent que cette combinaison permet une vigilance soutenue avec moins d'effets de nervosité qu'une caféine isolée à dose équivalente."]},
+      {h:"Pour qui est-ce fait ?", ul:["Les étudiants en période de révisions ou d'examens.","Les professionnels confrontés à des périodes de charge mentale intense.","Toute personne cherchant un soutien ponctuel à la concentration plutôt qu'un stimulant brutal."],
+       p2:["⚠️ Contient de la caféine : à éviter en fin de journée pour ne pas perturber le sommeil, et à utiliser avec prudence en cas de sensibilité à la caféine ou de troubles cardiaques."]},
+      {h:"Comment l'utiliser ?", p:["La posologie habituelle est de <strong>2 gélules par jour</strong>, de préférence le matin ou en début d'après-midi, avec un verre d'eau. Les effets sur la vigilance immédiate sont généralement rapides (moins d'une heure), tandis que les bénéfices sur la mémoire à plus long terme (via le Bacopa monnieri) demandent, comme le suggèrent les études sur cette plante, plusieurs semaines d'utilisation régulière pour s'installer pleinement."]},
+      {h:"Points forts", ul:["Ingrédients individuellement bien documentés dans la littérature scientifique (Bacopa, L-théanine).","Combinaison caféine + L-théanine pensée pour limiter la nervosité.","Formule à double horizon : effet rapide sur la vigilance + effet installé sur la mémoire.","Format pratique, sans routine complexe (2 gélules/jour)."]},
+      {h:"Points de vigilance", ul:["Contient de la caféine : nervosité, palpitations ou troubles du sommeil possibles chez les personnes sensibles, surtout en cas de prise tardive.","Les effets sur la mémoire à long terme demandent de la régularité sur plusieurs semaines — ce n'est pas un raccourci pour un examen le lendemain.","Comme tout nootropique, ne remplace pas les fondamentaux : sommeil suffisant, hydratation, gestion du stress.","Déconseillé en cas de grossesse, allaitement, ou de traitement pour troubles cardiaques/anxieux sans avis médical."]},
+      {h:"FAQ", faq:[
+        ["Brain Actives donne-t-il un coup de boost immédiat ?", "L'effet sur la vigilance (grâce à la caféine et la L-théanine) est généralement ressenti en moins d'une heure. Les effets sur la mémoire à proprement parler nécessitent plusieurs semaines d'utilisation régulière."],
+        ["Peut-on le prendre tous les jours ?", "Oui, dans le respect de la posologie indiquée, en évitant une prise trop tardive dans la journée à cause de la caféine, pour ne pas impacter le sommeil."],
+        ["Est-ce adapté aux personnes sensibles à la caféine ?", "Une prudence est recommandée : commencer par une dose au plus tôt dans la journée et observer sa tolérance avant d'envisager une utilisation régulière."]
+      ]}
+    ],
+    verdict: "Brain Actives n'est pas un « cerveau augmenté en une pilule », et se méfier des promesses de ce type reste toujours une bonne réflexion. Sa formule s'appuie cependant sur des ingrédients individuellement bien étudiés (Bacopa monnieri, duo caféine/L-théanine), ce qui en fait un soutien cognitif raisonnable pour les périodes de charge mentale intense — à condition de respecter la posologie et de ne pas en attendre un miracle du jour au lendemain."
   }
 ];
 
@@ -858,6 +955,17 @@ function buildBlog(el){
     }
   }
 
+  var allPostsHtml = '';
+  if(CL==='fr' && BLOG_POSTS.length){
+    for(var k=0;k<BLOG_POSTS.length;k++){
+      var p = BLOG_POSTS[k];
+      allPostsHtml += '<a href="#/' + CL + '/' + SLUGS[CL].blog + '/' + p.slug + '" data-post="' + p.slug + '" class="art-list-item">' +
+        '<div class="art-list-thumb" style="background-image:url(img/' + p.img + ')"></div>' +
+        '<div><span class="blog-cat">' + t.cats[p.catIndex] + '</span><h4>' + p.title + '</h4><p>' + p.excerpt + '</p></div>' +
+      '</a>';
+    }
+  }
+
   el.innerHTML =
   '<div class="phero"><div class="phero-bg" style="background-image:url(img/hero_blog.jpg)"></div><div class="phero-ov"></div>' +
     '<div class="phero-cnt"><h1>' + t.bl_h1 + '</h1><h2>' + t.bl_h2 + '</h2></div>' +
@@ -867,6 +975,7 @@ function buildBlog(el){
     '<p style="max-width:760px;margin-bottom:14px">' + t.bl2_p + '</p>' +
     '<ul style="list-style:none;max-width:500px;margin-bottom:30px;color:#555">' + ptsHtml + '</ul>' +
     '<div class="blog-grid">' + blogHtml + '</div>' +
+    (allPostsHtml ? '<h3 class="art-list-title">' + t.art_all + '</h3><div class="art-list">' + allPostsHtml + '</div>' : '') +
     '<div class="tc" style="margin-top:30px"><a href="#/' + CL + '/' + SLUGS[CL].produits + '" data-pg="produits" class="btn btn-gold">' + t.bl_cta + '</a></div>' +
   '</div></section>';
 }
