@@ -70,6 +70,10 @@ fr: {
   bl2_pts:["des astuces peau & cheveux","des conseils nutrition & équilibre","des routines bien-être faciles à adopter"],
   bl_soon:"Nos premiers articles arrivent très bientôt.",
   bl_cta:"Découvrir nos recommandations bien-être",
+  art_verdict:"Notre verdict",
+  art_cta:"Découvrir",
+  art_back:"← Retour au blog",
+  art_disclaimer:"Ces compléments alimentaires ne se substituent pas à une alimentation variée et équilibrée ni à un mode de vie sain. Demandez conseil à un professionnel de santé en cas de doute, de grossesse, d'allaitement ou de traitement médical en cours.",
   cats:["Éclat – Beauté (peau & cheveux)","Éclat – Minceur & perte de poids naturelle","Éclat – Énergie & vitalité","Éclat – Suppléments"],
   // FOOTER
   ft_affil:"ECLATY7 peut percevoir une commission via certains liens, sans coût supplémentaire pour vous.",
@@ -139,6 +143,10 @@ en: {
   bl2_pts:["skin & hair tips","nutrition & balance advice","easy wellness routines to adopt"],
   bl_soon:"Our first articles are coming very soon.",
   bl_cta:"Discover our wellness recommendations",
+  art_verdict:"Our verdict",
+  art_cta:"Discover",
+  art_back:"← Back to blog",
+  art_disclaimer:"Food supplements should not be used as a substitute for a varied and balanced diet and a healthy lifestyle. Consult a healthcare professional if in doubt, pregnant, breastfeeding, or under medical treatment.",
   cats:["Glow – Beauty (skin & hair)","Glow – Natural slimming & weight loss","Glow – Energy & vitality","Glow – Supplements"],
   ft_affil:"ECLATY7 may earn a commission through certain links, at no extra cost to you.",
   ft_legal:"Owner: Gamaleu-Serge · Legal notice · GDPR & cookies",
@@ -207,6 +215,10 @@ es: {
   bl2_pts:["trucos para la piel y el cabello","consejos de nutrición y equilibrio","rutinas de bienestar fáciles de adoptar"],
   bl_soon:"Nuestros primeros artículos llegan muy pronto.",
   bl_cta:"Descubrir nuestras recomendaciones de bienestar",
+  art_verdict:"Nuestro veredicto",
+  art_cta:"Descubrir",
+  art_back:"← Volver al blog",
+  art_disclaimer:"Los complementos alimenticios no deben sustituir una dieta variada y equilibrada ni un modo de vida sano. Consulte a un profesional de la salud en caso de duda, embarazo, lactancia o tratamiento médico.",
   cats:["Brillo – Belleza (piel y cabello)","Brillo – Adelgazamiento natural","Brillo – Energía y vitalidad","Brillo – Suplementos"],
   ft_affil:"ECLATY7 puede recibir una comisión a través de ciertos enlaces, sin coste adicional para ti.",
   ft_legal:"Responsable: Gamaleu-Serge · Aviso legal · RGPD y cookies",
@@ -227,15 +239,21 @@ var SLUG_MAP = {
   blog:'blog', contact:'contact',contacto:'contact'
 };
 var PAGES = ['accueil','apropos','produits','blog','contact'];
-var CL = 'fr', CP = 'accueil';
+var CL = 'fr', CP = 'accueil', CPOST = null;
+
+function findPostBySlug(slug){
+  for(var i=0;i<BLOG_POSTS.length;i++) if(BLOG_POSTS[i].slug===slug) return BLOG_POSTS[i];
+  return null;
+}
 
 function parseHash(){
   var h = location.hash.replace(/^#\/?/, '');
   var parts = h.split('/').filter(Boolean);
-  var lang = 'fr', page = 'accueil';
+  var lang = 'fr', page = 'accueil', post = null;
   if(parts[0] && SLUGS[parts[0]]) lang = parts[0];
   if(parts[1] && SLUG_MAP[parts[1]]) page = SLUG_MAP[parts[1]];
-  return {lang:lang, page:page};
+  if(page==='blog' && parts[2]) post = parts[2];
+  return {lang:lang, page:page, post:post};
 }
 
 function setHash(page, lang){
@@ -243,9 +261,16 @@ function setHash(page, lang){
   location.hash = '#/' + lang + '/' + slug;
 }
 
+function goPost(slug){
+  CP = 'blog'; CPOST = slug;
+  location.hash = '#/' + CL + '/' + SLUGS[CL].blog + '/' + slug;
+  render();
+}
+
 function go(page, lang){
   if(lang) CL = lang;
   if(page) CP = page;
+  CPOST = null;
   setHash(CP, CL);
   render();
 }
@@ -313,7 +338,12 @@ function buildPage(){
   }
   var el = document.getElementById('pg-' + CP);
   el.style.display = 'block';
-  if(CP==='accueil') buildAccueil(el);
+  if(CP==='blog' && CPOST){
+    var post = findPostBySlug(CPOST);
+    if(post && CL==='fr') buildBlogPost(el, post);
+    else buildBlog(el);
+  }
+  else if(CP==='accueil') buildAccueil(el);
   else if(CP==='apropos') buildApropos(el);
   else if(CP==='produits') buildProduits(el);
   else if(CP==='blog') buildBlog(el);
@@ -328,6 +358,12 @@ document.addEventListener('click', function(e){
     go(pgEl.getAttribute('data-pg'), null);
     return;
   }
+  var postEl = e.target.closest('[data-post]');
+  if(postEl){
+    e.preventDefault();
+    goPost(postEl.getAttribute('data-post'));
+    return;
+  }
   var lgEl = e.target.closest('[data-lg]');
   if(lgEl){
     e.preventDefault();
@@ -338,7 +374,7 @@ document.addEventListener('click', function(e){
 
 window.addEventListener('hashchange', function(){
   var r = parseHash();
-  CL = r.lang; CP = r.page;
+  CL = r.lang; CP = r.page; CPOST = r.post;
   render();
 });
 /* ═══════════════════════════════════════════════
@@ -659,6 +695,151 @@ function buildProduits(el){
   '<div class="placeholder-box"><h3>' + t.ph4_h + '</h3><p>' + t.ph4_p + '</p></div>';
 }
 
+/* ── BLOG ARTICLES DATA ── */
+var BLOG_POSTS = [
+  {
+    slug: 'nonacne-avis-2026',
+    catIndex: 0,
+    img: 'nonacne.jpg',
+    productLink: 'https://nplink.net/izkctpfr',
+    productName: 'Nonacne',
+    title: "Nonacne Avis 2026 : Efficace Contre l'Acné Adulte et Hormonale ?",
+    excerpt: "Composition, mode d'action et verdict honnête sur ce complément anti-acné naturel.",
+    meta: "Nonacne agit-il vraiment contre l'acné hormonale et l'acné adulte ? Composition, mode d'action, avis et verdict complet.",
+    intro: "L'acné n'est plus un problème réservé aux ados. De plus en plus de femmes et d'hommes adultes voient réapparaître boutons et imperfections à 25, 30 ou 40 ans — souvent liés au stress, aux hormones ou à une routine de soins mal adaptée. Face à des traitements topiques qui n'agissent qu'en surface, un complément alimentaire comme <strong>Nonacne</strong> promet d'attaquer le problème de l'intérieur. On a passé sa composition au crible pour vous dire ce qu'il en est vraiment.",
+    sections: [
+      {h:"Qu'est-ce que Nonacne ?", p:["Nonacne est un complément alimentaire 100 % naturel, formulé en gélules, conçu pour accompagner la lutte contre l'acné à tout âge — qu'elle soit juvénile, hormonale ou liée au stress et à l'alimentation. Contrairement aux crèmes et traitements topiques qui ciblent uniquement la surface de la peau, l'idée derrière ce type de complément est d'agir sur des facteurs internes : régulation du sébum, inflammation et équilibre hormonal."]},
+      {h:"Composition : que contiennent les gélules ?", p:["C'est la composition qui fait (ou défait) la crédibilité d'un produit comme celui-ci. Voici les ingrédients qu'on retrouve dans la formule et leur rôle présumé :"],
+       ul:["<strong>Trèfle rouge (isoflavones)</strong> — traditionnellement utilisé pour son effet régulateur sur les hormones, notamment les fluctuations d'androgènes souvent pointées du doigt dans l'acné hormonale.",
+           "<strong>Salsepareille</strong> — une racine utilisée depuis longtemps en phytothérapie pour ses propriétés purifiantes.",
+           "<strong>Extrait de pépins de raisin</strong> — riche en antioxydants, associé à la protection de la peau contre le stress oxydatif.",
+           "<strong>Feuille d'ortie</strong> — reconnue pour son action apaisante sur les inflammations cutanées.",
+           "<strong>Zinc, cuivre, lycopène</strong> — des minéraux et antioxydants qui participent classiquement à la santé et à la régénération de la peau.",
+           "<strong>Vitamines C, A, E, B5, B6</strong> — un cocktail qui soutient la production de collagène et la cicatrisation."],
+       p2:["Aucun ingrédient miracle isolé donc, mais une synergie de plantes et micronutriments dont l'objectif est de soutenir la peau sur plusieurs fronts à la fois (sébum, inflammation, régénération)."]},
+      {h:"Pour qui est fait ce complément ?", p:["Nonacne s'adresse en priorité :"],
+       ul:["Aux personnes souffrant d'acné légère à modérée, adolescente ou adulte.",
+           "À celles qui suspectent une composante hormonale à leurs poussées (cycle, stress).",
+           "À celles qui cherchent une alternative aux traitements dermatologiques agressifs (rétinoïdes, antibiotiques) en complément de leur routine de soin."],
+       p2:["Il ne remplace pas un avis dermatologique pour les formes sévères ou kystiques, qui nécessitent une prise en charge médicale."]},
+      {h:"Comment l'utiliser ?", p:["La posologie généralement recommandée par le fabricant est de <strong>2 gélules par jour</strong>, à prendre avec un grand verre d'eau, idéalement au moment des repas. Les effets sur la peau ne sont pas instantanés : la plupart des utilisateurs rapportent une amélioration visible après <strong>plusieurs semaines</strong> d'utilisation régulière, ce qui est cohérent avec le cycle naturel de renouvellement cutané (environ 4 à 6 semaines)."]},
+      {h:"Points forts", ul:["Composition entièrement naturelle, sans antibiotiques ni rétinoïdes de synthèse.","Action envisagée sur les causes internes plutôt qu'uniquement en surface.","Convient aussi bien aux peaux adultes qu'adolescentes.","Facile à intégrer dans une routine quotidienne (2 prises/jour)."]},
+      {h:"Points de vigilance", ul:["Comme tout complément à base de plantes, il peut ne pas convenir aux personnes ayant des troubles hormonaux suivis médicalement — un avis médical est recommandé dans ce cas.","Les résultats varient d'une personne à l'autre.","Ce n'est pas un traitement de l'acné sévère ou kystique, qui relève de la dermatologie.","La régularité prime : un usage ponctuel a peu de chances de donner des résultats visibles."]},
+      {h:"FAQ", faq:[
+        ["Nonacne est-il sans danger ?", "C'est un complément à base d'ingrédients naturels, généralement bien toléré. Vérifiez la liste des ingrédients en cas d'allergie connue, et demandez l'avis d'un professionnel de santé en cas de traitement dermatologique en cours."],
+        ["Au bout de combien de temps voit-on des résultats ?", "La majorité des retours mentionnent une amélioration visible entre 4 et 8 semaines d'utilisation continue, avec des résultats optimaux après 2 à 3 mois de cure."],
+        ["Peut-on le combiner avec une routine de soin topique ?", "Oui, cette approche « de l'intérieur » est généralement pensée pour venir en complément d'une routine de soin adaptée, et non la remplacer."]
+      ]}
+    ],
+    verdict: "Nonacne ne promet pas de miracle du jour au lendemain, et c'est plutôt bon signe : méfiez-vous des produits qui annoncent une peau nette en 3 jours. Sa composition naturelle et sa logique d'action « de l'intérieur » en font une option intéressante à intégrer dans une routine anti-acné globale, en complément d'une bonne hygiène de vie et de soins adaptés."
+  },
+  {
+    slug: 'keto-actives-avis-2026',
+    catIndex: 1,
+    img: 'keto_actives.jpg',
+    productLink: 'https://nplink.net/ryf85ilz',
+    productName: 'Keto Actives',
+    title: "Keto Actives Avis 2026 : Vraiment Efficace pour Entrer en Cétose ?",
+    excerpt: "Composition, mécanisme d'action et bilan honnête sur ce complément spécial régime cétogène.",
+    meta: "Keto Actives aide-t-il vraiment à entrer en cétose et à brûler les graisses ? Composition, mécanisme d'action, avantages et limites.",
+    intro: "Le régime cétogène a le vent en poupe, mais entrer en cétose — cet état où le corps brûle les graisses au lieu des glucides comme carburant — n'a rien d'automatique. Fatigue, envies de sucre, phase d'adaptation parfois pénible : beaucoup abandonnent avant même d'en ressentir les bénéfices. C'est précisément le créneau sur lequel se positionne <strong>Keto Actives</strong>. On a regardé de près ce qu'il propose vraiment.",
+    sections: [
+      {h:"Qu'est-ce que Keto Actives ?", p:["Keto Actives est un complément alimentaire pensé spécifiquement pour accompagner les personnes suivant un régime cétogène ou pauvre en glucides. Contrairement aux brûleurs de graisse généralistes, sa formule cible directement les mécanismes de la cétose : faciliter la transition métabolique, soutenir la combustion des graisses stockées et limiter les coups de mou souvent associés au démarrage d'un régime keto."]},
+      {h:"Composition : les ingrédients clés", ul:[
+        "<strong>ForsLean® (Coleus Forskohlii)</strong> — agit sur une enzyme impliquée dans la dégradation des graisses stockées.",
+        "<strong>Clarinol® (CLA)</strong> — un acide gras qui aide à réduire la masse grasse tout en préservant la masse musculaire.",
+        "<strong>Extrait de thé vert</strong> — connu pour son effet stimulant doux sur le métabolisme.",
+        "<strong>Poivre de Cayenne et poivre noir</strong> — favorisent la thermogenèse et améliorent l'absorption des autres actifs.",
+        "<strong>Ashwagandha</strong> — aide à gérer le stress, un facteur souvent sous-estimé dans le stockage des graisses via le cortisol.",
+        "<strong>Caféine naturelle</strong> — soutient l'énergie et la concentration durant la phase d'adaptation."],
+       p2:["Fait notable : le fabricant a remplacé le stéarate de magnésium (un excipient parfois controversé) par du NuRice, un anti-agglomérant plus naturel."]},
+      {h:"Comment agit-il concrètement ?", p:["L'action se joue sur plusieurs tableaux : stimulation du métabolisme des graisses, réduction de l'appétit et soutien énergétique pour compenser la fatigue de la phase d'adaptation keto. Ce n'est pas un coupe-faim chimique brutal, mais plutôt un accompagnement pensé pour rendre le régime cétogène plus supportable au quotidien."]},
+      {h:"Pour qui est-ce fait ?", ul:["Les personnes qui démarrent un régime cétogène et redoutent la fameuse « keto flu ».","Celles qui peinent à entrer en cétose malgré une alimentation pauvre en glucides.","Les personnes actives cherchant à préserver leur masse musculaire pendant une perte de poids."],
+       p2:["⚠️ Ce produit contient de la caféine : déconseillé aux personnes sensibles à la caféine, souffrant de troubles cardiaques, d'hypertension ou de troubles du sommeil."]},
+      {h:"Comment l'utiliser ?", p:["La posologie usuelle est de <strong>2 gélules par jour</strong>, avec un grand verre d'eau, environ 30 minutes avant un repas. Comme pour tout complément lié à la cétose, il n'a de sens que combiné à une alimentation effectivement pauvre en glucides."]},
+      {h:"Points forts", ul:["Ciblage spécifique de la cétose plutôt qu'une approche minceur générique.","Ingrédients brevetés (ForsLean®, Clarinol®) avec une base documentée.","Formulation qui prend en compte la préservation musculaire.","Compatible avec un mode de vie végétarien."]},
+      {h:"Points de vigilance", ul:["La caféine peut causer nervosité ou palpitations chez les personnes sensibles.","Quelques effets digestifs mineurs rapportés en début de cure.","L'efficacité dépend directement du respect d'un régime pauvre en glucides en parallèle.","Les effets varient selon les individus et le sérieux du régime suivi."]},
+      {h:"FAQ", faq:[
+        ["Faut-il suivre un régime cétogène pour que Keto Actives fonctionne ?", "Oui, c'est un complément d'accompagnement pensé pour un contexte de régime pauvre en glucides. En dehors de ce cadre, son intérêt est limité."],
+        ["Combien de temps avant de voir des résultats ?", "Les premiers effets (énergie, réduction des fringales) sont souvent ressentis dans les 30 à 60 minutes. Les effets sur la composition corporelle deviennent perceptibles après 2 à 3 semaines."],
+        ["Y a-t-il des contre-indications ?", "Déconseillé aux femmes enceintes ou allaitantes, aux mineurs, et aux personnes sensibles à la caféine ou souffrant de troubles cardiaques."]
+      ]}
+    ],
+    verdict: "Keto Actives ne remplace ni un régime pauvre en glucides ni une activité physique régulière — et c'est un produit honnête sur ce point. Sa vraie valeur ajoutée réside dans sa spécialisation : un accompagnement pensé pour adoucir la transition vers la cétose et soutenir l'énergie pendant cette phase souvent difficile."
+  },
+  {
+    slug: 'testolan-avis-2026',
+    catIndex: 2,
+    img: 'testolan.jpg',
+    productLink: 'https://nplink.net/rbhg1hd9',
+    productName: 'Testolan',
+    title: "Testolan Avis 2026 : Ce Complément Booste-t-il Vraiment la Testostérone ?",
+    excerpt: "Composition, mode d'action et bilan honnête sur ce complément masculin naturel.",
+    meta: "Testolan peut-il vraiment soutenir la production naturelle de testostérone ? Composition, mode d'action, avantages et limites.",
+    intro: "Fatigue persistante, baisse de motivation, difficulté à progresser en musculation malgré les efforts, libido en berne : passé un certain âge, beaucoup d'hommes associent ces signes à une baisse naturelle de la testostérone. Face à ce constat, un marché entier de compléments dits « boosters de testostérone » s'est développé — avec le meilleur comme le pire. Voici ce qu'il faut savoir sur <strong>Testolan</strong> avant de se décider.",
+    sections: [
+      {h:"Qu'est-ce que Testolan ?", p:["Testolan est un complément alimentaire masculin en gélules, formulé pour soutenir la production <strong>naturelle</strong> de testostérone par l'organisme. Point important à clarifier d'emblée : Testolan ne contient pas de testostérone de synthèse ni d'hormones — son principe est d'apporter au corps les nutriments et extraits de plantes qui interviennent traditionnellement dans la régulation hormonale masculine, pour l'aider à optimiser sa propre production."]},
+      {h:"Composition : les ingrédients principaux", p:["La formule combine des extraits de plantes reconnues en phytothérapie masculine et des micronutriments :"],
+       ul:["<strong>Fenugrec</strong> — riche en saponines, traditionnellement utilisé pour soutenir l'énergie et la libido masculine.",
+           "<strong>Tribulus Terrestris</strong> — utilisé depuis longtemps en médecine traditionnelle pour la vitalité et la performance physique.",
+           "<strong>Acide D-aspartique (DAA)</strong> — un acide aminé impliqué dans les mécanismes de régulation hormonale.",
+           "<strong>Racine de Maca</strong> — une plante andine reconnue pour son effet tonifiant sur l'énergie et la libido.",
+           "<strong>Ginseng coréen</strong> — un adaptogène classique utilisé pour la résistance physique et mentale.",
+           "<strong>Ashwagandha</strong> — aide à réduire le cortisol, qui peut freiner la production de testostérone lorsqu'il est chroniquement élevé.",
+           "<strong>Magnésium et vitamine E</strong> — impliqués dans le soutien musculaire et la protection cellulaire.",
+           "<strong>Poivre noir (pipérine)</strong> — améliore l'absorption des autres actifs de la formule."]},
+      {h:"Comment agit-il ?", p:["L'approche de Testolan repose sur une logique de « terrain » : plutôt que d'apporter une hormone de l'extérieur, la formule vise à fournir au corps les briques et le soutien adaptogène nécessaires pour optimiser sa propre régulation hormonale — notamment en agissant sur le stress via l'ashwagandha, un facteur qui pèse directement sur la production de testostérone lorsqu'il est mal géré."]},
+      {h:"Pour qui est-ce fait ?", ul:["Les hommes qui ressentent une baisse d'énergie ou de motivation liée à l'âge.","Ceux qui peinent à progresser en musculation malgré un entraînement régulier.","Les hommes actifs cherchant un soutien pour leur récupération et leur endurance.","Ceux qui souhaitent une approche naturelle plutôt qu'un traitement hormonal de synthèse."],
+       p2:["Ce complément ne remplace pas un diagnostic médical. En cas de baisse de libido marquée ou de suspicion d'hypogonadisme, un bilan sanguin et un avis médical restent la première étape indispensable."]},
+      {h:"Comment l'utiliser ?", p:["La posologie habituelle est de <strong>4 gélules par jour</strong>, réparties en 2 prises de 2 gélules, environ 30 minutes avant les repas. Les effets rapportés (énergie, force, libido) apparaissent généralement de façon progressive, après <strong>plusieurs semaines</strong> de cure régulière."]},
+      {h:"Points forts", ul:["Composition entièrement naturelle, sans hormones de synthèse.","Approche à double action : soutien hormonal ET gestion du stress (via l'ashwagandha).","Formule assez complète, avec plusieurs ingrédients complémentaires.","Convient aux hommes actifs comme à ceux qui cherchent simplement à retrouver de l'énergie."]},
+      {h:"Points de vigilance", ul:["Les effets sont progressifs : il faut compter plusieurs semaines avant de juger de l'efficacité.","Le dosage de 4 gélules/jour réparties en 2 prises demande un peu de discipline.","Certains ingrédients peuvent causer des troubles digestifs légers ou de l'insomnie chez les personnes sensibles.","Réservé aux hommes adultes ; à éviter en cas de traitement hormonal en cours sans avis médical."]},
+      {h:"FAQ", faq:[
+        ["Testolan contient-il de la testostérone ?", "Non. C'est un complément alimentaire à base de plantes et de micronutriments, pensé pour soutenir la production naturelle de l'organisme."],
+        ["Au bout de combien de temps ressent-on des effets ?", "Généralement une amélioration progressive après plusieurs semaines d'utilisation régulière, avec un effet plus net après 2 à 3 mois de cure."],
+        ["Y a-t-il des effets secondaires ?", "Le profil est globalement bien toléré. Des troubles digestifs légers sont parfois rapportés en début de cure. En cas de doute, l'avis d'un professionnel de santé est recommandé."]
+      ]}
+    ],
+    verdict: "Testolan a le mérite d'être honnête sur ce qu'il est : un soutien naturel, pas un raccourci hormonal. Sa formule associant plantes traditionnelles et gestion du stress en fait une option cohérente pour les hommes actifs cherchant à accompagner naturellement leur énergie et leur vitalité au quotidien."
+  }
+];
+
+function renderArticleSection(s){
+  var html = '<h2>' + s.h + '</h2>';
+  if(s.p) for(var i=0;i<s.p.length;i++) html += '<p>' + s.p[i] + '</p>';
+  if(s.ul){
+    html += '<ul>';
+    for(var i=0;i<s.ul.length;i++) html += '<li>' + s.ul[i] + '</li>';
+    html += '</ul>';
+  }
+  if(s.p2) for(var i=0;i<s.p2.length;i++) html += '<p>' + s.p2[i] + '</p>';
+  if(s.faq){
+    for(var i=0;i<s.faq.length;i++){
+      html += '<div class="faq-item"><h4>' + s.faq[i][0] + '</h4><p>' + s.faq[i][1] + '</p></div>';
+    }
+  }
+  return html;
+}
+
+function buildBlogPost(el, post){
+  var t = T[CL];
+  var body = '<p class="art-intro">' + post.intro + '</p>';
+  for(var i=0;i<post.sections.length;i++) body += renderArticleSection(post.sections[i]);
+
+  el.innerHTML =
+  '<div class="phero art-hero"><div class="phero-bg" style="background-image:url(img/' + post.img + ')"></div><div class="phero-ov"></div>' +
+    '<div class="phero-cnt"><h1>' + post.title + '</h1></div>' +
+  '</div>' +
+  '<div class="bread"><a href="#/' + CL + '/' + SLUGS[CL].accueil + '" data-pg="accueil">' + t.nav[0] + '</a> › <a href="#/' + CL + '/' + SLUGS[CL].blog + '" data-pg="blog">' + t.nav[3] + '</a> › <span>' + post.productName + '</span></div>' +
+  '<section><div class="wrap article-content" style="max-width:760px">' +
+    body +
+    '<div class="verdict-box"><h3>' + t.art_verdict + '</h3><p>' + post.verdict + '</p></div>' +
+    '<div class="tc" style="margin-top:24px"><a href="' + post.productLink + '" target="_blank" rel="noopener sponsored" class="btn btn-gold">' + t.art_cta + ' ' + post.productName + '</a></div>' +
+    '<p class="art-disclaimer">' + t.art_disclaimer + '</p>' +
+    '<div class="tc" style="margin-top:20px"><a href="#/' + CL + '/' + SLUGS[CL].blog + '" data-pg="blog" class="btn btn-outline">' + t.art_back + '</a></div>' +
+  '</div></section>';
+}
+
 /* ── BLOG ── */
 function buildBlog(el){
   var t = T[CL];
@@ -668,7 +849,13 @@ function buildBlog(el){
   var blogHtml = '';
   var blogImgs = ['blog_1.jpg','blog_2.jpg','blog_3.jpg','blog_supplements.jpg'];
   for(var i=0;i<t.cats.length;i++){
-    blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
+    var post = null;
+    for(var k=0;k<BLOG_POSTS.length;k++){ if(BLOG_POSTS[k].catIndex===i){ post = BLOG_POSTS[k]; break; } }
+    if(post && CL==='fr'){
+      blogHtml += '<a href="#/' + CL + '/' + SLUGS[CL].blog + '/' + post.slug + '" data-post="' + post.slug + '" class="blog-card blog-card-link"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + post.title + '</h3><p class="blog-excerpt">' + post.excerpt + '</p></div></a>';
+    } else {
+      blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
+    }
   }
 
   el.innerHTML =
@@ -739,7 +926,7 @@ function buildContact(el){
 ═══════════════════════════════════════════════ */
 (function init(){
   var r = parseHash();
-  CL = r.lang; CP = r.page;
+  CL = r.lang; CP = r.page; CPOST = r.post;
   if(!location.hash) setHash(CP, CL);
   render();
 })();
