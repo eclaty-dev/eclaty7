@@ -343,7 +343,8 @@ function buildPage(){
   el.style.display = 'block';
   if(CP==='blog' && CPOST){
     var post = findPostBySlug(CPOST);
-    if(post && CL==='fr') buildBlogPost(el, post);
+    var resolved = post ? resolvePost(post, CL) : null;
+    if(resolved) buildBlogPost(el, resolved);
     else buildBlog(el);
   }
   else if(CP==='accueil') buildAccueil(el);
@@ -734,7 +735,69 @@ var BLOG_POSTS = [
         ["Peut-on le combiner avec une routine de soin topique ?", "Oui, cette approche « de l'intérieur » est généralement pensée pour venir en complément d'une routine de soin adaptée, et non la remplacer."]
       ]}
     ],
-    verdict: "Nonacne ne promet pas de miracle du jour au lendemain, et c'est plutôt bon signe : méfiez-vous des produits qui annoncent une peau nette en 3 jours. Sa composition naturelle et sa logique d'action « de l'intérieur » en font une option intéressante à intégrer dans une routine anti-acné globale, en complément d'une bonne hygiène de vie et de soins adaptés."
+    verdict: "Nonacne ne promet pas de miracle du jour au lendemain, et c'est plutôt bon signe : méfiez-vous des produits qui annoncent une peau nette en 3 jours. Sa composition naturelle et sa logique d'action « de l'intérieur » en font une option intéressante à intégrer dans une routine anti-acné globale, en complément d'une bonne hygiène de vie et de soins adaptés.",
+    translations: {
+      en: {
+        title: "Nonacne Review 2026: Does It Really Work Against Adult and Hormonal Acne?",
+        excerpt: "Composition, mode of action and an honest verdict on this natural anti-acne supplement.",
+        intro: "Acne is no longer just a teenage problem. More and more adult men and women see breakouts and blemishes reappear at 25, 30 or 40 — often linked to stress, hormones or a skincare routine that isn't quite right. Faced with topical treatments that only act on the surface, a food supplement like <strong>Nonacne</strong> promises to tackle the problem from within. We looked closely at its composition to tell you what's really going on.",
+        sections: [
+          {h:"What is Nonacne?", p:["Nonacne is a 100% natural food supplement, in capsule form, designed to support the fight against acne at any age — whether juvenile, hormonal, or linked to stress and diet. Unlike creams and topical treatments that only target the surface of the skin, the idea behind this type of supplement is to act on internal factors: sebum regulation, inflammation and hormonal balance."]},
+          {h:"Composition: what's in the capsules?", p:["Composition is what makes — or breaks — the credibility of a product like this. Here are the ingredients found in the formula and their assumed role:"],
+           ul:["<strong>Red clover (isoflavones)</strong> — traditionally used for its regulating effect on hormones, notably androgen fluctuations often pointed to in hormonal acne.",
+               "<strong>Sarsaparilla</strong> — a root used for a long time in herbal medicine for its purifying properties.",
+               "<strong>Grape seed extract</strong> — rich in antioxidants, associated with protecting the skin against oxidative stress.",
+               "<strong>Nettle leaf</strong> — recognised for its soothing action on skin inflammation.",
+               "<strong>Zinc, copper, lycopene</strong> — minerals and antioxidants classically involved in skin health and regeneration.",
+               "<strong>Vitamins C, A, E, B5, B6</strong> — a blend that supports collagen production and healing."],
+           p2:["So no single miracle ingredient, but a synergy of plants and micronutrients aimed at supporting the skin on several fronts at once (sebum, inflammation, regeneration)."]},
+          {h:"Who is this supplement for?", p:["Nonacne is aimed primarily at:"],
+           ul:["People with mild to moderate acne, teenage or adult.",
+               "Those who suspect a hormonal component to their breakouts (cycle, stress).",
+               "Those looking for an alternative to more aggressive dermatological treatments (retinoids, antibiotics) alongside their skincare routine."],
+           p2:["It does not replace a dermatologist's opinion for severe or cystic forms, which require medical care."]},
+          {h:"How to use it?", p:["The dosage generally recommended by the manufacturer is <strong>2 capsules a day</strong>, taken with a large glass of water, ideally with meals. Effects on the skin aren't instant: most users report visible improvement after <strong>several weeks</strong> of regular use, consistent with the skin's natural renewal cycle (roughly 4 to 6 weeks)."]},
+          {h:"Strengths", ul:["Entirely natural composition, no antibiotics or synthetic retinoids.","Action aimed at internal causes rather than the surface only.","Suitable for both adult and teenage skin.","Easy to fit into a daily routine (2 doses/day)."]},
+          {h:"Points to watch", ul:["As with any plant-based supplement, it may not suit people with medically monitored hormonal disorders — medical advice is recommended in that case.","Results vary from person to person.","It is not a treatment for severe or cystic acne, which falls under dermatology.","Consistency matters: occasional use is unlikely to give visible results."]},
+          {h:"FAQ", faq:[
+            ["Is Nonacne safe?", "It's a supplement made of natural ingredients, generally well tolerated. Check the ingredient list if you have a known allergy, and ask a healthcare professional for advice if you're undergoing dermatological treatment."],
+            ["How long before seeing results?", "Most feedback mentions visible improvement between 4 and 8 weeks of continuous use, with optimal results after 2 to 3 months."],
+            ["Can it be combined with a topical skincare routine?", "Yes, this « from the inside » approach is generally meant to complement a suitable skincare routine, not replace it."]
+          ]}
+        ],
+        verdict: "Nonacne doesn't promise an overnight miracle, and that's actually a good sign: be wary of products that promise clear skin in 3 days. Its natural composition and « from the inside » approach make it an interesting option to include in an overall anti-acne routine, alongside good lifestyle habits and suitable skincare."
+      },
+      es: {
+        title: "Nonacne Opiniones 2026: ¿Funciona Realmente Contra el Acné Adulto y Hormonal?",
+        excerpt: "Composición, modo de acción y un veredicto honesto sobre este suplemento natural antiacné.",
+        intro: "El acné ya no es solo un problema de adolescentes. Cada vez más hombres y mujeres adultos ven reaparecer granos e imperfecciones a los 25, 30 o 40 años, a menudo relacionados con el estrés, las hormonas o una rutina de cuidado facial poco adecuada. Frente a los tratamientos tópicos que solo actúan en la superficie, un suplemento alimenticio como <strong>Nonacne</strong> promete atacar el problema desde dentro. Analizamos a fondo su composición para contarte qué hay de cierto.",
+        sections: [
+          {h:"¿Qué es Nonacne?", p:["Nonacne es un suplemento alimenticio 100% natural, en forma de cápsulas, diseñado para acompañar la lucha contra el acné a cualquier edad — ya sea juvenil, hormonal o relacionado con el estrés y la alimentación. A diferencia de las cremas y tratamientos tópicos que solo actúan en la superficie de la piel, la idea detrás de este tipo de suplemento es actuar sobre factores internos: regulación del sebo, inflamación y equilibrio hormonal."]},
+          {h:"Composición: ¿qué contienen las cápsulas?", p:["La composición es lo que determina la credibilidad de un producto como este. Estos son los ingredientes que encontramos en la fórmula y su papel presumido:"],
+           ul:["<strong>Trébol rojo (isoflavonas)</strong> — utilizado tradicionalmente por su efecto regulador sobre las hormonas, especialmente las fluctuaciones de andrógenos frecuentemente señaladas en el acné hormonal.",
+               "<strong>Zarzaparrilla</strong> — una raíz utilizada desde hace mucho tiempo en fitoterapia por sus propiedades purificantes.",
+               "<strong>Extracto de semilla de uva</strong> — rico en antioxidantes, asociado con la protección de la piel frente al estrés oxidativo.",
+               "<strong>Hoja de ortiga</strong> — reconocida por su acción calmante sobre las inflamaciones cutáneas.",
+               "<strong>Zinc, cobre, licopeno</strong> — minerales y antioxidantes clásicamente relacionados con la salud y regeneración de la piel.",
+               "<strong>Vitaminas C, A, E, B5, B6</strong> — un cóctel que apoya la producción de colágeno y la cicatrización."],
+           p2:["Ningún ingrediente milagroso aislado, por tanto, sino una sinergia de plantas y micronutrientes cuyo objetivo es apoyar la piel en varios frentes a la vez (sebo, inflamación, regeneración)."]},
+          {h:"¿Para quién está pensado este suplemento?", p:["Nonacne está dirigido principalmente a:"],
+           ul:["Personas con acné leve a moderado, adolescente o adulto.",
+               "Quienes sospechan un componente hormonal en sus brotes (ciclo, estrés).",
+               "Quienes buscan una alternativa a los tratamientos dermatológicos más agresivos (retinoides, antibióticos), como complemento de su rutina de cuidado."],
+           p2:["No sustituye la opinión de un dermatólogo en formas graves o quísticas, que requieren atención médica."]},
+          {h:"¿Cómo se usa?", p:["La dosis generalmente recomendada por el fabricante es de <strong>2 cápsulas al día</strong>, con un vaso grande de agua, idealmente durante las comidas. Los efectos sobre la piel no son instantáneos: la mayoría de los usuarios reportan una mejora visible tras <strong>varias semanas</strong> de uso regular, coherente con el ciclo natural de renovación cutánea (unas 4 a 6 semanas)."]},
+          {h:"Puntos fuertes", ul:["Composición totalmente natural, sin antibióticos ni retinoides sintéticos.","Acción dirigida a las causas internas y no solo a la superficie.","Adecuado tanto para pieles adultas como adolescentes.","Fácil de integrar en una rutina diaria (2 tomas/día)."]},
+          {h:"Puntos de atención", ul:["Como todo suplemento a base de plantas, puede no ser adecuado para personas con trastornos hormonales bajo seguimiento médico — se recomienda consultar a un profesional en ese caso.","Los resultados varían de una persona a otra.","No es un tratamiento para el acné severo o quístico, que corresponde a la dermatología.","La constancia es clave: un uso puntual difícilmente dará resultados visibles."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Es seguro Nonacne?", "Es un suplemento a base de ingredientes naturales, generalmente bien tolerado. Revisa la lista de ingredientes si tienes alguna alergia conocida, y consulta a un profesional de la salud si estás bajo tratamiento dermatológico."],
+            ["¿Cuánto tiempo tarda en verse resultados?", "La mayoría de las opiniones mencionan una mejora visible entre 4 y 8 semanas de uso continuo, con resultados óptimos tras 2 a 3 meses de cura."],
+            ["¿Se puede combinar con una rutina de cuidado tópico?", "Sí, este enfoque «desde dentro» está pensado generalmente para complementar una rutina de cuidado adecuada, no para reemplazarla."]
+          ]}
+        ],
+        verdict: "Nonacne no promete un milagro de la noche a la mañana, y eso es más bien buena señal: desconfía de los productos que prometen una piel limpia en 3 días. Su composición natural y su lógica de acción «desde dentro» lo convierten en una opción interesante para integrar en una rutina antiacné global, junto con buenos hábitos de vida y cuidados adecuados."
+      }
+    }
   },
   {
     slug: 'keto-actives-avis-2026',
@@ -769,7 +832,67 @@ var BLOG_POSTS = [
         ["Y a-t-il des contre-indications ?", "Déconseillé aux femmes enceintes ou allaitantes, aux mineurs, et aux personnes sensibles à la caféine ou souffrant de troubles cardiaques."]
       ]}
     ],
-    verdict: "Keto Actives ne remplace ni un régime pauvre en glucides ni une activité physique régulière — et c'est un produit honnête sur ce point. Sa vraie valeur ajoutée réside dans sa spécialisation : un accompagnement pensé pour adoucir la transition vers la cétose et soutenir l'énergie pendant cette phase souvent difficile."
+    verdict: "Keto Actives ne remplace ni un régime pauvre en glucides ni une activité physique régulière — et c'est un produit honnête sur ce point. Sa vraie valeur ajoutée réside dans sa spécialisation : un accompagnement pensé pour adoucir la transition vers la cétose et soutenir l'énergie pendant cette phase souvent difficile.",
+    translations: {
+      en: {
+        title: "Keto Actives Review 2026: Does It Really Help You Enter Ketosis?",
+        excerpt: "Composition, mechanism of action and an honest verdict on this keto-diet supplement.",
+        intro: "The ketogenic diet is booming, but entering ketosis — the state where the body burns fat instead of carbs for fuel — is far from automatic. Fatigue, sugar cravings, a sometimes painful adaptation phase: many people give up before even feeling the benefits. That's exactly the niche <strong>Keto Actives</strong> targets. We took a close look at what it really offers.",
+        sections: [
+          {h:"What is Keto Actives?", p:["Keto Actives is a food supplement designed specifically to support people following a ketogenic or low-carb diet. Unlike generic fat burners, its formula directly targets the mechanisms of ketosis: easing the metabolic transition, supporting the burning of stored fat, and limiting the energy dips often associated with starting a keto diet."]},
+          {h:"Composition: the key ingredients", ul:[
+            "<strong>ForsLean® (Coleus Forskohlii)</strong> — acts on an enzyme involved in breaking down stored fat.",
+            "<strong>Clarinol® (CLA)</strong> — a fatty acid that helps reduce body fat while preserving muscle mass.",
+            "<strong>Green tea extract</strong> — known for its gentle stimulating effect on metabolism.",
+            "<strong>Cayenne and black pepper</strong> — support thermogenesis and improve the absorption of the other active ingredients.",
+            "<strong>Ashwagandha</strong> — helps manage stress, an often-underestimated factor in fat storage via cortisol.",
+            "<strong>Natural caffeine</strong> — supports energy and focus during the adaptation phase."],
+           p2:["Notable detail: the manufacturer replaced magnesium stearate (a sometimes-controversial excipient) with NuRice, a more natural anti-caking agent."]},
+          {h:"How does it actually work?", p:["The action works on several fronts: stimulating fat metabolism, reducing appetite, and supporting energy to offset the fatigue of the keto adaptation phase. It's not a harsh chemical appetite suppressant, but rather a support designed to make the ketogenic diet more manageable day to day."],
+           svg:'<svg width="100%" viewBox="0 0 680 300" role="img"><title>How ketosis works</title><desc>Glucose reserves run low, the liver turns fat into ketone bodies, which become the new fuel for muscles and brain.</desc><defs><marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs><rect x="20" y="60" width="180" height="80" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/><text x="110" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#444441">Glucose</text><text x="110" y="112" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5F5E5A">Reserves running low</text><line x1="200" y1="100" x2="245" y2="100" stroke="#888780" stroke-width="1.5" marker-end="url(#a1)"/><rect x="245" y="60" width="180" height="80" rx="10" fill="#EAF1EA" stroke="#7A9B7E" stroke-width="0.5"/><text x="335" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#5C7D60">Liver</text><text x="335" y="112" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5C7D60">Breaks down fat</text><line x1="425" y1="100" x2="470" y2="100" stroke="#888780" stroke-width="1.5" marker-end="url(#a1)"/><rect x="470" y="60" width="190" height="80" rx="10" fill="#FBF3E0" stroke="#C8A24D" stroke-width="0.5"/><text x="565" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#A8842F">Ketone bodies</text><text x="565" y="112" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A8842F">New fuel source</text><line x1="335" y1="140" x2="335" y2="178" stroke="#888780" stroke-width="1.5" marker-end="url(#a1)"/><rect x="205" y="178" width="260" height="70" rx="10" fill="#FBF3E0" stroke="#C8A24D" stroke-width="0.5"/><text x="335" y="205" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#A8842F">Muscles &amp; brain</text><text x="335" y="225" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A8842F">Powered by ketones</text><text x="340" y="285" text-anchor="middle" font-size="12" fill="#5F5E5A">This shift usually takes 2 to 4 days on a low-carb diet</text></svg>'},
+          {h:"Who is it for?", ul:["People starting a ketogenic diet who fear (or already experience) the so-called « keto flu ».","Those struggling to enter ketosis despite eating low-carb.","Active people looking to preserve muscle mass during weight loss."],
+           p2:["⚠️ This product contains caffeine: not recommended for people sensitive to caffeine, or those with heart conditions, high blood pressure, or sleep disorders."]},
+          {h:"How to use it?", p:["The usual dosage is <strong>2 capsules a day</strong>, with a large glass of water, about 30 minutes before a meal. As with any ketosis-related supplement, it only makes sense combined with an actually low-carb diet."]},
+          {h:"Strengths", ul:["Specific targeting of ketosis rather than a generic weight-loss approach.","Patented ingredients (ForsLean®, Clarinol®) with a documented basis.","Formulation that takes muscle preservation into account.","Compatible with a vegetarian lifestyle."]},
+          {h:"Points to watch", ul:["Caffeine can cause jitteriness or palpitations in sensitive people.","Minor digestive effects reported by some in the first days.","Effectiveness directly depends on following a genuinely low-carb diet.","Effects vary by individual and how strictly the diet is followed."]},
+          {h:"FAQ", faq:[
+            ["Do I need to follow a ketogenic diet for Keto Actives to work?", "Yes, it's a support supplement designed for a low-carb diet context. Outside of that, its usefulness is limited."],
+            ["How long before seeing results?", "Early effects (energy, reduced cravings) are often felt within 30 to 60 minutes. Effects on body composition become noticeable after 2 to 3 weeks."],
+            ["Are there any contraindications?", "Not recommended for pregnant or breastfeeding women, minors, or people sensitive to caffeine or with heart conditions."]
+          ]}
+        ],
+        verdict: "Keto Actives doesn't replace a low-carb diet or regular physical activity — and it's an honest product on that point. Its real value lies in its specialisation: support designed to ease the transition into ketosis and sustain energy during this often difficult phase."
+      },
+      es: {
+        title: "Keto Actives Opiniones 2026: ¿Ayuda Realmente a Entrar en Cetosis?",
+        excerpt: "Composición, mecanismo de acción y un veredicto honesto sobre este suplemento para dieta cetogénica.",
+        intro: "La dieta cetogénica está en auge, pero entrar en cetosis — ese estado en el que el cuerpo quema grasa en lugar de carbohidratos como combustible — no tiene nada de automático. Fatiga, antojos de azúcar, una fase de adaptación a veces incómoda: muchos abandonan antes de sentir los beneficios. Ese es precisamente el nicho en el que se posiciona <strong>Keto Actives</strong>. Analizamos de cerca qué ofrece realmente.",
+        sections: [
+          {h:"¿Qué es Keto Actives?", p:["Keto Actives es un suplemento alimenticio pensado específicamente para acompañar a las personas que siguen una dieta cetogénica o baja en carbohidratos. A diferencia de los quemagrasas genéricos, su fórmula se dirige directamente a los mecanismos de la cetosis: facilitar la transición metabólica, apoyar la quema de grasa almacenada y limitar los bajones de energía frecuentes al iniciar una dieta keto."]},
+          {h:"Composición: los ingredientes clave", ul:[
+            "<strong>ForsLean® (Coleus Forskohlii)</strong> — actúa sobre una enzima implicada en la degradación de la grasa almacenada.",
+            "<strong>Clarinol® (CLA)</strong> — un ácido graso que ayuda a reducir la masa grasa preservando la masa muscular.",
+            "<strong>Extracto de té verde</strong> — conocido por su suave efecto estimulante sobre el metabolismo.",
+            "<strong>Pimienta de cayena y pimienta negra</strong> — favorecen la termogénesis y mejoran la absorción de los demás activos.",
+            "<strong>Ashwagandha</strong> — ayuda a gestionar el estrés, un factor a menudo subestimado en el almacenamiento de grasa a través del cortisol.",
+            "<strong>Cafeína natural</strong> — apoya la energía y la concentración durante la fase de adaptación."],
+           p2:["Dato destacable: el fabricante sustituyó el estearato de magnesio (un excipiente a veces controvertido) por NuRice, un antiaglomerante más natural."]},
+          {h:"¿Cómo actúa en la práctica?", p:["La acción se despliega en varios frentes: estimulación del metabolismo de las grasas, reducción del apetito y apoyo energético para compensar la fatiga de la fase de adaptación keto. No es un supresor del apetito químico brusco, sino más bien un acompañamiento pensado para hacer la dieta cetogénica más llevadera en el día a día."],
+           svg:'<svg width="100%" viewBox="0 0 680 300" role="img"><title>Esquema del mecanismo de la cetosis</title><desc>Las reservas de glucosa se agotan, el hígado transforma las grasas en cuerpos cetónicos, que se convierten en el nuevo combustible de los músculos y el cerebro.</desc><defs><marker id="a1" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs><rect x="20" y="60" width="180" height="80" rx="10" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="0.5"/><text x="110" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#444441">Glucose</text><text x="110" y="112" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5F5E5A">Reservas agotadas</text><line x1="200" y1="100" x2="245" y2="100" stroke="#888780" stroke-width="1.5" marker-end="url(#a1)"/><rect x="245" y="60" width="180" height="80" rx="10" fill="#EAF1EA" stroke="#7A9B7E" stroke-width="0.5"/><text x="335" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#5C7D60">Hígado</text><text x="335" y="112" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#5C7D60">Transforma las grasas</text><line x1="425" y1="100" x2="470" y2="100" stroke="#888780" stroke-width="1.5" marker-end="url(#a1)"/><rect x="470" y="60" width="190" height="80" rx="10" fill="#FBF3E0" stroke="#C8A24D" stroke-width="0.5"/><text x="565" y="90" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#A8842F">Cuerpos cetónicos</text><text x="565" y="112" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A8842F">Nuevo combustible</text><line x1="335" y1="140" x2="335" y2="178" stroke="#888780" stroke-width="1.5" marker-end="url(#a1)"/><rect x="205" y="178" width="260" height="70" rx="10" fill="#FBF3E0" stroke="#C8A24D" stroke-width="0.5"/><text x="335" y="205" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#A8842F">Músculos y cerebro</text><text x="335" y="225" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#A8842F">Alimentados por las cetonas</text><text x="340" y="285" text-anchor="middle" font-size="12" fill="#5F5E5A">Este cambio suele tardar de 2 a 4 días con una dieta baja en carbohidratos</text></svg>'},
+          {h:"¿Para quién está pensado?", ul:["Personas que empiezan una dieta cetogénica y temen (o ya padecen) la llamada «gripe keto».","Quienes tienen dificultades para entrar en cetosis pese a una alimentación baja en carbohidratos.","Personas activas que buscan preservar su masa muscular durante una pérdida de peso."],
+           p2:["⚠️ Este producto contiene cafeína: no recomendado para personas sensibles a la cafeína, con trastornos cardíacos, hipertensión o trastornos del sueño."]},
+          {h:"¿Cómo se usa?", p:["La dosis habitual es de <strong>2 cápsulas al día</strong>, con un vaso grande de agua, unos 30 minutos antes de una comida. Como con cualquier suplemento relacionado con la cetosis, solo tiene sentido combinado con una alimentación realmente baja en carbohidratos."]},
+          {h:"Puntos fuertes", ul:["Enfoque específico en la cetosis en lugar de un enfoque adelgazante genérico.","Ingredientes patentados (ForsLean®, Clarinol®) con base documentada.","Formulación que tiene en cuenta la preservación muscular.","Compatible con un estilo de vida vegetariano."]},
+          {h:"Puntos de atención", ul:["La cafeína puede causar nerviosismo o palpitaciones en personas sensibles.","Algunos efectos digestivos leves reportados al inicio de la cura.","La eficacia depende directamente de seguir una dieta realmente baja en carbohidratos en paralelo.","Los efectos varían según la persona y el rigor con que se siga la dieta."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Hay que seguir una dieta cetogénica para que Keto Actives funcione?", "Sí, es un suplemento de acompañamiento pensado para un contexto de dieta baja en carbohidratos. Fuera de ese marco, su utilidad es limitada."],
+            ["¿Cuánto tiempo tarda en verse resultados?", "Los primeros efectos (energía, reducción de antojos) suelen sentirse entre 30 y 60 minutos. Los efectos sobre la composición corporal se vuelven perceptibles tras 2 a 3 semanas."],
+            ["¿Hay contraindicaciones?", "No recomendado para mujeres embarazadas o en lactancia, menores, ni personas sensibles a la cafeína o con trastornos cardíacos."]
+          ]}
+        ],
+        verdict: "Keto Actives no sustituye una dieta baja en carbohidratos ni la actividad física regular — y es un producto honesto en ese punto. Su verdadero valor añadido está en su especialización: un acompañamiento pensado para suavizar la transición hacia la cetosis y sostener la energía durante esta fase a menudo difícil."
+      }
+    }
   },
   {
     slug: 'testolan-avis-2026',
@@ -804,7 +927,67 @@ var BLOG_POSTS = [
         ["Y a-t-il des effets secondaires ?", "Le profil est globalement bien toléré. Des troubles digestifs légers sont parfois rapportés en début de cure. En cas de doute, l'avis d'un professionnel de santé est recommandé."]
       ]}
     ],
-    verdict: "Testolan a le mérite d'être honnête sur ce qu'il est : un soutien naturel, pas un raccourci hormonal. Sa formule associant plantes traditionnelles et gestion du stress en fait une option cohérente pour les hommes actifs cherchant à accompagner naturellement leur énergie et leur vitalité au quotidien."
+    verdict: "Testolan a le mérite d'être honnête sur ce qu'il est : un soutien naturel, pas un raccourci hormonal. Sa formule associant plantes traditionnelles et gestion du stress en fait une option cohérente pour les hommes actifs cherchant à accompagner naturellement leur énergie et leur vitalité au quotidien.",
+    translations: {
+      en: {
+        title: "Testolan Review 2026: Does This Supplement Really Boost Testosterone?",
+        excerpt: "Composition, mode of action and an honest verdict on this natural men's supplement.",
+        intro: "Persistent fatigue, low motivation, trouble progressing in the gym despite effort, a dip in libido: past a certain age, many men link these signs to a natural decline in testosterone. Faced with this, an entire market of so-called « testosterone booster » supplements has sprung up — the good and the bad alike. Here's what to know about <strong>Testolan</strong> before making up your mind.",
+        sections: [
+          {h:"What is Testolan?", p:["Testolan is a men's food supplement in capsule form, formulated to support the body's <strong>natural</strong> testosterone production. Important to clarify upfront: Testolan does not contain synthetic testosterone or hormones — its principle is to supply the nutrients and plant extracts traditionally involved in male hormonal regulation, to help the body optimise its own production."]},
+          {h:"Composition: the main ingredients", ul:[
+            "<strong>Fenugreek</strong> — a saponin-rich plant, traditionally used to support male energy and libido.",
+            "<strong>Tribulus Terrestris</strong> — used for a long time in traditional medicine for vitality and physical performance.",
+            "<strong>D-aspartic acid (DAA)</strong> — an amino acid involved in hormonal regulation mechanisms.",
+            "<strong>Maca root</strong> — an Andean plant recognised for its tonic effect on energy and libido.",
+            "<strong>Korean ginseng</strong> — a classic adaptogen used for physical and mental resistance.",
+            "<strong>Ashwagandha</strong> — a plant adaptogen that helps lower cortisol (the stress hormone), which can hinder testosterone production when chronically elevated.",
+            "<strong>Magnesium and vitamin E</strong> — two micronutrients involved in numerous physiological processes, including muscle support and cell protection.",
+            "<strong>Black pepper (piperine)</strong> — included to improve the absorption of the other active ingredients."]},
+          {h:"How does it work?", p:["Testolan's approach relies on a « terrain » logic: rather than supplying a hormone from outside, the formula aims to give the body the building blocks and adaptogenic support needed to optimise its own hormonal regulation — notably by acting on stress via ashwagandha, a factor that directly weighs on testosterone production when poorly managed."]},
+          {h:"Who is it for?", ul:["Men experiencing a drop in energy or motivation linked to age.","Those struggling to progress in strength training despite regular workouts.","Active men looking for support with recovery and endurance.","Those who prefer a natural approach over synthetic hormone treatment."],
+           p2:["This supplement <strong>does not replace</strong> a medical diagnosis. In case of a marked drop in libido, unexplained chronic fatigue, or suspected hypogonadism, a blood test (testosterone level) and medical advice remain the essential first step — Testolan is not meant to treat a diagnosed severe hormonal deficiency."]},
+          {h:"How to use it?", p:["The usual dosage is <strong>4 capsules a day</strong>, split into 2 doses of 2 capsules, about 30 minutes before meals, with a large glass of water. Reported effects (energy, strength, libido) generally appear gradually, with most feedback mentioning noticeable improvement after <strong>several weeks</strong> of regular use — consistent with the time this type of natural approach typically needs to act."]},
+          {h:"Strengths", ul:["Entirely natural composition, no synthetic hormones.","Dual-action approach: hormonal support AND stress management (via ashwagandha).","A fairly complete formula, with several complementary mechanisms.","Suitable for active men as well as those simply looking to regain everyday energy."]},
+          {h:"Points to watch", ul:["Effects are gradual: expect several weeks of regular use before judging effectiveness, no instant result.","The 4 capsules/day split into 2 doses requires a bit of discipline.","Some ingredients (fenugreek, ginseng) may cause mild digestive discomfort or insomnia in sensitive individuals.","Not a solution for medically diagnosed hypogonadism, which requires specific care.","For adult men only; avoid if undergoing hormone treatment without medical advice."]},
+          {h:"FAQ", faq:[
+            ["Does Testolan contain testosterone?", "No. It's a food supplement based on plants and micronutrients, designed to support the body's natural production — it contains no synthetic hormone."],
+            ["How long before feeling effects?", "User feedback generally mentions a gradual improvement in energy and vitality after several weeks of regular use, with a clearer effect after 2 to 3 months."],
+            ["Are there side effects?", "The profile is generally well tolerated thanks to its natural composition. Mild digestive discomfort is sometimes reported early on. If undergoing medical treatment, a healthcare professional's advice is recommended before use."]
+          ]}
+        ],
+        verdict: "Testolan has the merit of being honest about what it is: natural support, not a hormonal shortcut. Its formula combining traditional plants and stress management via ashwagandha makes it a coherent option for active men looking to naturally support their everyday energy and vitality."
+      },
+      es: {
+        title: "Testolan Opiniones 2026: ¿Aumenta Realmente Este Suplemento la Testosterona?",
+        excerpt: "Composición, modo de acción y un veredicto honesto sobre este suplemento masculino natural.",
+        intro: "Fatiga persistente, falta de motivación, dificultad para progresar en el gimnasio pese al esfuerzo, caída de la libido: a partir de cierta edad, muchos hombres asocian estas señales a una disminución natural de la testosterona. Ante esto, ha surgido todo un mercado de suplementos llamados «potenciadores de testosterona» — con lo mejor y lo peor. Esto es lo que hay que saber sobre <strong>Testolan</strong> antes de decidirse.",
+        sections: [
+          {h:"¿Qué es Testolan?", p:["Testolan es un suplemento alimenticio masculino en cápsulas, formulado para apoyar la producción <strong>natural</strong> de testosterona del organismo. Un punto importante que aclarar desde el principio: Testolan no contiene testosterona sintética ni hormonas — su principio es aportar al cuerpo los nutrientes y extractos de plantas que tradicionalmente intervienen en la regulación hormonal masculina, para ayudarlo a optimizar su propia producción."]},
+          {h:"Composición: los ingredientes principales", ul:[
+            "<strong>Fenogreco</strong> — una planta rica en saponinas, utilizada tradicionalmente para apoyar la energía y la libido masculina.",
+            "<strong>Tribulus Terrestris</strong> — utilizado desde hace tiempo en la medicina tradicional para la vitalidad y el rendimiento físico.",
+            "<strong>Ácido D-aspártico (DAA)</strong> — un aminoácido implicado en los mecanismos de regulación hormonal.",
+            "<strong>Raíz de maca</strong> — una planta andina reconocida por su efecto tonificante sobre la energía y la libido.",
+            "<strong>Ginseng coreano</strong> — un adaptógeno clásico utilizado para la resistencia física y mental.",
+            "<strong>Ashwagandha</strong> — una planta adaptógena que ayuda a reducir el cortisol (la hormona del estrés), que puede frenar la producción de testosterona cuando está crónicamente elevado.",
+            "<strong>Magnesio y vitamina E</strong> — implicados en el soporte muscular y la protección celular.",
+            "<strong>Pimienta negra (piperina)</strong> — presente para mejorar la absorción de los demás activos de la fórmula."]},
+          {h:"¿Cómo actúa?", p:["El enfoque de Testolan se basa en una lógica de «terreno»: en lugar de aportar una hormona desde el exterior, la fórmula busca proporcionar al cuerpo los componentes y el apoyo adaptógeno necesarios para optimizar su propia regulación hormonal — en particular actuando sobre el estrés mediante la ashwagandha, un factor que incide directamente en la producción de testosterona cuando se gestiona mal."]},
+          {h:"¿Para quién está pensado?", ul:["Hombres que sienten una caída de energía o motivación relacionada con la edad.","Quienes tienen dificultades para progresar en musculación pese a entrenar con regularidad.","Hombres activos que buscan apoyo para su recuperación y resistencia.","Quienes prefieren un enfoque natural en lugar de un tratamiento hormonal sintético."],
+           p2:["Este suplemento <strong>no sustituye</strong> un diagnóstico médico. Ante una caída marcada de la libido, fatiga crónica inexplicada o sospecha de hipogonadismo, un análisis de sangre y la opinión de un médico siguen siendo el primer paso indispensable — Testolan no está pensado para tratar un déficit hormonal severo diagnosticado."]},
+          {h:"¿Cómo se usa?", p:["La dosis habitual es de <strong>4 cápsulas al día</strong>, repartidas en 2 tomas de 2 cápsulas, unos 30 minutos antes de las comidas, con un vaso grande de agua. Los efectos reportados (energía, fuerza, libido) suelen aparecer de forma progresiva, y la mayoría de las opiniones mencionan una mejora perceptible tras <strong>varias semanas</strong> de cura regular."]},
+          {h:"Puntos fuertes", ul:["Composición totalmente natural, sin hormonas sintéticas.","Enfoque de doble acción: apoyo hormonal Y gestión del estrés (mediante ashwagandha).","Fórmula bastante completa, con varios ingredientes de mecanismos complementarios.","Adecuado tanto para hombres activos como para quienes simplemente buscan recuperar energía en el día a día."]},
+          {h:"Puntos de atención", ul:["Los efectos son progresivos: hay que contar varias semanas antes de valorar la eficacia, sin resultados inmediatos.","La dosis de 4 cápsulas/día repartidas en 2 tomas requiere algo de disciplina.","Algunos ingredientes (fenogreco, ginseng) pueden causar molestias digestivas leves o insomnio en personas sensibles.","No es una solución para el hipogonadismo diagnosticado médicamente, que requiere atención específica.","Reservado a hombres adultos; evitar en caso de tratamiento hormonal en curso sin consultar a un médico."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Testolan contiene testosterona?", "No. Es un suplemento alimenticio a base de plantas y micronutrientes, pensado para apoyar la producción natural del organismo — no aporta ninguna hormona sintética."],
+            ["¿Cuánto tiempo tarda en notarse el efecto?", "Las opiniones de los usuarios mencionan generalmente una mejora progresiva de la energía y la vitalidad tras varias semanas de uso regular, con un efecto más claro tras 2 a 3 meses."],
+            ["¿Hay efectos secundarios?", "El perfil es generalmente bien tolerado gracias a su composición natural. A veces se reportan molestias digestivas leves al principio de la cura. En caso de tratamiento médico, se recomienda consultar a un profesional de la salud antes de su uso."]
+          ]}
+        ],
+        verdict: "Testolan tiene el mérito de ser honesto sobre lo que es: un apoyo natural, no un atajo hormonal. Su fórmula, que combina plantas tradicionales y gestión del estrés mediante la ashwagandha, lo convierte en una opción coherente para hombres activos que buscan acompañar de forma natural su energía y vitalidad diaria."
+      }
+    }
   },
   {
     slug: 'profolan-avis-2026',
@@ -1024,6 +1207,19 @@ function renderArticleSection(s){
   return html;
 }
 
+function getPostContent(post, lang){
+  if(lang==='fr' || !post.translations || !post.translations[lang]) return null;
+  var tr = post.translations[lang];
+  var merged = {};
+  for(var k in post) merged[k] = post[k];
+  for(var k2 in tr) merged[k2] = tr[k2];
+  return merged;
+}
+function resolvePost(post, lang){
+  if(lang==='fr') return post;
+  return getPostContent(post, lang);
+}
+
 function buildBlogPost(el, post){
   var t = T[CL];
   var body = '<p class="art-intro">' + post.intro + '</p>';
@@ -1055,20 +1251,22 @@ function buildBlog(el){
   for(var i=0;i<t.cats.length;i++){
     var post = null;
     for(var k=0;k<BLOG_POSTS.length;k++){ if(BLOG_POSTS[k].catIndex===i){ post = BLOG_POSTS[k]; break; } }
-    if(post && CL==='fr'){
-      blogHtml += '<a href="#/' + CL + '/' + SLUGS[CL].blog + '/' + post.slug + '" data-post="' + post.slug + '" class="blog-card blog-card-link"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + post.title + '</h3><p class="blog-excerpt">' + post.excerpt + '</p></div></a>';
+    var rp = post ? resolvePost(post, CL) : null;
+    if(rp){
+      blogHtml += '<a href="#/' + CL + '/' + SLUGS[CL].blog + '/' + rp.slug + '" data-post="' + rp.slug + '" class="blog-card blog-card-link"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + rp.title + '</h3><p class="blog-excerpt">' + rp.excerpt + '</p></div></a>';
     } else {
       blogHtml += '<div class="blog-card"><div class="blog-img" style="background-image:url(img/' + blogImgs[i] + ');background-size:cover;background-position:center"></div><div class="blog-body"><span class="blog-cat">' + t.cats[i] + '</span><h3>' + t.bl_soon + '</h3></div></div>';
     }
   }
 
   var allPostsHtml = '';
-  if(CL==='fr' && BLOG_POSTS.length){
+  if(BLOG_POSTS.length){
     for(var k=0;k<BLOG_POSTS.length;k++){
-      var p = BLOG_POSTS[k];
-      allPostsHtml += '<a href="#/' + CL + '/' + SLUGS[CL].blog + '/' + p.slug + '" data-post="' + p.slug + '" class="art-list-item">' +
-        '<div class="art-list-thumb" style="background-image:url(img/' + p.img + ')"></div>' +
-        '<div><span class="blog-cat">' + t.cats[p.catIndex] + '</span><h4>' + p.title + '</h4><p>' + p.excerpt + '</p></div>' +
+      var rp2 = resolvePost(BLOG_POSTS[k], CL);
+      if(!rp2) continue;
+      allPostsHtml += '<a href="#/' + CL + '/' + SLUGS[CL].blog + '/' + rp2.slug + '" data-post="' + rp2.slug + '" class="art-list-item">' +
+        '<div class="art-list-thumb" style="background-image:url(img/' + rp2.img + ')"></div>' +
+        '<div><span class="blog-cat">' + t.cats[rp2.catIndex] + '</span><h4>' + rp2.title + '</h4><p>' + rp2.excerpt + '</p></div>' +
       '</a>';
     }
   }
