@@ -1262,7 +1262,35 @@ var BLOG_POSTS = [
       {h:"Ce que dit la prudence scientifique", p:["Il est important d'être honnête : la plupart des usages de ces deux plantes reposent sur une <strong>tradition d'usage en phytothérapie</strong> plutôt que sur des preuves cliniques modernes solides et systématiques. Cela ne veut pas dire qu'elles sont inefficaces, mais qu'il faut rester mesuré dans les attentes et les considérer comme un soutien parmi d'autres (hygiène de vie, alimentation, soins adaptés), pas comme un traitement à part entière."]}
     ],
     verdict: "Le trèfle rouge et la salsepareille illustrent bien une approche phytothérapeutique classique : deux plantes aux usages traditionnels complémentaires, associées pour couvrir plusieurs angles à la fois. Une combinaison intéressante à connaître, notamment si vous voyez ces deux noms revenir dans la liste d'ingrédients d'un complément pour la peau.",
-    linkedNote: "Ce duo se retrouve précisément dans la formule de"
+    linkedNote: "Ce duo se retrouve précisément dans la formule de",
+    translations: {
+      en: {
+        title: "Red Clover & Sarsaparilla: The Plant Duo for Clearer Skin",
+        excerpt: "Two traditional plants used for centuries to purify the skin — a look at their respective roles.",
+        intro: "Certain plant duos come up again and again in skin-focused formulas — red clover and sarsaparilla are among them. Two plants with very different roots (quite literally), used for centuries in distinct herbal traditions, yet found together today for a shared purpose: supporting clearer skin. Here's what each brings, and why this combination makes sense.",
+        sections: [
+          {h:"Red clover: a plant rich in isoflavones", p:["Red clover (Trifolium pratense) is a plant rich in <strong>isoflavones</strong>, plant compounds structurally close to certain hormones. It's traditionally used in herbal medicine to support periods of hormonal imbalance, particularly in women — a context often linked to cycle-related skin breakouts. Its traditional use also extends to a purifying action, which makes it a common ingredient in formulas aimed at blemish-prone skin."]},
+          {h:"Sarsaparilla: a traditional depurative root", p:["Sarsaparilla (Smilax) is a root used for a very long time across several herbal traditions (notably in Central America and Europe), where it's classified among the so-called « depurative » plants. This term traditionally refers to plants used to support the body's natural elimination functions. This reputation explains its frequent presence alongside red clover in formulas aimed at supporting healthy skin."]},
+          {h:"Why combine them?", p:["These two plants don't act on the same register: red clover is traditionally associated with the hormonal dimension, sarsaparilla with the « detox »/elimination dimension. Two complementary angles often cited as factors that can influence skin condition, which explains why they're frequently combined rather than used in isolation in supplements aimed at clearer skin."]},
+          {h:"What scientific caution says", p:["It's important to be honest: most uses of these two plants rest on a <strong>tradition of use in herbal medicine</strong> rather than solid, systematic modern clinical evidence. This doesn't mean they're ineffective, but that expectations should stay measured, seeing them as one support among others (lifestyle, diet, suitable skincare), not a standalone treatment."]}
+        ],
+        verdict: "Red clover and sarsaparilla illustrate a classic herbal medicine approach well: two plants with complementary traditional uses, combined to cover several angles at once. An interesting duo to know about, especially if you see these two names in the ingredient list of a skin supplement.",
+        linkedNote: "This duo appears precisely in the formula of"
+      },
+      es: {
+        title: "Trébol Rojo & Zarzaparrilla: El Dúo Vegetal Para una Piel Más Limpia",
+        excerpt: "Dos plantas tradicionales utilizadas desde hace siglos para purificar la piel — un vistazo a sus respectivos papeles.",
+        intro: "Ciertos dúos de plantas aparecen una y otra vez en las fórmulas dedicadas a la piel — el trébol rojo y la zarzaparrilla forman parte de ellos. Dos plantas con raíces (en sentido literal) muy diferentes, utilizadas desde hace siglos en tradiciones fitoterapéuticas distintas, pero que hoy se combinan con una misma finalidad: apoyar una piel más limpia. Esto es lo que aporta cada una, y por qué esta combinación tiene sentido.",
+        sections: [
+          {h:"El trébol rojo: una planta rica en isoflavonas", p:["El trébol rojo (Trifolium pratense) es una planta rica en <strong>isoflavonas</strong>, compuestos vegetales de estructura cercana a ciertas hormonas. Se utiliza tradicionalmente en fitoterapia para acompañar los periodos de desequilibrio hormonal, especialmente en la mujer — un contexto a menudo asociado a los brotes cutáneos relacionados con el ciclo. Su uso tradicional se extiende también a una acción purificante, lo que lo convierte en un ingrediente habitual de las fórmulas dedicadas a la piel con imperfecciones."]},
+          {h:"La zarzaparrilla: una raíz depurativa tradicional", p:["La zarzaparrilla (Smilax) es una raíz utilizada desde hace mucho tiempo en varias tradiciones fitoterapéuticas (en particular en América Central y Europa), donde se clasifica entre las plantas llamadas «depurativas». Este término designa tradicionalmente a las plantas utilizadas para acompañar las funciones naturales de eliminación del organismo. Esta reputación explica su presencia frecuente junto al trébol rojo en las fórmulas dirigidas a apoyar una piel sana."]},
+          {h:"¿Por qué combinarlas?", p:["Estas dos plantas no actúan sobre el mismo registro: el trébol rojo se asocia tradicionalmente a la dimensión hormonal, la zarzaparrilla a la dimensión «detox»/eliminación. Dos ángulos complementarios frecuentemente citados como factores que pueden influir en el estado de la piel, lo que explica por qué se combinan con frecuencia en lugar de utilizarse de forma aislada en los suplementos dirigidos a una piel más limpia."]},
+          {h:"Lo que dice la prudencia científica", p:["Es importante ser honestos: la mayoría de los usos de estas dos plantas se basan en una <strong>tradición de uso en fitoterapia</strong> más que en pruebas clínicas modernas sólidas y sistemáticas. Esto no significa que sean ineficaces, pero conviene mantener expectativas moderadas y considerarlas como un apoyo entre otros (hábitos de vida, alimentación, cuidados adecuados), no como un tratamiento por sí solo."]}
+        ],
+        verdict: "El trébol rojo y la zarzaparrilla ilustran bien un enfoque fitoterapéutico clásico: dos plantas con usos tradicionales complementarios, combinadas para cubrir varios ángulos a la vez. Un dúo interesante de conocer, sobre todo si ves estos dos nombres en la lista de ingredientes de un suplemento para la piel.",
+        linkedNote: "Este dúo se encuentra precisamente en la fórmula de"
+      }
+    }
   },
   {
     slug: 'mass-extreme-avis-2026',
@@ -1294,7 +1322,61 @@ var BLOG_POSTS = [
         ["Combien de temps avant de voir des résultats ?", "Les retours disponibles mentionnent généralement des changements visibles après plusieurs semaines de cure, cohérents avec le rythme naturel de la construction musculaire."]
       ]}
     ],
-    verdict: "Mass Extreme ne remplace ni une alimentation adaptée à la prise de masse ni un programme d'entraînement sérieux — et c'est important de le garder en tête avant d'en attendre quoi que ce soit. Sa formule, orientée soutien hormonal, énergie et récupération plutôt qu'apport calorique brut, en fait un complément d'appoint cohérent pour les sportifs qui ont déjà les deux fondamentaux en place."
+    verdict: "Mass Extreme ne remplace ni une alimentation adaptée à la prise de masse ni un programme d'entraînement sérieux — et c'est important de le garder en tête avant d'en attendre quoi que ce soit. Sa formule, orientée soutien hormonal, énergie et récupération plutôt qu'apport calorique brut, en fait un complément d'appoint cohérent pour les sportifs qui ont déjà les deux fondamentaux en place.",
+    translations: {
+      en: {
+        title: "Mass Extreme Review 2026: A Real Boost for Muscle Gain?",
+        excerpt: "Fenugreek, D-aspartic acid, GABA: our honest analysis of this supplement for athletes.",
+        intro: "Gaining muscle mass properly takes time: suitable training, a sufficiently rich diet, and quality recovery. Many athletes look for a natural boost to optimise this phase, without turning to doping products. <strong>Mass Extreme</strong> positions itself in this space. Here's what its composition can reasonably be expected to deliver.",
+        sections: [
+          {h:"What is Mass Extreme?", p:["Mass Extreme is a food supplement in capsule form aimed at athletes in a muscle-gain phase. Unlike protein/carb-rich gainer powders, its formula relies on plant extracts and amino acids designed to support the body's natural mechanisms involved in muscle growth, energy and recovery."]},
+          {h:"Composition: the main ingredients", ul:[
+            "<strong>Fenugreek</strong> — a plant traditionally used in bodybuilding for its effect on appetite and overall metabolism.",
+            "<strong>D-aspartic acid (DAA)</strong> — an amino acid involved in hormonal regulation mechanisms, notably testosterone production.",
+            "<strong>Gamma-aminobutyric acid (GABA)</strong> — traditionally associated with sleep quality, a key factor for recovery and nightly muscle regeneration.",
+            "<strong>Maca root extract</strong> — an Andean plant recognised for its tonic effect on energy and overall performance.",
+            "<strong>Vitamin B12</strong> — involved in normal energy metabolism and red blood cell formation."],
+           p2:["The angle of this formula is therefore twofold: support the hormonal terrain (DAA) and energy (Maca, B12) on one side, recovery (GABA) on the other — rather than directly providing calories or protein like a classic gainer would."]},
+          {h:"Who is it for?", ul:["Athletes in a muscle-gain phase looking for supplementary support, not a substitute for their diet.","Strength trainers who struggle to recover effectively between sessions.","Active people looking to naturally support their energy and training performance."],
+           p2:["Important to clarify: this supplement replaces neither a sufficient calorie and protein intake nor a structured training programme — those remain the two real pillars of muscle gain; the supplement is only a support."]},
+          {h:"How to use it?", p:["The generally recommended dosage is <strong>2 capsules a day</strong>, taken before meals or before training, with a large glass of water. As with any muscle-gain goal, consistency with diet and training remains the deciding factor; available feedback mentions visible changes after several weeks of use combined with regular training."]},
+          {h:"Strengths", ul:["A formula focused on natural mechanisms rather than raw calorie intake.","An interesting complementary approach: hormonal + energy + recovery.","Convenient capsule format, without the extra calories of a powder gainer.","Entirely natural composition."]},
+          {h:"Points to watch", ul:["Does not replace a sufficient calorie and protein intake: without an adapted calorie surplus, muscle gain remains limited.","Results heavily depend on the quality of the training followed alongside it.","As with any plant-based product, rare individual sensitivities remain possible.","Not recommended for minors or pregnant/breastfeeding women; medical advice recommended if under treatment."]},
+          {h:"FAQ", faq:[
+            ["Does Mass Extreme replace a protein gainer?", "No, it doesn't provide calories the way a powder gainer does. It's a support for the natural mechanisms of muscle growth and recovery, to combine with a diet suited to muscle gain."],
+            ["Does it require a specific training routine to work?", "Yes, like any supplement for athletes, its usefulness directly depends on a structured, regular strength-training programme alongside it."],
+            ["How long before seeing results?", "Available feedback generally mentions visible changes after several weeks of use, consistent with the natural pace of muscle building."]
+          ]}
+        ],
+        verdict: "Mass Extreme replaces neither a diet suited to muscle gain nor a serious training programme — and that's important to keep in mind before expecting anything from it. Its formula, focused on hormonal support, energy and recovery rather than raw calorie intake, makes it a coherent add-on for athletes who already have both fundamentals in place."
+      },
+      es: {
+        title: "Mass Extreme Opiniones 2026: ¿Un Verdadero Impulso Para el Aumento de Masa?",
+        excerpt: "Fenogreco, ácido D-aspártico, GABA: nuestro análisis honesto de este suplemento para deportistas.",
+        intro: "Ganar masa muscular correctamente lleva tiempo: un entrenamiento adecuado, una alimentación suficientemente rica y una recuperación de calidad. Muchos deportistas buscan un impulso natural para optimizar esta fase, sin recurrir a productos dopantes. <strong>Mass Extreme</strong> se posiciona en este nicho. Esto es lo que su composición permite esperar razonablemente.",
+        sections: [
+          {h:"¿Qué es Mass Extreme?", p:["Mass Extreme es un suplemento alimenticio en cápsulas destinado a deportistas en fase de aumento de masa muscular. A diferencia de los gainers en polvo ricos en carbohidratos y proteínas, su fórmula se basa en extractos de plantas y aminoácidos pensados para apoyar los mecanismos naturales del organismo implicados en el crecimiento muscular, la energía y la recuperación."]},
+          {h:"Composición: los ingredientes principales", ul:[
+            "<strong>Fenogreco</strong> — una planta utilizada tradicionalmente en musculación por su efecto sobre el apetito y el metabolismo general.",
+            "<strong>Ácido D-aspártico (DAA)</strong> — un aminoácido implicado en los mecanismos de regulación hormonal, en particular la producción de testosterona.",
+            "<strong>Ácido gamma-aminobutírico (GABA)</strong> — asociado tradicionalmente a la calidad del sueño, un factor clave para la recuperación y la regeneración muscular nocturna.",
+            "<strong>Extracto de raíz de maca</strong> — una planta andina reconocida por su efecto tonificante sobre la energía y el rendimiento global.",
+            "<strong>Vitamina B12</strong> — implicada en el metabolismo energético normal y la formación de glóbulos rojos."],
+           p2:["El enfoque de esta fórmula es, por tanto, doble: apoyar el terreno hormonal (DAA) y la energía (Maca, B12) por un lado, la recuperación (GABA) por otro — en lugar de aportar directamente calorías o proteínas como haría un gainer clásico."]},
+          {h:"¿Para quién está pensado?", ul:["Deportistas en fase de aumento de masa que buscan un apoyo complementario, no un sustituto de su alimentación.","Practicantes de musculación que tienen dificultades para recuperarse eficazmente entre sesiones.","Personas activas que buscan apoyar de forma natural su energía y su rendimiento en el entrenamiento."],
+           p2:["Importante aclarar: este suplemento no sustituye ni un aporte calórico y proteico suficiente ni un programa de entrenamiento estructurado — estos siguen siendo los dos verdaderos pilares del aumento de masa; el suplemento solo actúa como apoyo."]},
+          {h:"¿Cómo se usa?", p:["La dosis generalmente recomendada es de <strong>2 cápsulas al día</strong>, antes de las comidas o antes del entrenamiento, con un vaso grande de agua. Como en todo objetivo de aumento de masa, la coherencia con la alimentación y el entrenamiento sigue siendo el factor determinante; las opiniones disponibles mencionan cambios visibles tras varias semanas de cura combinada con un entrenamiento regular."]},
+          {h:"Puntos fuertes", ul:["Fórmula centrada en los mecanismos naturales más que en un simple aporte calórico bruto.","Enfoque complementario interesante: hormonal + energía + recuperación.","Formato en cápsulas práctico, sin las calorías superfluas de un gainer en polvo.","Composición totalmente natural."]},
+          {h:"Puntos de atención", ul:["No sustituye un aporte calórico y proteico suficiente: sin un superávit calórico adecuado, el aumento de masa sigue siendo limitado.","Los resultados dependen en gran medida de la calidad del entrenamiento seguido en paralelo.","Como todo producto a base de plantas, son posibles raras sensibilidades individuales.","Desaconsejado para menores y mujeres embarazadas o en lactancia; se recomienda consulta médica en caso de tratamiento en curso."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Mass Extreme sustituye a un gainer proteico?", "No, no aporta calorías como un gainer en polvo. Es un apoyo a los mecanismos naturales de crecimiento muscular y recuperación, para combinar con una alimentación adaptada a un aumento de masa."],
+            ["¿Requiere un entrenamiento específico para funcionar?", "Sí, como todo suplemento para deportistas, su utilidad depende directamente de un programa de musculación estructurado y regular en paralelo."],
+            ["¿Cuánto tiempo tarda en verse resultados?", "Las opiniones disponibles mencionan generalmente cambios visibles tras varias semanas de cura, coherentes con el ritmo natural de la construcción muscular."]
+          ]}
+        ],
+        verdict: "Mass Extreme no sustituye ni una alimentación adaptada al aumento de masa ni un programa de entrenamiento serio — y es importante tenerlo en cuenta antes de esperar algo de él. Su fórmula, orientada al apoyo hormonal, la energía y la recuperación más que al aporte calórico bruto, lo convierte en un complemento de apoyo coherente para deportistas que ya tienen ambos fundamentos en marcha."
+      }
+    }
   },
   {
     slug: 'collagen-select-avis-2026',
@@ -1325,7 +1407,59 @@ var BLOG_POSTS = [
         ["Peut-on le combiner avec des soins topiques anti-âge ?", "Oui, l'approche « de l'intérieur » du collagène en complément est généralement pensée pour venir en complément d'une routine de soin topique, pas la remplacer."]
       ]}
     ],
-    verdict: "Collagen Select s'appuie sur un peptide de collagène (Verisol®) qui bénéficie d'une littérature scientifique plus solide que la moyenne des compléments anti-âge génériques — un vrai point positif. Reste à garder des attentes réalistes : ce n'est pas une injection ou un lifting, mais un soutien progressif qui demande de la régularité sur plusieurs mois pour donner ses meilleurs résultats."
+    verdict: "Collagen Select s'appuie sur un peptide de collagène (Verisol®) qui bénéficie d'une littérature scientifique plus solide que la moyenne des compléments anti-âge génériques — un vrai point positif. Reste à garder des attentes réalistes : ce n'est pas une injection ou un lifting, mais un soutien progressif qui demande de la régularité sur plusieurs mois pour donner ses meilleurs résultats.",
+    translations: {
+      en: {
+        title: "Collagen Select Review 2026: Can Collagen Really Turn Back the Clock on Skin?",
+        excerpt: "Verisol® peptides, elasticity, hydration: our honest verdict on this anti-ageing supplement.",
+        intro: "From around age 25-26, the body's natural collagen production starts to gradually slow down — a process that speeds up with the years and shows up as less firm skin, more noticeable wrinkles, and more fragile hair and nails. Faced with this, collagen supplements have multiplied. <strong>Collagen Select</strong> bets on patented peptides. Let's see what it's really worth.",
+        sections: [
+          {h:"What is Collagen Select?", p:["Collagen Select is an anti-ageing food supplement, generally offered as a drink mix, designed to support the skin's natural collagen production. It combines a patented collagen peptide with targeted plant extracts and vitamins."]},
+          {h:"Composition: the key ingredients", ul:[
+            "<strong>Verisol® collagen peptides</strong> — a form of hydrolysed collagen specifically studied for its bioavailability, typically dosed around 2,500 mg per serving in this type of formula.",
+            "<strong>Garden tea extract (DracoBelle® Nu)</strong> — an active ingredient the manufacturer presents as reproducing some effects of physical activity on the skin, particularly for skin hydration.",
+            "<strong>Targeted vitamins and minerals</strong> — generally associated with maintaining normal skin, hair and nails."],
+           p2:["This type of formula relies on synergy between the collagen peptide supply (the raw material) and active ingredients meant to support its absorption or action on the skin."]},
+          {h:"What can you reasonably expect?", p:["Some clinical studies on hydrolysed collagen peptides (notably Verisol®) report improved skin elasticity, with elastin increases mentioned by manufacturers in their own communications around +18%. It's important to stay measured: results vary by study, dosage and individual, and some of this data comes from research funded by the manufacturers themselves — a classic point of caution in this sector."]},
+          {h:"Who is it for?", ul:["People noticing the first signs of skin sagging or dullness linked to age.","Those looking for support alongside their topical skincare routine (creams, serums).","People who also want to support the health of their hair and nails at the same time."],
+           p2:["Not recommended in case of ongoing anticoagulant treatment without prior medical advice, as some interactions are mentioned by manufacturers of this type of product."]},
+          {h:"How to use it?", p:["It's generally taken as <strong>one daily dose</strong> mixed into a glass of water, at any time of day. As with any collagen cure, the available literature agrees on one point: consistency matters more than anything, with reported effects generally after <strong>8 to 12 weeks</strong> of continuous daily use rather than within a few days."]},
+          {h:"Strengths", ul:["A patented peptide with available scientific literature (Verisol®), more documented than plain generic collagen powders.","A dual approach: skin AND hair/nails.","Convenient drink format, easy to fit into a daily routine.","Generally free of artificial colours or flavours in this type of formulation."]},
+          {h:"Points to watch", ul:["Results require patience: allow 2 to 3 months before a real assessment, no express transformation.","Some efficacy data comes from manufacturer communications rather than independent studies — worth a reasonable pinch of salt.","Possible interactions with certain anticoagulants: medical advice recommended in that case.","As with any supplement, doesn't replace a suitable topical skincare routine (hydration, sun protection)."]},
+          {h:"FAQ", faq:[
+            ["Does collagen supplementation really work?", "Several clinical studies on hydrolysed collagen peptides report improved hydration and skin elasticity after several weeks of regular use, with results that vary by individual and dosage."],
+            ["How long before seeing an effect on skin?", "Most available data mentions noticeable effects after 8 to 12 weeks of continuous daily use."],
+            ["Can it be combined with topical anti-ageing skincare?", "Yes, the « from the inside » approach of collagen supplements is generally meant to complement a topical skincare routine, not replace it."]
+          ]}
+        ],
+        verdict: "Collagen Select relies on a collagen peptide (Verisol®) that benefits from more solid scientific literature than the average generic anti-ageing supplement — a real plus. Still worth keeping realistic expectations: it's not an injection or a facelift, but a gradual support that requires consistency over several months to give its best results."
+      },
+      es: {
+        title: "Collagen Select Opiniones 2026: ¿Puede el Colágeno Realmente Rejuvenecer la Piel?",
+        excerpt: "Péptidos Verisol®, elasticidad, hidratación: nuestro balance honesto sobre este suplemento antiedad.",
+        intro: "A partir de los 25-26 años, la producción natural de colágeno del organismo empieza a ralentizarse progresivamente — un proceso que se acelera con los años y se traduce en una piel menos firme, arrugas más marcadas y cabello y uñas más frágiles. Ante esto, los suplementos a base de colágeno se han multiplicado. <strong>Collagen Select</strong> apuesta por péptidos patentados. Veamos qué vale realmente.",
+        sections: [
+          {h:"¿Qué es Collagen Select?", p:["Collagen Select es un suplemento alimenticio antiedad, generalmente en forma de bebida para diluir, diseñado para apoyar la producción natural de colágeno de la piel. Combina un péptido de colágeno patentado con extractos vegetales y vitaminas específicas."]},
+          {h:"Composición: los ingredientes clave", ul:[
+            "<strong>Péptidos de colágeno Verisol®</strong> — una forma de colágeno hidrolizado estudiada específicamente por su biodisponibilidad, dosificada normalmente en torno a 2.500 mg por porción en este tipo de fórmula.",
+            "<strong>Extracto de té de jardín (DracoBelle® Nu)</strong> — un activo que el fabricante presenta como reproductor de ciertos efectos de la actividad física sobre la piel, en particular para la hidratación cutánea.",
+            "<strong>Vitaminas y minerales específicos</strong> — generalmente asociados al mantenimiento de una piel, cabello y uñas normales."],
+           p2:["Este tipo de fórmula apuesta por la sinergia entre el aporte de péptidos de colágeno (la materia prima) y activos que vendrían a apoyar su absorción o su acción sobre la piel."]},
+          {h:"¿Qué se puede esperar razonablemente?", p:["Algunos estudios clínicos sobre péptidos de colágeno hidrolizado (en particular Verisol®) reportan una mejora de la elasticidad cutánea, con aumentos del nivel de elastina mencionados por los fabricantes en sus propias comunicaciones de en torno a +18%. Es importante mantener una mirada mesurada: los resultados varían según los estudios, las dosis y los individuos, y parte de estos datos proviene de investigaciones financiadas por los propios fabricantes — un punto de atención clásico en este sector."]},
+          {h:"¿Para quién está pensado?", ul:["Personas que notan los primeros signos de flacidez cutánea o pérdida de luminosidad relacionados con la edad.","Quienes buscan un apoyo complementario a su rutina de cuidado tópico (cremas, sérums).","Personas que también desean apoyar la salud de su cabello y uñas al mismo tiempo."],
+           p2:["Desaconsejado en caso de tratamiento anticoagulante en curso sin consulta médica previa, ya que algunos fabricantes de este tipo de producto mencionan posibles interacciones."]},
+          {h:"¿Cómo se usa?", p:["La toma se realiza generalmente en <strong>una dosis diaria</strong> diluida en un vaso de agua, en el momento del día que se prefiera. Como con toda cura de colágeno, la literatura disponible coincide en un punto: la constancia es lo más importante, con efectos reportados generalmente tras <strong>8 a 12 semanas</strong> de toma diaria continua, más que en pocos días."]},
+          {h:"Puntos fuertes", ul:["Péptido patentado con literatura científica disponible (Verisol®), más documentado que los polvos de colágeno genéricos simples.","Enfoque doble: piel Y cabello/uñas.","Formato en bebida fácil de integrar en una rutina diaria.","Generalmente sin colorantes ni aromas artificiales en este tipo de formulaciones."]},
+          {h:"Puntos de atención", ul:["Los resultados requieren paciencia: contar 2 a 3 meses antes de un balance real, sin transformación exprés.","Parte de los datos de eficacia proviene de comunicaciones del fabricante más que de estudios independientes — a considerar con una prudencia razonable.","Posibles interacciones con ciertos anticoagulantes: se recomienda consulta médica en ese caso.","Como todo suplemento, no sustituye una rutina de cuidado tópico adecuada (hidratación, protección solar)."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿El colágeno en suplemento funciona de verdad?", "Varios estudios clínicos sobre péptidos de colágeno hidrolizado reportan una mejora de la hidratación y la elasticidad cutánea tras varias semanas de uso regular, con resultados que varían según los individuos y las dosis."],
+            ["¿Cuánto tiempo tarda en verse un efecto en la piel?", "La mayoría de los datos disponibles mencionan efectos perceptibles tras 8 a 12 semanas de toma diaria continua."],
+            ["¿Se puede combinar con cuidados tópicos antiedad?", "Sí, el enfoque «desde dentro» del colágeno en suplemento está generalmente pensado para complementar una rutina de cuidado tópico, no para sustituirla."]
+          ]}
+        ],
+        verdict: "Collagen Select se apoya en un péptido de colágeno (Verisol®) que cuenta con una literatura científica más sólida que la media de los suplementos antiedad genéricos — un punto realmente positivo. Aun así, hay que mantener expectativas realistas: no es una inyección ni un lifting, sino un apoyo progresivo que requiere constancia durante varios meses para dar sus mejores resultados."
+      }
+    }
   },
   {
     slug: 'ashwagandha-ginseng-duo-vitalite',
@@ -1345,7 +1479,37 @@ var BLOG_POSTS = [
       {h:"Ce que dit la prudence scientifique", p:["Les deux plantes bénéficient d'une longue tradition d'usage et d'un intérêt scientifique croissant, mais comme pour beaucoup de plantes adaptogènes, la variabilité des études (dosages, extraits utilisés, durée) invite à rester mesuré dans les attentes. Il s'agit d'un soutien traditionnel du bien-être général, pas d'un traitement d'une pathologie diagnostiquée."]}
     ],
     verdict: "Ashwagandha et Ginseng illustrent bien la logique des associations d'adaptogènes : deux plantes aux rôles traditionnellement complémentaires (stabilité contre stress d'un côté, tonus et vitalité de l'autre), réunies pour couvrir un spectre plus large que chacune isolément. Un duo à connaître, surtout si vous le retrouvez dans la liste d'ingrédients d'un complément vitalité.",
-    linkedNote: "Ce duo se retrouve précisément dans la formule de"
+    linkedNote: "Ce duo se retrouve précisément dans la formule de",
+    translations: {
+      en: {
+        title: "Ashwagandha & Ginseng: Two Adaptogens, Two Complementary Roles",
+        excerpt: "One calms and stabilises, the other tones and energises — a look at this classic vitality duo.",
+        intro: "Ashwagandha and Ginseng are among the most widely used adaptogens in the world — plants traditionally associated with the body's ability to better adapt to stress. But the two don't work on the same register at all: one calms, the other energises. Understanding this difference helps explain why they're so often paired in the same formula.",
+        sections: [
+          {h:"Ashwagandha: the plant of stability", p:["Ashwagandha (Withania somnifera), sometimes nicknamed « Indian ginseng » despite its name, is an emblematic root of Ayurvedic medicine. It's traditionally associated with a stabilising effect: helping manage everyday stress, supporting emotional balance, and helping with better sleep quality. Its profile is rather soothing, useful for countering rising stress throughout the day."]},
+          {h:"Ginseng: the plant of vigour", p:["Ginseng (often Korean or Asian ginseng) has been used for centuries as a general tonic. Unlike Ashwagandha, its register is rather stimulating: it's traditionally associated with supporting physical energy, resistance to fatigue, and overall vitality — a more tonic than calming profile."]},
+          {h:"Why combine them?", p:["It's precisely this difference in register that makes the duo interesting: Ashwagandha brings stability and stress management throughout the day, while Ginseng brings the vigour and energy needed for physical and mental activity. A formula combining both therefore aims for a balance between calm and vitality, rather than just one of these two effects in isolation."],
+           p2:["A usual point of caution with adaptogen combinations: it's best to stick to recommended dosages and not stack several different adaptogenic supplements without professional advice, as some effects can add up unpredictably."]},
+          {h:"What scientific caution says", p:["Both plants benefit from a long tradition of use and growing scientific interest, but as with many adaptogenic plants, the variability of studies (dosages, extracts used, duration) calls for measured expectations. This is a traditional support for general wellbeing, not a treatment for a diagnosed condition."]}
+        ],
+        verdict: "Ashwagandha and Ginseng illustrate the logic of adaptogen pairing well: two plants with traditionally complementary roles (stability against stress on one side, tone and vitality on the other), brought together to cover a broader spectrum than either alone. A duo worth knowing, especially if you spot it in the ingredient list of a vitality supplement.",
+        linkedNote: "This duo appears precisely in the formula of"
+      },
+      es: {
+        title: "Ashwagandha & Ginseng: Dos Adaptógenos, Dos Papeles Complementarios",
+        excerpt: "Uno calma y estabiliza, el otro tonifica y estimula — un vistazo a este clásico dúo de la vitalidad.",
+        intro: "Ashwagandha y Ginseng se encuentran entre los adaptógenos más utilizados del mundo — plantas asociadas tradicionalmente a la capacidad del cuerpo para adaptarse mejor al estrés. Pero ambas no actúan en absoluto sobre el mismo registro: una calma, la otra tonifica. Entender esta diferencia ayuda a comprender por qué se combinan con tanta frecuencia en una misma fórmula.",
+        sections: [
+          {h:"La Ashwagandha: la planta de la estabilidad", p:["La Ashwagandha (Withania somnifera), a veces apodada «ginseng indio» pese a su nombre, es una raíz emblemática de la medicina ayurvédica. Se asocia tradicionalmente a un efecto estabilizador: ayuda a gestionar el estrés diario, apoya el equilibrio emocional y acompaña una mejor calidad del sueño. Su perfil es más bien calmante, útil para contrarrestar la subida de estrés a lo largo del día."]},
+          {h:"El Ginseng: la planta del tono vital", p:["El Ginseng (a menudo el coreano o asiático) se utiliza desde hace siglos como tónico general. A diferencia de la Ashwagandha, su registro es más bien estimulante: se asocia tradicionalmente al apoyo de la energía física, la resistencia a la fatiga y la vitalidad global — un perfil más tónico que calmante."]},
+          {h:"¿Por qué combinarlas?", p:["Es precisamente esta diferencia de registro lo que hace interesante al dúo: la Ashwagandha aporta estabilidad y gestión del estrés a lo largo del día, mientras que el Ginseng aporta el tono y la energía necesarios para la actividad física y mental. Una fórmula que combina ambas busca, por tanto, un equilibrio entre calma y vitalidad, en lugar de uno solo de estos dos efectos de forma aislada."],
+           p2:["Punto de prudencia habitual con las combinaciones de adaptógenos: es mejor respetar las dosis recomendadas y no acumular varios suplementos adaptógenos diferentes sin consejo profesional, ya que algunos efectos pueden sumarse de forma imprevisible."]},
+          {h:"Lo que dice la prudencia científica", p:["Ambas plantas cuentan con una larga tradición de uso y un interés científico creciente, pero como ocurre con muchas plantas adaptógenas, la variabilidad de los estudios (dosis, extractos utilizados, duración) invita a mantener expectativas moderadas. Se trata de un apoyo tradicional al bienestar general, no de un tratamiento para una patología diagnosticada."]}
+        ],
+        verdict: "Ashwagandha y Ginseng ilustran bien la lógica de las combinaciones de adaptógenos: dos plantas con papeles tradicionalmente complementarios (estabilidad frente al estrés por un lado, tono y vitalidad por otro), reunidas para cubrir un espectro más amplio que cada una por separado. Un dúo que vale la pena conocer, sobre todo si lo encuentras en la lista de ingredientes de un suplemento de vitalidad.",
+        linkedNote: "Este dúo se encuentra precisamente en la fórmula de"
+      }
+    }
   }
 ];
 
