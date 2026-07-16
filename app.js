@@ -1510,6 +1510,228 @@ var BLOG_POSTS = [
         linkedNote: "Este dúo se encuentra precisamente en la fórmula de"
       }
     }
+  },
+  {
+    slug: 'massage-facial-anti-rides-gestes',
+    catIndex: 0,
+    img: 'collagen_select.jpg',
+    commercial: false,
+    shortLabel: "Massage facial anti-rides",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions beauté naturelles",
+    title: "Massage Facial Anti-Rides : Les Gestes Qui Font Vraiment la Différence",
+    excerpt: "Gua sha, roller de jade, mains nues : ce que dit vraiment la dermatologie sur le massage facial.",
+    meta: "Le massage facial anti-rides fonctionne-t-il vraiment ? Gestes, fréquence et avis dermatologique dans notre guide complet.",
+    intro: "Gua sha, roller de jade, ou simplement les mains : le massage facial anti-rides est partout depuis quelques années, entre rituel bien-être et promesse de peau plus ferme. Mais au-delà de l'esthétique de l'outil, que se passe-t-il vraiment sous la peau ? On a creusé ce que dit la dermatologie, au-delà du marketing.",
+    sections: [
+      {h:"Ce que la science observe réellement", p:["Selon plusieurs dermatologues consultés sur le sujet, le massage facial stimule activement la micro-circulation sanguine et l'oxygénation des tissus. Le mécanisme clé : il favorise le drainage lymphatique, ce qui aide à réduire visiblement les gonflements et les poches, notamment sous les yeux. L'action mécanique sur les fascias (les fines membranes qui enveloppent les muscles du visage) aide aussi à relâcher les tensions accumulées au niveau de la mâchoire ou du front, ce qui donne un teint plus reposé et atténue l'apparence des rides d'expression, sans les effacer définitivement."]},
+      {h:"Un vrai effet, mais pas un remède miracle", p:["Un dermatologue ne validera jamais l'idée qu'un massage facial ou un gua sha remplace des injections ou un lifting. En revanche, plusieurs praticiens reconnaissent des bénéfices réels sur la texture de la peau : une étude contrôlée randomisée comparant roller facial et gua sha a mesuré une augmentation de la microperfusion locale allant jusqu'à 400%, avec une circulation qui reste élevée plus de 25 minutes après la séance. Cette stimulation mécanique pourrait aussi encourager l'activité des fibroblastes, les cellules responsables de la production de collagène."]},
+      {h:"La bonne technique, étape par étape", ul:[
+        "Nettoyez votre visage et appliquez une huile ou un sérum pour faciliter le glissement de l'outil (essentiel pour éviter de tirer sur la peau).",
+        "Maintenez l'outil presque à plat contre la peau (environ 15°), jamais perpendiculaire.",
+        "Travaillez zone par zone, du bas vers le haut du visage : mâchoire vers pommettes, sillons nasogéniens vers les tempes.",
+        "Pour le contour des yeux, utilisez la partie incurvée de l'outil avec une pression très légère — le système lymphatique se situe juste sous la surface, inutile de forcer.",
+        "Terminez par quelques pressions douces sur les tempes."],
+       p2:["Trois règles d'or reviennent systématiquement chez les praticiens : une hygiène irréprochable de l'outil (nettoyage après chaque usage pour éviter la prolifération bactérienne), un angle plat plutôt que perpendiculaire, et surtout de la douceur — la pression légère suffit amplement."]},
+      {h:"À quelle fréquence ?", p:["Le consensus général converge vers <strong>3 à 5 séances de 5 à 10 minutes par semaine</strong>, idéalement le soir sur une peau propre et hydratée. La régularité compte davantage que l'intensité : mieux vaut 5 minutes plusieurs fois par semaine qu'une longue séance occasionnelle."]},
+      {h:"FAQ", faq:[
+        ["Le gua sha peut-il remplacer une crème anti-rides ?", "Non, les deux sont complémentaires. Le massage aide même à faire pénétrer plus profondément les actifs des sérums et huiles appliqués avant le massage."],
+        ["À partir de quel âge commencer ?", "Il n'y a pas d'âge minimum : c'est autant un geste de prévention que de correction. Beaucoup l'intègrent dès la fin de la vingtaine, en même temps que les premiers gestes de soin anti-âge."],
+        ["Faut-il un outil spécifique ou les mains suffisent-elles ?", "Les mains restent l'outil le plus accessible et donnent déjà de bons résultats. Le gua sha et le roller apportent une précision géométrique et une pression que les doigts ne peuvent pas toujours égaler, mais ce n'est pas indispensable pour débuter."]
+      ]}
+    ],
+    verdict: "Le massage facial n'est pas un remède miracle contre des rides profondes déjà installées depuis des années, mais c'est un vrai outil de prévention et de soin global, avec des mécanismes biologiques documentés (micro-circulation, relâchement des fascias, stimulation des fibroblastes). Intégré avec régularité dans une routine de soin plus large, c'est un geste simple, gratuit une fois l'outil acquis, qui mérite sa place.",
+    translations: {
+      en: {
+        title: "Anti-Ageing Facial Massage: The Techniques That Actually Make a Difference",
+        excerpt: "Gua sha, jade roller, bare hands: what dermatology really says about facial massage.",
+        intro: "Gua sha, jade roller, or simply your hands: anti-ageing facial massage has been everywhere for a few years now, somewhere between a wellness ritual and a promise of firmer skin. But beyond the aesthetics of the tool, what actually happens under the skin? We dug into what dermatology says, beyond the marketing.",
+        sections: [
+          {h:"What science actually observes", p:["According to several dermatologists consulted on the topic, facial massage actively stimulates blood micro-circulation and tissue oxygenation. The key mechanism: it promotes lymphatic drainage, which visibly helps reduce puffiness and bags, particularly under the eyes. The mechanical action on the fascia (the thin membranes wrapping the facial muscles) also helps release tension built up around the jaw or forehead, giving a more rested look and softening the appearance of expression lines, without erasing them permanently."]},
+          {h:"A real effect, but not a miracle cure", p:["A dermatologist will never validate the idea that facial massage or gua sha replaces injections or a facelift. However, several practitioners acknowledge real benefits on skin texture: a randomised controlled trial comparing facial rollers and gua sha measured an increase in local microperfusion of up to 400%, with circulation staying elevated for over 25 minutes after the session. This mechanical stimulation may also encourage fibroblast activity, the cells responsible for collagen production."]},
+          {h:"The right technique, step by step", ul:[
+            "Cleanse your face and apply an oil or serum to help the tool glide (essential to avoid pulling on the skin).",
+            "Keep the tool almost flat against the skin (about a 15° angle), never perpendicular.",
+            "Work zone by zone, from the bottom of the face upward: jaw toward cheekbones, nasolabial folds toward the temples.",
+            "For the eye area, use the curved part of the tool with very light pressure — the lymphatic system sits just under the surface, no need to press hard.",
+            "Finish with a few gentle presses on the temples."],
+           p2:["Three golden rules come up consistently among practitioners: impeccable tool hygiene (cleaning after every use to avoid bacterial growth), a flat angle rather than perpendicular, and above all, gentleness — light pressure is more than enough."]},
+          {h:"How often?", p:["General consensus converges on <strong>3 to 5 sessions of 5 to 10 minutes per week</strong>, ideally in the evening on clean, hydrated skin. Consistency matters more than intensity: 5 minutes several times a week beats one long occasional session."]},
+          {h:"FAQ", faq:[
+            ["Can gua sha replace an anti-ageing cream?", "No, the two are complementary. The massage even helps the active ingredients in serums and oils applied beforehand penetrate more deeply."],
+            ["What age should you start at?", "There's no minimum age: it's as much about prevention as correction. Many people start in their late twenties, alongside their first anti-ageing skincare steps."],
+            ["Do you need a specific tool, or are hands enough?", "Hands remain the most accessible tool and already give good results. Gua sha and rollers offer geometric precision and pressure that fingers can't always match, but they're not essential to get started."]
+          ]}
+        ],
+        verdict: "Facial massage is not a miracle cure for deep wrinkles that have already set in over the years, but it is a genuine prevention and overall skincare tool, with documented biological mechanisms (micro-circulation, fascia release, fibroblast stimulation). Used consistently as part of a broader skincare routine, it's a simple gesture — free once you own the tool — that earns its place."
+      },
+      es: {
+        title: "Masaje Facial Antiedad: Los Gestos Que Realmente Marcan la Diferencia",
+        excerpt: "Gua sha, rodillo de jade, manos desnudas: lo que dice realmente la dermatología sobre el masaje facial.",
+        intro: "Gua sha, rodillo de jade, o simplemente las manos: el masaje facial antiedad está en todas partes desde hace unos años, entre ritual de bienestar y promesa de una piel más firme. Pero más allá de la estética de la herramienta, ¿qué ocurre realmente bajo la piel? Investigamos lo que dice la dermatología, más allá del marketing.",
+        sections: [
+          {h:"Lo que la ciencia observa realmente", p:["Según varios dermatólogos consultados sobre el tema, el masaje facial estimula activamente la microcirculación sanguínea y la oxigenación de los tejidos. El mecanismo clave: favorece el drenaje linfático, lo que ayuda a reducir visiblemente la hinchazón y las bolsas, especialmente bajo los ojos. La acción mecánica sobre las fascias (las finas membranas que envuelven los músculos del rostro) también ayuda a liberar las tensiones acumuladas en la mandíbula o la frente, lo que da un aspecto más descansado y atenúa la apariencia de las líneas de expresión, sin borrarlas definitivamente."]},
+          {h:"Un efecto real, pero no un remedio milagroso", p:["Un dermatólogo nunca validará la idea de que un masaje facial o un gua sha sustituye a las inyecciones o a un lifting. En cambio, varios profesionales reconocen beneficios reales sobre la textura de la piel: un ensayo controlado aleatorizado que comparó el rodillo facial y el gua sha midió un aumento de la microperfusión local de hasta un 400%, con una circulación que se mantiene elevada más de 25 minutos después de la sesión. Esta estimulación mecánica también podría fomentar la actividad de los fibroblastos, las células responsables de la producción de colágeno."]},
+          {h:"La técnica correcta, paso a paso", ul:[
+            "Limpia tu rostro y aplica un aceite o sérum para facilitar el deslizamiento de la herramienta (esencial para evitar tirar de la piel).",
+            "Mantén la herramienta casi plana contra la piel (unos 15°), nunca perpendicular.",
+            "Trabaja zona por zona, de abajo hacia arriba del rostro: mandíbula hacia pómulos, surcos nasogenianos hacia las sienes.",
+            "Para el contorno de ojos, usa la parte curva de la herramienta con una presión muy ligera — el sistema linfático está justo bajo la superficie, no hace falta forzar.",
+            "Termina con unas presiones suaves en las sienes."],
+           p2:["Tres reglas de oro se repiten sistemáticamente entre los profesionales: una higiene impecable de la herramienta (limpieza tras cada uso para evitar la proliferación bacteriana), un ángulo plano en lugar de perpendicular, y sobre todo suavidad — la presión ligera es más que suficiente."]},
+          {h:"¿Con qué frecuencia?", p:["El consenso general converge en <strong>3 a 5 sesiones de 5 a 10 minutos por semana</strong>, idealmente por la noche sobre una piel limpia e hidratada. La constancia importa más que la intensidad: mejor 5 minutos varias veces por semana que una sesión larga ocasional."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿El gua sha puede sustituir a una crema antiedad?", "No, ambos son complementarios. El masaje incluso ayuda a que los activos de los sérums y aceites aplicados antes penetren más profundamente."],
+            ["¿A partir de qué edad se puede empezar?", "No hay una edad mínima: es tanto un gesto de prevención como de corrección. Muchas personas lo incorporan desde finales de los veinte, junto con sus primeros cuidados antiedad."],
+            ["¿Se necesita una herramienta específica o bastan las manos?", "Las manos siguen siendo la herramienta más accesible y ya dan buenos resultados. El gua sha y el rodillo aportan una precisión geométrica y una presión que los dedos no siempre pueden igualar, pero no son imprescindibles para empezar."]
+          ]}
+        ],
+        verdict: "El masaje facial no es un remedio milagroso contra arrugas profundas ya instaladas desde hace años, pero sí es una verdadera herramienta de prevención y cuidado global, con mecanismos biológicos documentados (microcirculación, liberación de las fascias, estimulación de los fibroblastos). Integrado con constancia en una rutina de cuidado más amplia, es un gesto sencillo, gratuito una vez adquirida la herramienta, que merece su lugar."
+      }
+    }
+  },
+  {
+    slug: 'ventre-plat-vraies-causes-ballonnements',
+    catIndex: 1,
+    img: 'moringa_actives.jpg',
+    commercial: false,
+    shortLabel: "Ventre plat et ballonnements",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions minceur naturelles",
+    title: "Ventre Plat : Les Vraies Causes du Ballonnement (et Comment y Remédier)",
+    excerpt: "Aérophagie, FODMAPs, stress, microbiote : ce que disent vraiment les nutritionnistes sur le ventre gonflé.",
+    meta: "Pourquoi le ventre gonfle-t-il ? Les vraies causes des ballonnements selon les nutritionnistes, et les solutions qui fonctionnent réellement.",
+    intro: "Ventre gonflé en fin de journée, sensation de lourdeur après un repas pourtant léger, jean qui serre soudainement : les ballonnements touchent jusqu'à 30% des adultes selon les données de l'Assurance Maladie. Avant de blâmer « la nourriture », voici ce que les nutritionnistes identifient vraiment comme causes, et surtout, ce qui fonctionne pour y remédier.",
+    sections: [
+      {h:"Ce n'est presque jamais une seule cause", p:["Un ventre gonflé est généralement multifactoriel : alimentation, transit, microbiote, rythme de vie et stress interagissent étroitement. Huit causes principales reviennent régulièrement chez les praticiens : l'aérophagie (avaler de l'air en mangeant trop vite), la dysbiose intestinale (déséquilibre du microbiote), le SIBO (prolifération bactérienne de l'intestin grêle), les intolérances alimentaires, le stress chronique, l'hypochlorhydrie (acidité gastrique insuffisante), la constipation, et certains déséquilibres hormonaux."]},
+      {h:"Le rôle central des FODMAPs", p:["Les FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides And Polyols) sont des glucides courts mal absorbés par l'intestin grêle, qui fermentent ensuite dans le côlon et produisent des gaz en excès. On les trouve notamment dans certains fruits (pomme, poire), légumes (oignon, ail, chou), légumineuses, produits laitiers et céréales contenant du gluten. Selon plusieurs méta-analyses, un régime pauvre en FODMAPs réduit significativement la sévérité des ballonnements et des douleurs abdominales, en particulier chez les personnes souffrant du syndrome de l'intestin irritable."]},
+      {h:"Le stress, un facteur souvent sous-estimé", p:["Sous l'effet du stress, le corps libère du cortisol, qui peut perturber directement la digestion : inflammation du tube digestif, ralentissement du transit, augmentation de la production de gaz. C'est l'axe intestin-cerveau en action — une des raisons pour lesquelles les périodes de stress intense s'accompagnent souvent de troubles digestifs, indépendamment de ce qui est mangé."]},
+      {h:"Les erreurs les plus fréquentes à corriger", ul:[
+        "<strong>Manger trop vite</strong> — avaler ses aliments rapidement favorise l'aérophagie et une moins bonne digestion.",
+        "<strong>Les boissons gazeuses</strong> — eaux pétillantes et sodas ajoutent directement du gaz dans le système digestif.",
+        "<strong>Augmenter les fibres trop brusquement</strong> — un ajout progressif est nécessaire ; une hausse trop rapide peut au contraire aggraver les gaz au début.",
+        "<strong>Ignorer la mastication</strong> — bien mastiquer réduit le travail digestif de l'estomac et limite l'air avalé.",
+        "<strong>Le manque de mouvement</strong> — une activité physique régulière stimule le transit intestinal naturel."],
+       p2:["L'approche la plus documentée scientifiquement pour limiter les ballonnements reste le régime pauvre en FODMAPs, associé à une gestion du stress et à une mastication soignée."]},
+      {h:"Quand consulter", p:["Certains signes imposent une consultation médicale rapide : sang dans les selles, perte de poids inexpliquée, fièvre, douleur intense ou ventre qui devient dur et douloureux de façon persistante. Dans la majorité des cas cependant, des ajustements simples suffisent à retrouver un confort digestif durable."]},
+      {h:"FAQ", faq:[
+        ["Le ventre gonflé est-il toujours lié à ce qu'on mange ?", "Non. Le transit, le microbiote, le stress et le rythme de vie jouent un rôle tout aussi central que l'alimentation elle-même."],
+        ["Faut-il éliminer le gluten et les produits laitiers ?", "Pas systématiquement, et pas sans raison précise : des exclusions alimentaires non justifiées peuvent créer des déséquilibres inutiles. Mieux vaut identifier ses propres déclencheurs, éventuellement avec l'aide d'un professionnel."],
+        ["Le ballonnement du soir est-il normal ?", "Une légère distension en fin de journée après les repas est une réaction digestive naturelle. C'est la fréquence, l'intensité et la persistance qui doivent alerter, pas l'occurrence ponctuelle."]
+      ]}
+    ],
+    verdict: "Le ventre gonflé n'est presque jamais le fruit du hasard, mais il est aussi rarement dû à une seule cause isolée. Entre alimentation riche en FODMAPs, stress mal géré, mastication trop rapide et manque de mouvement, la bonne nouvelle est que la plupart des ballonnements se corrigent par des ajustements simples et progressifs, sans qu'il soit nécessaire de bannir des familles entières d'aliments du jour au lendemain.",
+    translations: {
+      en: {
+        title: "Flat Stomach: The Real Causes of Bloating (and How to Fix It)",
+        excerpt: "Swallowed air, FODMAPs, stress, gut microbiome: what nutritionists really say about a bloated belly.",
+        intro: "A bloated stomach by the end of the day, a heavy feeling after what was supposed to be a light meal, jeans that suddenly feel tight: bloating affects up to 30% of adults according to French health insurance data. Before blaming « food » in general, here's what nutritionists actually identify as causes — and more importantly, what actually works to fix it.",
+        sections: [
+          {h:"It's almost never a single cause", p:["A bloated stomach is generally multifactorial: diet, gut transit, microbiome, lifestyle and stress interact closely. Eight main causes come up repeatedly among practitioners: aerophagia (swallowing air while eating too fast), gut dysbiosis (microbiome imbalance), SIBO (small intestinal bacterial overgrowth), food intolerances, chronic stress, hypochlorhydria (insufficient stomach acid), constipation, and certain hormonal imbalances."]},
+          {h:"The central role of FODMAPs", p:["FODMAPs (Fermentable Oligosaccharides, Disaccharides, Monosaccharides And Polyols) are short-chain carbohydrates poorly absorbed by the small intestine, which then ferment in the colon and produce excess gas. They're found notably in certain fruits (apple, pear), vegetables (onion, garlic, cabbage), legumes, dairy products and gluten-containing grains. According to several meta-analyses, a low-FODMAP diet significantly reduces the severity of bloating and abdominal pain, particularly in people with irritable bowel syndrome."]},
+          {h:"Stress, an often underestimated factor", p:["Under stress, the body releases cortisol, which can directly disrupt digestion: inflammation of the digestive tract, slower gut transit, increased gas production. This is the gut-brain axis at work — one of the reasons periods of intense stress are often accompanied by digestive trouble, regardless of what's actually being eaten."]},
+          {h:"The most common mistakes to fix", ul:[
+            "<strong>Eating too fast</strong> — quickly swallowing food promotes aerophagia and poorer digestion.",
+            "<strong>Fizzy drinks</strong> — sparkling water and sodas add gas directly into the digestive system.",
+            "<strong>Increasing fibre too abruptly</strong> — a gradual increase is needed; ramping up too fast can actually worsen gas at first.",
+            "<strong>Skipping proper chewing</strong> — thorough chewing reduces the stomach's digestive workload and limits swallowed air.",
+            "<strong>Lack of movement</strong> — regular physical activity stimulates natural gut transit."],
+           p2:["The most scientifically documented approach to reducing bloating remains a low-FODMAP diet, combined with stress management and mindful chewing."]},
+          {h:"When to see a doctor", p:["Certain signs call for prompt medical attention: blood in stools, unexplained weight loss, fever, intense pain, or a belly that becomes persistently hard and painful. In most cases, though, simple adjustments are enough to restore lasting digestive comfort."]},
+          {h:"FAQ", faq:[
+            ["Is a bloated stomach always about what you eat?", "No. Gut transit, the microbiome, stress and lifestyle play just as central a role as diet itself."],
+            ["Should you cut out gluten and dairy?", "Not systematically, and not without a specific reason: unjustified food exclusions can create unnecessary imbalances. It's better to identify your own triggers, possibly with professional help."],
+            ["Is evening bloating normal?", "Mild distension at the end of the day after meals is a natural digestive reaction. It's the frequency, intensity and persistence that should raise concern, not an occasional occurrence."]
+          ]}
+        ],
+        verdict: "A bloated stomach is almost never random, but it's also rarely due to a single isolated cause. Between a FODMAP-rich diet, poorly managed stress, eating too fast and a lack of movement, the good news is that most bloating can be corrected with simple, gradual adjustments, without needing to ban entire food groups overnight."
+      },
+      es: {
+        title: "Vientre Plano: Las Verdaderas Causas de la Hinchazón (y Cómo Solucionarla)",
+        excerpt: "Aerofagia, FODMAPs, estrés, microbiota: lo que realmente dicen los nutricionistas sobre el vientre hinchado.",
+        intro: "Vientre hinchado a última hora del día, sensación de pesadez tras una comida que parecía ligera, vaqueros que de repente aprietan: la hinchazón afecta hasta a un 30% de los adultos según los datos del sistema sanitario francés. Antes de culpar a «la comida» en general, esto es lo que los nutricionistas identifican realmente como causas, y sobre todo, lo que funciona de verdad para solucionarlo.",
+        sections: [
+          {h:"Casi nunca es una sola causa", p:["Un vientre hinchado suele ser multifactorial: alimentación, tránsito intestinal, microbiota, ritmo de vida y estrés interactúan estrechamente. Ocho causas principales se repiten entre los profesionales: la aerofagia (tragar aire al comer demasiado rápido), la disbiosis intestinal (desequilibrio de la microbiota), el SIBO (proliferación bacteriana del intestino delgado), las intolerancias alimentarias, el estrés crónico, la hipoclorhidria (acidez gástrica insuficiente), el estreñimiento y ciertos desequilibrios hormonales."]},
+          {h:"El papel central de los FODMAPs", p:["Los FODMAPs (Oligosacáridos, Disacáridos, Monosacáridos y Polioles Fermentables) son carbohidratos cortos mal absorbidos por el intestino delgado, que luego fermentan en el colon y producen un exceso de gases. Se encuentran especialmente en ciertas frutas (manzana, pera), verduras (cebolla, ajo, col), legumbres, lácteos y cereales con gluten. Según varios metaanálisis, una dieta baja en FODMAPs reduce significativamente la gravedad de la hinchazón y el dolor abdominal, especialmente en personas con síndrome del intestino irritable."]},
+          {h:"El estrés, un factor a menudo subestimado", p:["Bajo estrés, el cuerpo libera cortisol, que puede alterar directamente la digestión: inflamación del tubo digestivo, ralentización del tránsito, aumento de la producción de gases. Es el eje intestino-cerebro en acción — una de las razones por las que los periodos de estrés intenso suelen ir acompañados de trastornos digestivos, independientemente de lo que se coma."]},
+          {h:"Los errores más frecuentes que corregir", ul:[
+            "<strong>Comer demasiado rápido</strong> — tragar los alimentos rápidamente favorece la aerofagia y una peor digestión.",
+            "<strong>Las bebidas gaseosas</strong> — aguas con gas y refrescos añaden gas directamente al sistema digestivo.",
+            "<strong>Aumentar la fibra demasiado bruscamente</strong> — es necesario un aumento gradual; una subida demasiado rápida puede al contrario empeorar los gases al principio.",
+            "<strong>No masticar bien</strong> — masticar bien reduce el trabajo digestivo del estómago y limita el aire tragado.",
+            "<strong>La falta de movimiento</strong> — la actividad física regular estimula el tránsito intestinal natural."],
+           p2:["El enfoque más documentado científicamente para reducir la hinchazón sigue siendo la dieta baja en FODMAPs, combinada con la gestión del estrés y una masticación cuidada."]},
+          {h:"Cuándo consultar", p:["Ciertas señales requieren una consulta médica rápida: sangre en las heces, pérdida de peso inexplicada, fiebre, dolor intenso o un vientre que se vuelve duro y doloroso de forma persistente. En la mayoría de los casos, sin embargo, unos ajustes simples bastan para recuperar un confort digestivo duradero."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿El vientre hinchado siempre depende de lo que se come?", "No. El tránsito intestinal, la microbiota, el estrés y el ritmo de vida juegan un papel tan central como la propia alimentación."],
+            ["¿Hay que eliminar el gluten y los lácteos?", "No sistemáticamente, y no sin un motivo concreto: las exclusiones alimentarias injustificadas pueden crear desequilibrios innecesarios. Es mejor identificar los propios desencadenantes, posiblemente con ayuda profesional."],
+            ["¿Es normal la hinchazón por la noche?", "Una ligera distensión al final del día tras las comidas es una reacción digestiva natural. Lo que debe alertar es la frecuencia, la intensidad y la persistencia, no la ocurrencia puntual."]
+          ]}
+        ],
+        verdict: "El vientre hinchado casi nunca es fruto del azar, pero tampoco suele deberse a una sola causa aislada. Entre una alimentación rica en FODMAPs, un estrés mal gestionado, comer demasiado rápido y la falta de movimiento, la buena noticia es que la mayoría de las hinchazones se corrigen con ajustes simples y progresivos, sin necesidad de eliminar familias enteras de alimentos de la noche a la mañana."
+      }
+    }
+  },
+  {
+    slug: 'meilleures-positions-sommeil-douleurs',
+    catIndex: 2,
+    img: 'bulk_extreme.jpg',
+    commercial: false,
+    shortLabel: "Positions de sommeil",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions vitalité naturelles",
+    title: "Meilleures Positions de Sommeil Selon Vos Douleurs (Dos, Cervicales)",
+    excerpt: "Sur le dos, sur le côté, jamais sur le ventre : ce que recommandent vraiment kinésithérapeutes et ostéopathes.",
+    meta: "Quelle est la meilleure position pour dormir sans douleur au dos ou aux cervicales ? Le guide complet selon les kinésithérapeutes.",
+    intro: "Vous changez de position toutes les 30 minutes, vous vous réveillez la nuque raide ou le bas du dos contracté ? La position de sommeil n'est pas qu'une question de confort : elle détermine directement la pression exercée sur votre colonne vertébrale pendant 7 à 8 heures chaque nuit. Voici ce que kinésithérapeutes et ostéopathes recommandent vraiment, position par position.",
+    sections: [
+      {h:"Sur le dos : la position de référence", p:["La position dorsale est largement citée comme la plus bénéfique pour la colonne vertébrale par les kinésithérapeutes. En vous allongeant sur le dos, le poids du corps se répartit uniformément sur la plus grande surface possible, ce qui minimise les points de pression. La tête, le cou et la colonne reposent dans une position neutre, sans torsion ni courbure forcée. Pour les douleurs cervicales spécifiquement, un oreiller cervical de 10 à 12 cm est généralement recommandé : le poids de la tête est alors réparti uniformément et les muscles du cou restent détendus. Un coussin placé sous les genoux permet d'optimiser encore la position en réduisant la tension lombaire.", "Point de vigilance : cette position est déconseillée en cas de ronflements ou d'apnée du sommeil, car elle limite l'ouverture de la cage thoracique et donc la respiration."]},
+      {h:"Sur le côté : la meilleure option contre le mal de dos", p:["Pour les douleurs de dos (sciatique, lombalgie), kinésithérapeutes et ostéopathes sont unanimes : la position idéale est de dormir sur le côté, avec un oreiller assez épais pour maintenir la tête dans l'axe du corps, et surtout un coussin placé entre les genoux. Ce coussin soulage les hanches et évite la torsion du bassin, réduisant significativement les douleurs dorsales.", "Autre bénéfice notable : cette position améliore la respiration et limite les ronflements par rapport à la position dorsale. Le côté gauche est souvent recommandé en cas de reflux gastro-œsophagien ou d'apnée du sommeil ; le côté droit pour ménager le cœur. L'idéal reste d'alterner entre les deux côtés au cours de la nuit."]},
+      {h:"Sur le ventre : la position à éviter", p:["C'est la position la moins recommandée par l'ensemble des praticiens, tous profils de douleur confondus. Dormir sur le ventre force une rotation prolongée du cou pendant plusieurs heures, ce qui génère des tensions cervicales et des maux de tête. Elle aplatit également la courbe naturelle du bas du dos, augmentant le risque de douleurs lombaires, et comprime la cage thoracique, gênant la respiration.", "Si cette position reste malgré tout votre préférée et qu'il est difficile d'en changer, quelques ajustements limitent la casse : optez pour un oreiller très fin (voire aucun oreiller) pour la tête, et placez un coussin sous le bassin pour limiter la cambrure excessive du bas du dos."]},
+      {h:"Le cas particulier de la sciatique", p:["En cas de sciatique, la position sur le côté opposé à la douleur est généralement recommandée par les kinésithérapeutes spécialisés : la jambe du dessus est positionnée en légère flexion, ce qui met le nerf sciatique « en décharge ». Pour une sciatique bilatérale, la position sur le dos avec un gros oreiller sous chaque genou (jambes fléchies, tournées légèrement vers l'extérieur) est souvent citée comme la plus soulageante."]},
+      {h:"FAQ", faq:[
+        ["Combien de temps pour s'habituer à une nouvelle position ?", "Un temps d'adaptation est toujours nécessaire lors d'un changement de position de sommeil, généralement de quelques jours à quelques semaines. Un accessoire comme un traversin ou un coussin entre les genoux peut aider à maintenir la nouvelle position plus facilement."],
+        ["Le choix de l'oreiller compte-t-il vraiment ?", "Oui, tout autant que la position elle-même selon les praticiens. L'objectif est de maintenir la tête alignée avec le reste de la colonne, ni trop haute, ni trop basse — un oreiller mal adapté peut annuler les bénéfices d'une bonne position."],
+        ["Que faire si la douleur persiste malgré les bons ajustements ?", "Si les douleurs persistent malgré des positions adaptées et un oreiller adéquat, ou si elles s'accompagnent de fourmillements dans les bras, de vertiges ou d'une perte de force, une consultation médicale ou chez un kinésithérapeute est recommandée."]
+      ]}
+    ],
+    verdict: "Il n'existe pas de position de sommeil universelle qui convienne à tout le monde — tout dépend de vos douleurs spécifiques, de vos habitudes respiratoires et de votre morphologie. Mais un principe fait consensus chez les praticiens : la position sur le dos ou sur le côté (jamais sur le ventre) associée à un oreiller réellement adapté à votre morphologie et à votre position fait souvent toute la différence entre un réveil courbaturé et une vraie nuit réparatrice.",
+    translations: {
+      en: {
+        title: "Best Sleeping Positions for Your Pain (Back, Neck)",
+        excerpt: "On your back, on your side, never on your stomach: what physiotherapists and osteopaths really recommend.",
+        intro: "Do you change position every 30 minutes, waking up with a stiff neck or a tense lower back? Sleeping position isn't just about comfort: it directly determines the pressure placed on your spine for 7 to 8 hours every night. Here's what physiotherapists and osteopaths really recommend, position by position.",
+        sections: [
+          {h:"On your back: the reference position", p:["The supine position is widely cited by physiotherapists as the most beneficial for the spine. Lying on your back, body weight is distributed evenly over the largest possible surface, minimising pressure points. The head, neck and spine rest in a neutral position, with no twisting or forced curvature. For neck pain specifically, a cervical pillow of about 4 to 5 inches (10-12 cm) is generally recommended: the weight of the head is then evenly distributed and neck muscles stay relaxed. A pillow placed under the knees further optimises the position by reducing lower-back tension.", "Point to note: this position is not recommended for people who snore or have sleep apnoea, as it limits chest expansion and therefore breathing."]},
+          {h:"On your side: the best option against back pain", p:["For back pain (sciatica, lower back pain), physiotherapists and osteopaths agree: the ideal position is sleeping on your side, with a pillow thick enough to keep the head aligned with the body, and above all a pillow placed between the knees. This pillow relieves the hips and prevents pelvic twisting, significantly reducing back pain.", "Another notable benefit: this position improves breathing and reduces snoring compared to lying on your back. The left side is often recommended for acid reflux or sleep apnoea; the right side to go easier on the heart. Ideally, alternate between both sides during the night."]},
+          {h:"On your stomach: the position to avoid", p:["This is the least recommended position across the board, regardless of the type of pain. Sleeping on your stomach forces a prolonged neck rotation for several hours, generating neck tension and headaches. It also flattens the natural curve of the lower back, increasing the risk of lower-back pain, and compresses the chest, hindering breathing.", "If this remains your preferred position and it's hard to change, a few adjustments can limit the damage: use a very thin pillow (or none at all) for your head, and place a pillow under your pelvis to limit excessive lower-back arching."]},
+          {h:"The special case of sciatica", p:["With sciatica, sleeping on the side opposite the pain is generally recommended by specialised physiotherapists: the upper leg is positioned in slight flexion, which « unloads » the sciatic nerve. For bilateral sciatica, lying on your back with a large pillow under each knee (legs bent, turned slightly outward) is often cited as the most relieving position."]},
+          {h:"FAQ", faq:[
+            ["How long does it take to get used to a new position?", "Some adjustment time is always needed when changing sleeping position, usually from a few days to a few weeks. An accessory like a body pillow or a cushion between the knees can help maintain the new position more easily."],
+            ["Does the pillow choice really matter?", "Yes, just as much as the position itself according to practitioners. The goal is to keep the head aligned with the rest of the spine, neither too high nor too low — an unsuitable pillow can cancel out the benefits of a good position."],
+            ["What if the pain persists despite good adjustments?", "If pain persists despite suitable positions and an adequate pillow, or if it's accompanied by tingling in the arms, dizziness or loss of strength, a medical or physiotherapy consultation is recommended."]
+          ]}
+        ],
+        verdict: "There's no single universal sleeping position that suits everyone — it all depends on your specific pain, breathing habits and body shape. But one principle is consistently agreed upon by practitioners: sleeping on your back or side (never on your stomach), combined with a pillow genuinely suited to your body and position, often makes all the difference between waking up achy and having a truly restorative night."
+      },
+      es: {
+        title: "Mejores Posiciones Para Dormir Según Tus Dolores (Espalda, Cervicales)",
+        excerpt: "Boca arriba, de lado, nunca boca abajo: lo que realmente recomiendan fisioterapeutas y osteópatas.",
+        intro: "¿Cambias de posición cada 30 minutos, te despiertas con el cuello rígido o la zona lumbar contraída? La posición para dormir no es solo una cuestión de comodidad: determina directamente la presión que soporta tu columna vertebral durante 7 u 8 horas cada noche. Esto es lo que realmente recomiendan fisioterapeutas y osteópatas, posición por posición.",
+        sections: [
+          {h:"Boca arriba: la posición de referencia", p:["La posición decúbito supino es ampliamente citada por los fisioterapeutas como la más beneficiosa para la columna vertebral. Al tumbarse boca arriba, el peso del cuerpo se reparte uniformemente sobre la mayor superficie posible, lo que minimiza los puntos de presión. La cabeza, el cuello y la columna descansan en una posición neutra, sin torsión ni curvatura forzada. Para el dolor cervical en particular, se suele recomendar una almohada cervical de 10 a 12 cm: el peso de la cabeza se reparte entonces de manera uniforme y los músculos del cuello permanecen relajados. Un cojín colocado bajo las rodillas optimiza aún más la posición al reducir la tensión lumbar.", "Punto de atención: esta posición no se recomienda en caso de ronquidos o apnea del sueño, ya que limita la apertura de la caja torácica y, por tanto, la respiración."]},
+          {h:"De lado: la mejor opción contra el dolor de espalda", p:["Para el dolor de espalda (ciática, lumbalgia), fisioterapeutas y osteópatas coinciden: la posición ideal es dormir de lado, con una almohada lo bastante gruesa para mantener la cabeza alineada con el cuerpo, y sobre todo un cojín colocado entre las rodillas. Este cojín alivia las caderas y evita la torsión de la pelvis, reduciendo significativamente el dolor de espalda.", "Otro beneficio destacable: esta posición mejora la respiración y limita los ronquidos en comparación con dormir boca arriba. El lado izquierdo se recomienda a menudo en caso de reflujo gastroesofágico o apnea del sueño; el lado derecho para cuidar el corazón. Lo ideal es alternar entre ambos lados durante la noche."]},
+          {h:"Boca abajo: la posición a evitar", p:["Es la posición menos recomendada por el conjunto de profesionales, sea cual sea el tipo de dolor. Dormir boca abajo fuerza una rotación prolongada del cuello durante varias horas, lo que genera tensiones cervicales y dolores de cabeza. También aplana la curva natural de la zona lumbar, aumentando el riesgo de dolor lumbar, y comprime la caja torácica, dificultando la respiración.", "Si esta sigue siendo tu posición preferida y resulta difícil cambiarla, algunos ajustes limitan el daño: opta por una almohada muy fina (o ninguna) para la cabeza, y coloca un cojín bajo la pelvis para limitar el arqueo excesivo de la zona lumbar."]},
+          {h:"El caso particular de la ciática", p:["En caso de ciática, los fisioterapeutas especializados suelen recomendar dormir del lado opuesto al dolor: la pierna de arriba se coloca en ligera flexión, lo que pone el nervio ciático «en descarga». Para una ciática bilateral, dormir boca arriba con una almohada grande bajo cada rodilla (piernas flexionadas, giradas ligeramente hacia fuera) suele citarse como la posición más aliviadora."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Cuánto tiempo se tarda en acostumbrarse a una nueva posición?", "Siempre se necesita un tiempo de adaptación al cambiar de posición para dormir, generalmente de unos días a unas semanas. Un accesorio como un cojín largo o un cojín entre las rodillas puede ayudar a mantener la nueva posición más fácilmente."],
+            ["¿Importa realmente la elección de la almohada?", "Sí, tanto como la propia posición según los profesionales. El objetivo es mantener la cabeza alineada con el resto de la columna, ni demasiado alta ni demasiado baja — una almohada inadecuada puede anular los beneficios de una buena posición."],
+            ["¿Qué hacer si el dolor persiste pese a los buenos ajustes?", "Si el dolor persiste pese a posiciones adecuadas y una almohada apropiada, o si se acompaña de hormigueo en los brazos, mareos o pérdida de fuerza, se recomienda una consulta médica o con un fisioterapeuta."]
+          ]}
+        ],
+        verdict: "No existe una posición de sueño universal que convenga a todo el mundo — todo depende de tus dolores específicos, tus hábitos respiratorios y tu morfología. Pero hay un principio en el que los profesionales coinciden: dormir boca arriba o de lado (nunca boca abajo), combinado con una almohada realmente adecuada a tu cuerpo y posición, a menudo marca toda la diferencia entre despertarse dolorido y tener una noche verdaderamente reparadora."
+      }
+    }
   }
 ];
 
@@ -1548,18 +1770,23 @@ function buildBlogPost(el, post){
   var t = T[CL];
   var body = '<p class="art-intro">' + post.intro + '</p>';
   for(var i=0;i<post.sections.length;i++) body += renderArticleSection(post.sections[i]);
+  var isCommercial = post.commercial !== false;
+  var breadLabel = isCommercial ? post.productName : (post.shortLabel || post.title);
+  var ctaBlock = isCommercial
+    ? ('<div class="tc" style="margin-top:24px"><a href="' + post.productLink + '" target="_blank" rel="noopener sponsored" class="btn btn-gold">' + t.art_cta + ' ' + post.productName + '</a></div>' +
+       '<p class="art-disclaimer">' + t.art_disclaimer + '</p>')
+    : ('<div class="tc" style="margin-top:24px"><a href="' + post.softLinkHref + '" data-pg="produits" class="btn btn-outline">' + post.softLinkLabel + '</a></div>');
 
   el.innerHTML =
   '<div class="phero art-hero"><div class="phero-bg" style="background-image:url(img/' + post.img + ')"></div><div class="phero-ov"></div>' +
     '<div class="phero-cnt"><h1>' + post.title + '</h1></div>' +
   '</div>' +
-  '<div class="bread"><a href="#/' + CL + '/' + SLUGS[CL].accueil + '" data-pg="accueil">' + t.nav[0] + '</a> › <a href="#/' + CL + '/' + SLUGS[CL].blog + '" data-pg="blog">' + t.nav[3] + '</a> › <span>' + post.productName + '</span></div>' +
+  '<div class="bread"><a href="#/' + CL + '/' + SLUGS[CL].accueil + '" data-pg="accueil">' + t.nav[0] + '</a> › <a href="#/' + CL + '/' + SLUGS[CL].blog + '" data-pg="blog">' + t.nav[3] + '</a> › <span>' + breadLabel + '</span></div>' +
   '<section><div class="wrap article-content" style="max-width:760px">' +
     body +
     '<div class="verdict-box"><h3>' + t.art_verdict + '</h3><p>' + post.verdict + '</p></div>' +
     (post.linkedNote ? '<p class="art-linked-note">' + post.linkedNote + ' <strong>' + post.productName + '</strong> :</p>' : '') +
-    '<div class="tc" style="margin-top:24px"><a href="' + post.productLink + '" target="_blank" rel="noopener sponsored" class="btn btn-gold">' + t.art_cta + ' ' + post.productName + '</a></div>' +
-    '<p class="art-disclaimer">' + t.art_disclaimer + '</p>' +
+    ctaBlock +
     '<div class="tc" style="margin-top:20px"><a href="#/' + CL + '/' + SLUGS[CL].blog + '" data-pg="blog" class="btn btn-outline">' + t.art_back + '</a></div>' +
   '</div></section>';
 }
