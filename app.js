@@ -61,7 +61,7 @@ fr: {
   f_nom:"Nom", f_email:"Email", f_sujet:"Sujet", f_msg:"Message", f_send:"Envoyer le message",
   f_nom_ph:"Votre nom", f_email_ph:"votre@email.com", f_sujet_ph:"Objet de votre message", f_msg_ph:"Votre message…",
   f_success:"Merci pour votre message. L'équipe ECLATY7 vous répondra dans les meilleurs délais.",
-  f_error:"Oups, une erreur est survenue lors de l'envoi. Merci de réessayer, ou de nous écrire directement à eclaty@zohomail.com.",
+  f_error:"Oups, une erreur est survenue lors de l'envoi. Merci de réessayer, ou de nous écrire directement à numery777@gmail.com.",
   ct3_p:"L'équipe ECLATY7 s'efforce de répondre à chaque message dans les meilleurs délais. Pour toute demande liée à nos contenus, partenariats ou informations générales, n'hésitez pas à nous contacter.",
   ct4_p:"contact@eclaty7.com — Plateforme d'information et de recommandation en beauté et bien-être",
   ct5_p:"Vos données personnelles sont utilisées uniquement pour répondre à votre demande et ne sont jamais partagées.",
@@ -137,7 +137,7 @@ en: {
   f_nom:"Name", f_email:"Email", f_sujet:"Subject", f_msg:"Message", f_send:"Send message",
   f_nom_ph:"Your name", f_email_ph:"your@email.com", f_sujet_ph:"Subject of your message", f_msg_ph:"Your message…",
   f_success:"Thank you for your message. The ECLATY7 team will reply as soon as possible.",
-  f_error:"Oops, something went wrong while sending. Please try again, or email us directly at eclaty@zohomail.com.",
+  f_error:"Oops, something went wrong while sending. Please try again, or email us directly at numery777@gmail.com.",
   ct3_p:"The ECLATY7 team strives to reply to every message as quickly as possible. For any request related to our content, partnerships or general information, feel free to contact us.",
   ct4_p:"contact@eclaty7.com — Information and recommendation platform for beauty and wellness",
   ct5_p:"Your personal data is used solely to respond to your request and is never shared.",
@@ -211,7 +211,7 @@ es: {
   f_nom:"Nombre", f_email:"Email", f_sujet:"Asunto", f_msg:"Mensaje", f_send:"Enviar mensaje",
   f_nom_ph:"Tu nombre", f_email_ph:"tu@email.com", f_sujet_ph:"Asunto de tu mensaje", f_msg_ph:"Tu mensaje…",
   f_success:"Gracias por tu mensaje. El equipo de ECLATY7 te responderá lo antes posible.",
-  f_error:"Vaya, ha ocurrido un error al enviar. Inténtalo de nuevo, o escríbenos directamente a eclaty@zohomail.com.",
+  f_error:"Vaya, ha ocurrido un error al enviar. Inténtalo de nuevo, o escríbenos directamente a numery777@gmail.com.",
   ct3_p:"El equipo de ECLATY7 se esfuerza por responder a cada mensaje lo antes posible. Para cualquier consulta relacionada con nuestros contenidos, colaboraciones o información general, no dudes en contactarnos.",
   ct4_p:"contact@eclaty7.com — Plataforma de información y recomendación de belleza y bienestar",
   ct5_p:"Tus datos personales se utilizan únicamente para responder a tu solicitud y nunca se comparten.",
@@ -1863,7 +1863,7 @@ function buildContact(el){
     '<p style="text-align:center;margin-top:24px;font-size:14px;color:#555">' + t.ct3_p + '</p>' +
     '<p style="text-align:center;margin-top:10px;font-size:14px;color:#555">' + t.ct4_p + '</p>' +
     '<div class="contact-icons">' +
-      '<a href="mailto:eclaty@zohomail.com" class="c-icon c-icon-mail" title="Email" aria-label="Email"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"></rect><path d="M3.5 6.5l8.5 6.5 8.5-6.5"></path></svg></a>' +
+      '<a href="mailto:numery777@gmail.com" class="c-icon c-icon-mail" title="Email" aria-label="Email"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"></rect><path d="M3.5 6.5l8.5 6.5 8.5-6.5"></path></svg></a>' +
       '<a href="https://wa.me/237676852524" target="_blank" rel="noopener" class="c-icon c-icon-wa" title="WhatsApp" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M17.47 14.38c-.3-.15-1.77-.87-2.04-.97-.27-.1-.48-.15-.68.15-.2.3-.78.97-.96 1.17-.18.2-.35.22-.65.08-.3-.15-1.28-.47-2.43-1.5-.9-.8-1.5-1.8-1.68-2.1-.18-.3-.02-.46.13-.6.14-.14.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.24-.25-.6-.5-.5-.68-.51h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.02-1.05 2.5 0 1.47 1.08 2.9 1.23 3.1.15.2 2.12 3.24 5.14 4.54.72.31 1.28.5 1.72.63.72.23 1.38.2 1.9.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35z"/><path d="M12.02 2C6.5 2 2 6.48 2 12c0 1.9.53 3.68 1.44 5.2L2 22l4.94-1.4A9.94 9.94 0 0012.02 22C17.55 22 22 17.52 22 12S17.55 2 12.02 2zm0 18.1c-1.7 0-3.3-.47-4.66-1.28l-.33-.2-3.06.87.9-2.97-.22-.34A8.06 8.06 0 013.92 12c0-4.47 3.65-8.1 8.1-8.1 4.46 0 8.1 3.63 8.1 8.1 0 4.47-3.64 8.1-8.1 8.1z"/></svg></a>' +
       '<a href="https://www.pinterest.com/eclaty7/" target="_blank" rel="noopener" class="c-icon c-icon-pin" title="Pinterest" aria-label="Pinterest"><svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.24 2.64 7.86 6.36 9.31-.09-.79-.17-2.01.04-2.88.19-.79 1.22-5.03 1.22-5.03s-.31-.63-.31-1.55c0-1.45.84-2.54 1.89-2.54.89 0 1.32.67 1.32 1.47 0 .9-.57 2.24-.87 3.48-.25 1.04.52 1.89 1.54 1.89 1.85 0 3.11-2.38 3.11-5.19 0-2.14-1.44-3.74-4.06-3.74-2.96 0-4.8 2.21-4.8 4.68 0 .85.25 1.45.64 1.91.18.21.2.3.14.54-.05.18-.16.63-.21.81-.07.26-.28.35-.51.26-1.43-.58-2.1-2.14-2.1-3.9 0-2.9 2.44-6.37 7.29-6.37 3.9 0 6.46 2.82 6.46 5.85 0 4.01-2.22 7-5.53 7-1.11 0-2.15-.6-2.51-1.28 0 0-.6 2.37-.72 2.83-.22.8-.66 1.6-1.06 2.23.95.29 1.95.44 3 .44 5.52 0 10-4.48 10-10S17.52 2 12 2z"/></svg></a>' +
     '</div>' +
