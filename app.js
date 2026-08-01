@@ -1735,6 +1735,316 @@ var BLOG_POSTS = [
         verdict: "No existe una posición de sueño universal que convenga a todo el mundo — todo depende de tus dolores específicos, tus hábitos respiratorios y tu morfología. Pero hay un principio en el que los profesionales coinciden: dormir boca arriba o de lado (nunca boca abajo), combinado con una almohada realmente adecuada a tu cuerpo y posición, a menudo marca toda la diferencia entre despertarse dolorido y tener una noche verdaderamente reparadora."
       }
     }
+  },
+  {
+    slug: 'routine-peau-soir-ordre-produits',
+    catIndex: 0,
+    img: 'collagen_select.jpg',
+    commercial: false,
+    shortLabel: "Routine peau du soir",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions beauté naturelles",
+    title: "Routine Peau du Soir : L'Ordre des Produits Qui Change Tout",
+    excerpt: "Du plus liquide au plus épais : l'ordre d'application qui détermine vraiment l'efficacité de vos soins.",
+    meta: "Dans quel ordre appliquer ses soins du soir ? Le guide complet de la routine peau selon les dermatologues, étape par étape.",
+    intro: "Vous avez les bons produits, mais les résultats ne sont pas à la hauteur ? Le problème n'est peut-être pas la qualité de vos soins, mais l'ordre dans lequel vous les appliquez. Un sérum appliqué après une crème riche, par exemple, ne pénètre quasiment plus la peau. Voici l'ordre que recommandent les dermatologues, et pourquoi il compte autant.",
+    sections: [
+      {h:"La règle de base : du plus léger au plus épais", p:["Le principe fondamental d'une routine de soin efficace est de superposer les produits de la texture la plus fine à la plus riche. Un produit léger et fluide (comme une lotion ou un sérum aqueux) appliqué après une crème épaisse ne pourra pas traverser la barrière déjà formée par cette dernière, et perdra une grande partie de son efficacité. L'ordre inverse, en revanche, permet à chaque produit de pénétrer avant que le suivant ne vienne sceller la peau."]},
+      {h:"L'ordre complet, étape par étape", ul:[
+        "<strong>1. Démaquillant / nettoyant</strong> — pour retirer maquillage, pollution et excès de sébum accumulés dans la journée.",
+        "<strong>2. Tonique ou lotion</strong> (facultatif) — rééquilibre le pH de la peau après le nettoyage.",
+        "<strong>3. Sérums</strong> — les actifs concentrés (vitamine C, acide hyaluronique, niacinamide...) s'appliquent sur peau propre et légèrement humide pour une meilleure absorption.",
+        "<strong>4. Contour des yeux</strong> — une zone plus fine qui mérite un soin dédié, appliqué avant la crème pour ne pas être « bloqué » par cette dernière.",
+        "<strong>5. Crème hydratante ou de nuit</strong> — vient sceller l'ensemble et nourrir la peau en profondeur pendant la nuit.",
+        "<strong>6. Huile (si utilisée)</strong> — en toute dernière étape, car sa texture grasse forme un film qui empêcherait les produits suivants de pénétrer."],
+       p2:["Une exception notable : les huiles très fluides et non occlusives peuvent parfois être appliquées avant le sérum selon leur composition — dans le doute, gardez-les en dernière étape, c'est la règle la plus sûre."]},
+      {h:"Le cas particulier des actifs qui ne se mélangent pas", p:["Certains actifs perdent en efficacité, voire deviennent irritants, lorsqu'ils sont combinés directement. Le rétinol et la vitamine C, par exemple, sont généralement déconseillés en application simultanée : mieux vaut réserver l'un au soir et l'autre au matin, ou les alterner selon les jours. De même, les exfoliants acides (AHA/BHA) et le rétinol combinés dans une même routine peuvent fragiliser la barrière cutanée si la peau n'y est pas habituée — une introduction progressive est recommandée."]},
+      {h:"Combien de temps attendre entre chaque produit ?", p:["Contrairement à une idée reçue, il n'est généralement pas nécessaire d'attendre de longues minutes entre chaque étape. Un temps de pénétration de 30 secondes à 1 minute suffit dans la plupart des cas pour laisser un produit s'absorber avant d'appliquer le suivant — sauf indication contraire du fabricant pour un actif spécifique."]},
+      {h:"FAQ", faq:[
+        ["Faut-il vraiment suivre cet ordre à la lettre tous les soirs ?", "L'ordre général (léger vers épais) reste valable en toutes circonstances. En revanche, le nombre d'étapes peut varier selon les soirs — une routine simplifiée avec 2-3 produits bien choisis reste largement suffisante pour la plupart des peaux."],
+        ["Le contour des yeux avant ou après la crème ?", "Avant, en général — pour que l'actif spécifique de ce soin ne soit pas « bloqué » par la texture plus riche de la crème visage appliquée par-dessus."],
+        ["Peut-on mélanger plusieurs sérums le même soir ?", "Oui, en respectant l'ordre du plus liquide au plus épais parmi les sérums eux-mêmes, et en évitant les combinaisons d'actifs connues pour être incompatibles (rétinol + vitamine C notamment)."]
+      ]}
+    ],
+    verdict: "L'efficacité d'une routine de soin ne dépend pas que de la qualité des produits, mais aussi — et c'est souvent sous-estimé — de l'ordre dans lequel on les applique. Retenez la règle simple du plus liquide au plus épais, laissez un court temps de pénétration entre chaque étape, et vous verrez probablement une différence sans avoir changé un seul produit.",
+    translations: {
+      en: {
+        title: "Evening Skincare Routine: The Product Order That Changes Everything",
+        excerpt: "From thinnest to thickest: the application order that actually determines how well your skincare works.",
+        intro: "You have the right products, but the results aren't there? The problem might not be the quality of your skincare, but the order you apply it in. A serum applied after a rich cream, for instance, barely penetrates the skin at all. Here's the order dermatologists recommend, and why it matters so much.",
+        sections: [
+          {h:"The basic rule: light to thick", p:["The fundamental principle of an effective skincare routine is layering products from the thinnest texture to the richest. A light, fluid product (like a toner or a watery serum) applied after a thick cream won't be able to get through the barrier the cream has already formed, losing much of its effectiveness. The reverse order lets each product absorb before the next one seals the skin."]},
+          {h:"The full order, step by step", ul:[
+            "<strong>1. Makeup remover / cleanser</strong> — to remove makeup, pollution and excess sebum built up during the day.",
+            "<strong>2. Toner or lotion</strong> (optional) — rebalances the skin's pH after cleansing.",
+            "<strong>3. Serums</strong> — concentrated actives (vitamin C, hyaluronic acid, niacinamide...) go on clean, slightly damp skin for better absorption.",
+            "<strong>4. Eye contour</strong> — a thinner area that deserves dedicated care, applied before the face cream so it isn't « blocked » by it.",
+            "<strong>5. Moisturiser or night cream</strong> — seals everything in and nourishes the skin deeply overnight.",
+            "<strong>6. Oil (if used)</strong> — always the very last step, since its rich texture forms a film that would prevent the following products from penetrating."],
+           p2:["One notable exception: very light, non-occlusive oils can sometimes be applied before a serum depending on their formulation — when in doubt, keep oil as the last step, that's the safest rule."]},
+          {h:"The special case of actives that don't mix", p:["Some actives lose effectiveness, or even become irritating, when combined directly. Retinol and vitamin C, for example, are generally not recommended together: it's better to use one in the evening and the other in the morning, or alternate them by day. Likewise, combining acid exfoliants (AHAs/BHAs) with retinol in the same routine can weaken the skin barrier if the skin isn't used to it — a gradual introduction is recommended."]},
+          {h:"How long to wait between each product?", p:["Contrary to popular belief, you generally don't need to wait long minutes between each step. An absorption time of 30 seconds to a minute is usually enough to let one product settle before applying the next — unless a manufacturer specifically states otherwise for a particular active."]},
+          {h:"FAQ", faq:[
+            ["Do you really need to follow this order exactly every night?", "The general order (light to thick) remains valid at all times. The number of steps can vary from night to night, though — a simplified routine with 2-3 well-chosen products is largely enough for most skin types."],
+            ["Eye contour before or after the face cream?", "Before, generally — so that the specific active in that treatment isn't « blocked » by the richer texture of the face cream applied on top."],
+            ["Can you layer several serums the same evening?", "Yes, as long as you respect the thin-to-thick order among the serums themselves, and avoid known incompatible combinations (retinol + vitamin C in particular)."]
+          ]}
+        ],
+        verdict: "A skincare routine's effectiveness doesn't only depend on product quality, but also — and this is often underestimated — on the order in which you apply them. Remember the simple rule of thin to thick, allow a short absorption time between each step, and you'll likely notice a difference without changing a single product."
+      },
+      es: {
+        title: "Rutina de Piel Nocturna: El Orden de los Productos Que lo Cambia Todo",
+        excerpt: "De lo más líquido a lo más espeso: el orden de aplicación que realmente determina la eficacia de tus cuidados.",
+        intro: "¿Tienes los productos adecuados, pero los resultados no llegan? Puede que el problema no sea la calidad de tus cuidados, sino el orden en que los aplicas. Un sérum aplicado después de una crema rica, por ejemplo, apenas penetra en la piel. Este es el orden que recomiendan los dermatólogos, y por qué importa tanto.",
+        sections: [
+          {h:"La regla básica: de lo ligero a lo espeso", p:["El principio fundamental de una rutina de cuidado eficaz es superponer los productos de la textura más fina a la más rica. Un producto ligero y fluido (como una loción o un sérum acuoso) aplicado después de una crema espesa no podrá atravesar la barrera ya formada por esta, perdiendo gran parte de su eficacia. El orden inverso, en cambio, permite que cada producto penetre antes de que el siguiente selle la piel."]},
+          {h:"El orden completo, paso a paso", ul:[
+            "<strong>1. Desmaquillante / limpiador</strong> — para retirar maquillaje, contaminación y exceso de sebo acumulados durante el día.",
+            "<strong>2. Tónico o loción</strong> (opcional) — reequilibra el pH de la piel tras la limpieza.",
+            "<strong>3. Sérums</strong> — los activos concentrados (vitamina C, ácido hialurónico, niacinamida...) se aplican sobre piel limpia y ligeramente húmeda para una mejor absorción.",
+            "<strong>4. Contorno de ojos</strong> — una zona más fina que merece un cuidado dedicado, aplicado antes de la crema para no ser «bloqueado» por esta.",
+            "<strong>5. Crema hidratante o de noche</strong> — sella el conjunto y nutre la piel en profundidad durante la noche.",
+            "<strong>6. Aceite (si se usa)</strong> — siempre en el último paso, ya que su textura grasa forma una película que impediría la penetración de los productos siguientes."],
+           p2:["Una excepción notable: los aceites muy fluidos y no oclusivos a veces pueden aplicarse antes del sérum según su composición — en caso de duda, resérvalos para el último paso, es la regla más segura."]},
+          {h:"El caso particular de los activos que no se mezclan", p:["Algunos activos pierden eficacia, o incluso se vuelven irritantes, cuando se combinan directamente. El retinol y la vitamina C, por ejemplo, generalmente no se recomiendan juntos: es mejor reservar uno para la noche y el otro para la mañana, o alternarlos según los días. Del mismo modo, combinar exfoliantes ácidos (AHA/BHA) con retinol en una misma rutina puede debilitar la barrera cutánea si la piel no está acostumbrada — se recomienda una introducción progresiva."]},
+          {h:"¿Cuánto tiempo esperar entre cada producto?", p:["Contrariamente a una idea muy extendida, generalmente no es necesario esperar largos minutos entre cada paso. Un tiempo de absorción de 30 segundos a 1 minuto suele bastar para dejar que un producto se absorba antes de aplicar el siguiente — salvo indicación contraria del fabricante para un activo específico."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Hay que seguir este orden al pie de la letra todas las noches?", "El orden general (ligero a espeso) sigue siendo válido en toda circunstancia. El número de pasos puede variar según la noche — una rutina simplificada con 2-3 productos bien elegidos sigue siendo ampliamente suficiente para la mayoría de las pieles."],
+            ["¿El contorno de ojos antes o después de la crema?", "Antes, en general — para que el activo específico de ese cuidado no quede «bloqueado» por la textura más rica de la crema facial aplicada encima."],
+            ["¿Se pueden combinar varios sérums la misma noche?", "Sí, respetando el orden de lo más líquido a lo más espeso entre los propios sérums, y evitando combinaciones de activos conocidas por ser incompatibles (retinol + vitamina C en particular)."]
+          ]}
+        ],
+        verdict: "La eficacia de una rutina de cuidado no depende solo de la calidad de los productos, sino también —y esto suele subestimarse— del orden en que se aplican. Recuerda la regla sencilla de lo líquido a lo espeso, deja un breve tiempo de absorción entre cada paso, y probablemente notarás una diferencia sin haber cambiado un solo producto."
+      }
+    }
+  },
+  {
+    slug: 'perte-graisse-ciblee-mythe-verite',
+    catIndex: 1,
+    img: 'fat_burn_active.jpg',
+    commercial: false,
+    shortLabel: "Perte de graisse ciblée",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions minceur naturelles",
+    title: "Pourquoi On Ne Peut Pas Cibler la Perte de Graisse Sur une Zone Précise",
+    excerpt: "Abdos, cuisses, bras : ce que dit vraiment la science sur le mythe de la perte de graisse localisée.",
+    meta: "Peut-on vraiment perdre du gras uniquement au ventre en faisant des abdos ? La réponse scientifique complète sur le mythe de la perte localisée.",
+    intro: "« Fais 100 abdos par jour et ton ventre va fondre. » C'est probablement l'un des mythes les plus tenaces du monde du fitness — et pourtant, la science est sans appel depuis des décennies. Voici pourquoi cibler une zone précise pour perdre de la graisse ne fonctionne pas, et ce qui fonctionne vraiment.",
+    sections: [
+      {h:"Ce que dit la science, sans détour", p:["De nombreuses études ont testé cette idée directement. Dans l'une d'elles, publiée dans le Journal of Strength and Conditioning Research, des participants ont réalisé des exercices abdominaux intensifs et réguliers pendant plusieurs semaines : aucune réduction spécifique de la graisse abdominale n'a été observée, alors même que la force musculaire de la zone augmentait nettement. Une étude danoise portant sur un entraînement d'une seule jambe a montré des résultats similaires : pas de perte de graisse localisée dans la jambe entraînée par rapport à l'autre."]},
+      {h:"Pourquoi le corps ne fonctionne pas comme ça", p:["La graisse corporelle est stockée sous forme de triglycérides dans des cellules adipeuses réparties dans tout le corps. Lorsque l'organisme a besoin d'énergie, ces triglycérides sont libérés dans la circulation sanguine sous forme d'acides gras, puis utilisés comme carburant — mais ce processus est déclenché par des signaux hormonaux systémiques, pas par l'activité musculaire locale. Autrement dit, faire travailler un muscle précis ne « pioche » pas dans la graisse juste au-dessus de lui : le corps puise dans ses réserves de façon globale, selon des mécanismes génétiques et hormonaux qui échappent largement à notre volonté."]},
+      {h:"Alors pourquoi certaines zones fondent avant d'autres ?", p:["C'est là que se niche la confusion. Il existe bien une différence entre individus dans l'ordre où les zones s'affinent — mais cet ordre est déterminé par la génétique, les hormones (les œstrogènes favorisent par exemple un stockage préférentiel au niveau des hanches chez la femme) et le métabolisme individuel, pas par le choix des exercices pratiqués. Deux personnes suivant le même programme peuvent voir fondre des zones différentes en premier, sans lien avec les exercices ciblés qu'elles ont réalisés."]},
+      {h:"Ce qui fonctionne vraiment", ul:[
+        "<strong>Le déficit calorique</strong> — consommer un peu moins de calories que ce que le corps dépense reste le levier n°1 de la perte de graisse, quelle que soit la zone visée.",
+        "<strong>L'entraînement en résistance global</strong> — renforcer l'ensemble du corps (pas seulement une zone) aide à préserver la masse musculaire pendant la perte de poids, ce qui améliore l'apparence générale.",
+        "<strong>La régularité sur la durée</strong> — la perte de graisse est un processus global et progressif ; aucun exercice, aussi ciblé soit-il, n'accélère la fonte d'une zone précise.",
+        "<strong>Le sommeil et la gestion du stress</strong> — des facteurs hormonaux (cortisol notamment) qui influencent indirectement la répartition et la mobilisation des graisses."]},
+      {h:"FAQ", faq:[
+        ["Faire des abdos ne sert donc à rien ?", "Si, mais pas pour « bruler la graisse du ventre » spécifiquement : les exercices abdominaux renforcent et tonifient le muscle en dessous de la graisse, ce qui améliore l'apparence une fois que la graisse globale a diminué par ailleurs."],
+        ["Pourquoi mon ventre est-il la dernière zone à s'affiner ?", "C'est généralement une question de génétique et d'hormones, pas de manque d'exercices ciblés. Le corps a tendance à perdre du gras dans un certain ordre propre à chaque individu, et cet ordre ne change pas avec le choix des exercices."],
+        ["Existe-t-il une exception à cette règle ?", "Non, la littérature scientifique est remarquablement cohérente sur ce point depuis plusieurs décennies : aucune méthode d'exercice ciblé n'a démontré de perte de graisse localisée significative."]
+      ]}
+    ],
+    verdict: "La perte de graisse localisée est l'un des mythes les mieux documentés — et les plus démentis — de la science de l'exercice. Le corps puise dans ses réserves de façon globale, selon un ordre déterminé par la génétique et les hormones, pas par le choix des exercices. La bonne nouvelle : un déficit calorique cohérent, un entraînement global et de la patience restent la combinaison la plus fiable pour affiner silhouette dans son ensemble.",
+    translations: {
+      en: {
+        title: "Why You Can't Spot-Reduce Fat From a Specific Body Part",
+        excerpt: "Abs, thighs, arms: what science really says about the spot-reduction myth.",
+        intro: "« Do 100 sit-ups a day and your belly fat will melt away. » It's probably one of the most stubborn myths in fitness — and yet science has been clear on this for decades. Here's why targeting a specific area to lose fat doesn't work, and what actually does.",
+        sections: [
+          {h:"What the science says, plainly", p:["Numerous studies have tested this idea directly. In one, published in the Journal of Strength and Conditioning Research, participants performed intensive, regular abdominal exercises for several weeks: no specific reduction in abdominal fat was observed, even though muscle strength in that area increased noticeably. A Danish study on single-leg training showed similar results: no localised fat loss in the trained leg compared to the untrained one."]},
+          {h:"Why the body doesn't work that way", p:["Body fat is stored as triglycerides in fat cells distributed throughout the body. When the body needs energy, these triglycerides are released into the bloodstream as fatty acids and used as fuel — but this process is triggered by systemic hormonal signals, not by local muscle activity. In other words, working a specific muscle doesn't « draw » from the fat right above it: the body pulls from its reserves globally, following genetic and hormonal mechanisms largely beyond our control."]},
+          {h:"So why do some areas slim down before others?", p:["This is where the confusion lies. There is indeed a difference between individuals in the order in which areas slim down — but that order is determined by genetics, hormones (oestrogen, for instance, favours fat storage around the hips in women) and individual metabolism, not by the choice of exercises performed. Two people following the same programme may see different areas slim down first, unrelated to the targeted exercises they did."]},
+          {h:"What actually works", ul:[
+            "<strong>Calorie deficit</strong> — consuming slightly fewer calories than the body burns remains the number one lever for fat loss, whatever area you're targeting.",
+            "<strong>Overall resistance training</strong> — strengthening the whole body (not just one area) helps preserve muscle mass during weight loss, which improves overall appearance.",
+            "<strong>Consistency over time</strong> — fat loss is a global, gradual process; no exercise, however targeted, speeds up fat loss in one specific area.",
+            "<strong>Sleep and stress management</strong> — hormonal factors (cortisol notably) that indirectly influence how and where fat is stored and mobilised."]},
+          {h:"FAQ", faq:[
+            ["So doing sit-ups is pointless?", "No, but not for « burning belly fat » specifically: abdominal exercises strengthen and tone the muscle underneath the fat, which improves appearance once overall body fat has decreased through other means."],
+            ["Why is my stomach the last area to slim down?", "This is generally a matter of genetics and hormones, not a lack of targeted exercise. The body tends to lose fat in an order specific to each individual, and that order doesn't change based on which exercises you choose."],
+            ["Is there any exception to this rule?", "No, the scientific literature has been remarkably consistent on this point for decades: no targeted exercise method has demonstrated significant localised fat loss."]
+          ]}
+        ],
+        verdict: "Spot-reduction is one of the best-documented — and most thoroughly debunked — myths in exercise science. The body draws from its fat reserves globally, in an order determined by genetics and hormones, not by which exercises you choose. The good news: a consistent calorie deficit, overall training and patience remain the most reliable combination for slimming down the body as a whole."
+      },
+      es: {
+        title: "Por Qué No Se Puede Reducir la Grasa de Forma Localizada",
+        excerpt: "Abdomen, muslos, brazos: lo que dice realmente la ciencia sobre el mito de la reducción localizada.",
+        intro: "«Haz 100 abdominales al día y la grasa del vientre desaparecerá.» Es probablemente uno de los mitos más persistentes del mundo del fitness — y sin embargo, la ciencia lo tiene claro desde hace décadas. Esto es por qué apuntar a una zona específica para perder grasa no funciona, y qué es lo que sí funciona.",
+        sections: [
+          {h:"Lo que dice la ciencia, sin rodeos", p:["Numerosos estudios han puesto a prueba esta idea directamente. En uno de ellos, publicado en el Journal of Strength and Conditioning Research, los participantes realizaron ejercicios abdominales intensivos y regulares durante varias semanas: no se observó ninguna reducción específica de la grasa abdominal, aunque la fuerza muscular de la zona aumentó notablemente. Un estudio danés sobre entrenamiento de una sola pierna mostró resultados similares: sin pérdida de grasa localizada en la pierna entrenada respecto a la otra."]},
+          {h:"Por qué el cuerpo no funciona así", p:["La grasa corporal se almacena en forma de triglicéridos en células adiposas repartidas por todo el cuerpo. Cuando el organismo necesita energía, estos triglicéridos se liberan al torrente sanguíneo como ácidos grasos y se usan como combustible — pero este proceso lo activan señales hormonales sistémicas, no la actividad muscular local. Es decir, trabajar un músculo concreto no «extrae» la grasa justo encima de él: el cuerpo recurre a sus reservas de forma global, según mecanismos genéticos y hormonales que escapan en gran medida a nuestra voluntad."]},
+          {h:"¿Entonces por qué unas zonas adelgazan antes que otras?", p:["Ahí está la confusión. Sí existe una diferencia entre individuos en el orden en que las zonas adelgazan — pero ese orden lo determinan la genética, las hormonas (los estrógenos, por ejemplo, favorecen un almacenamiento preferente en las caderas en la mujer) y el metabolismo individual, no la elección de ejercicios practicados. Dos personas que siguen el mismo programa pueden ver adelgazar zonas diferentes primero, sin relación con los ejercicios específicos que realizaron."]},
+          {h:"Lo que sí funciona", ul:[
+            "<strong>El déficit calórico</strong> — consumir algo menos de calorías de las que el cuerpo gasta sigue siendo la palanca número uno para la pérdida de grasa, sea cual sea la zona objetivo.",
+            "<strong>El entrenamiento de fuerza global</strong> — fortalecer todo el cuerpo (no solo una zona) ayuda a preservar la masa muscular durante la pérdida de peso, lo que mejora el aspecto general.",
+            "<strong>La constancia en el tiempo</strong> — la pérdida de grasa es un proceso global y progresivo; ningún ejercicio, por muy específico que sea, acelera la pérdida de grasa en una zona concreta.",
+            "<strong>El sueño y la gestión del estrés</strong> — factores hormonales (el cortisol en particular) que influyen indirectamente en cómo y dónde se almacena y moviliza la grasa."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Entonces hacer abdominales no sirve de nada?", "Sí sirve, pero no para «quemar la grasa del vientre» específicamente: los ejercicios abdominales fortalecen y tonifican el músculo debajo de la grasa, lo que mejora el aspecto una vez que la grasa global ha disminuido por otros medios."],
+            ["¿Por qué mi vientre es la última zona en adelgazar?", "Generalmente es una cuestión de genética y hormonas, no de falta de ejercicios específicos. El cuerpo tiende a perder grasa en un orden propio de cada individuo, y ese orden no cambia según los ejercicios elegidos."],
+            ["¿Existe alguna excepción a esta regla?", "No, la literatura científica ha sido notablemente coherente en este punto durante décadas: ningún método de ejercicio localizado ha demostrado una pérdida de grasa localizada significativa."]
+          ]}
+        ],
+        verdict: "La reducción localizada de grasa es uno de los mitos mejor documentados —y más desmentidos— de la ciencia del ejercicio. El cuerpo recurre a sus reservas de grasa de forma global, en un orden determinado por la genética y las hormonas, no por los ejercicios elegidos. La buena noticia: un déficit calórico constante, un entrenamiento global y paciencia siguen siendo la combinación más fiable para afinar la silueta en su conjunto."
+      }
+    }
+  },
+  {
+    slug: 'fatigue-chronique-causes-frequentes',
+    catIndex: 2,
+    img: 'restilen_stress.jpg',
+    commercial: false,
+    shortLabel: "Fatigue chronique",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions vitalité naturelles",
+    title: "Fatigue Chronique : Les Causes les Plus Fréquentes Selon la Médecine",
+    excerpt: "Carences, troubles du sommeil, stress, thyroïde : ce que révèlent les bilans médicaux face à une fatigue qui s'installe.",
+    meta: "Quelles sont les causes les plus fréquentes de la fatigue chronique ? Le point complet selon les données médicales, et quand consulter.",
+    intro: "Une fatigue qui ne passe pas malgré le repos, qui s'installe semaine après semaine et grignote l'énergie du quotidien : c'est l'un des motifs de consultation les plus fréquents en médecine générale, représentant entre 10 et 25% des consultations. Voici ce que les données médicales identifient comme causes les plus courantes, et surtout, à partir de quand il faut consulter.",
+    sections: [
+      {h:"Fatigue passagère ou fatigue chronique : la différence", p:["La fatigue passagère est liée à un moment précis — un pic de stress, une charge de travail intense, un manque temporaire de sommeil — et disparaît généralement avec du repos. La fatigue chronique, elle, s'installe progressivement, résiste au repos et dure au-delà de 4 à 6 semaines selon les définitions médicales. C'est cette persistance, plus que l'intensité ponctuelle, qui doit alerter."]},
+      {h:"Les causes les plus fréquemment identifiées", ul:[
+        "<strong>Carences nutritionnelles</strong> — fer, vitamine B12 et vitamine D sont les carences les plus couramment retrouvées lors des bilans sanguins pour fatigue inexpliquée.",
+        "<strong>Troubles du sommeil</strong> — apnée du sommeil, insomnie chronique ou syndrome des jambes sans repos, souvent sous-diagnostiqués.",
+        "<strong>Troubles endocriniens</strong> — l'hypothyroïdie et le diabète figurent parmi les causes les plus recherchées en première intention par les médecins.",
+        "<strong>Dépression et troubles anxieux</strong> — la fatigue psychique est l'une des causes les plus fréquentes de fatigue persistante, parfois sans autre symptôme évident au premier abord.",
+        "<strong>Certains médicaments</strong> — bêtabloquants, antihistaminiques et anxiolytiques peuvent provoquer une fatigue secondaire comme effet indésirable.",
+        "<strong>Le stress chronique et le surmenage</strong> — un épuisement progressif lié à une charge mentale ou professionnelle prolongée, souvent précurseur du burn-out."],
+       p2:["Dans la majorité des cas, la fatigue chronique est multifactorielle : plusieurs de ces causes se combinent plutôt qu'une seule ne l'explique isolément."]},
+      {h:"Le syndrome de fatigue chronique : une entité à part", p:["Il est important de distinguer la fatigue chronique « symptôme » (liée aux causes ci-dessus) du syndrome de fatigue chronique (SFC), aussi appelé encéphalomyélite myalgique, reconnu comme une maladie à part entière par la Haute Autorité de Santé. Ce syndrome se caractérise par un épuisement invalidant, disproportionné par rapport à l'effort fourni, qui ne s'améliore pas avec le repos et s'accompagne souvent d'autres symptômes spécifiques. Son diagnostic nécessite un avis médical spécialisé."]},
+      {h:"Quand consulter", p:["Une fatigue durant plus de 4 semaines sans cause évidente justifie une consultation médicale. Certains signes doivent alerter davantage encore : fatigue dès le réveil malgré une nuit complète, douleurs musculaires ou articulaires sans effort particulier, troubles de la concentration ou de la mémoire, perte de poids inexpliquée, ou état dépressif associé. Le médecin prescrit généralement un bilan sanguin de première intention (hémogramme, bilan thyroïdien, ferritine) pour orienter le diagnostic."]},
+      {h:"FAQ", faq:[
+        ["Un simple manque de sommeil peut-il causer une fatigue chronique ?", "Oui : selon les données de santé publique, plus d'un tiers des adultes dorment moins de six heures par nuit, un déficit directement associé à la fatigue diurne persistante lorsqu'il se prolonge dans le temps."],
+        ["Faut-il prendre des compléments alimentaires contre la fatigue ?", "Uniquement en cas de carence identifiée par un bilan sanguin, et sur des périodes courtes — demandez toujours l'avis d'un médecin avant d'en prendre, l'automédication pouvant masquer une cause sous-jacente qui nécessiterait un vrai suivi."],
+        ["La fatigue chronique est-elle toujours liée à une maladie ?", "Non, elle peut aussi être purement liée au mode de vie (sommeil insuffisant, stress, sédentarité). Mais seul un bilan médical permet de l'affirmer avec certitude et d'écarter une cause physique à traiter."]
+      ]}
+    ],
+    verdict: "La fatigue chronique n'a presque jamais une cause unique et évidente — c'est souvent la combinaison de plusieurs facteurs (sommeil, carences, stress, parfois un trouble hormonal) qui l'explique. La bonne nouvelle : la plupart de ces causes sont identifiables par un bilan médical simple et traitables une fois repérées. Si votre fatigue dépasse quelques semaines, un avis médical reste la première étape, avant tout ajustement de mode de vie.",
+    translations: {
+      en: {
+        title: "Chronic Fatigue: The Most Common Causes According to Medicine",
+        excerpt: "Deficiencies, sleep disorders, stress, thyroid issues: what medical check-ups reveal about persistent fatigue.",
+        intro: "Fatigue that doesn't go away despite rest, that builds up week after week and eats into everyday energy: it's one of the most common reasons for a GP visit, accounting for 10 to 25% of consultations. Here's what medical data identifies as the most common causes, and more importantly, when it's time to see a doctor.",
+        sections: [
+          {h:"Temporary fatigue vs chronic fatigue: the difference", p:["Temporary fatigue is tied to a specific moment — a stress spike, an intense workload, a temporary lack of sleep — and usually goes away with rest. Chronic fatigue, on the other hand, builds up gradually, resists rest, and lasts beyond 4 to 6 weeks depending on the medical definition used. It's this persistence, more than how intense it feels at any given moment, that should raise a flag."]},
+          {h:"The most commonly identified causes", ul:[
+            "<strong>Nutritional deficiencies</strong> — iron, vitamin B12 and vitamin D are the deficiencies most commonly found in blood tests for unexplained fatigue.",
+            "<strong>Sleep disorders</strong> — sleep apnoea, chronic insomnia or restless legs syndrome, often underdiagnosed.",
+            "<strong>Endocrine disorders</strong> — hypothyroidism and diabetes are among the first causes doctors screen for.",
+            "<strong>Depression and anxiety disorders</strong> — psychological fatigue is one of the most frequent causes of persistent tiredness, sometimes without any other obvious symptom at first.",
+            "<strong>Certain medications</strong> — beta-blockers, antihistamines and anti-anxiety medication can cause fatigue as a side effect.",
+            "<strong>Chronic stress and overwork</strong> — a gradual exhaustion linked to prolonged mental or professional workload, often a precursor to burnout."],
+           p2:["In most cases, chronic fatigue is multifactorial: several of these causes combine rather than a single one explaining it on its own."]},
+          {h:"Chronic fatigue syndrome: a distinct condition", p:["It's important to distinguish chronic fatigue as a « symptom » (linked to the causes above) from Chronic Fatigue Syndrome (CFS), also known as myalgic encephalomyelitis, recognised as a distinct illness by health authorities. This syndrome involves disabling exhaustion, disproportionate to the effort made, that doesn't improve with rest and is often accompanied by other specific symptoms. Diagnosing it requires specialised medical evaluation."]},
+          {h:"When to see a doctor", p:["Fatigue lasting more than 4 weeks with no obvious cause warrants a medical consultation. Certain signs should raise even more concern: waking up tired despite a full night's sleep, muscle or joint pain without particular exertion, concentration or memory problems, unexplained weight loss, or an associated low mood. A doctor will usually order an initial blood panel (complete blood count, thyroid panel, ferritin) to guide the diagnosis."]},
+          {h:"FAQ", faq:[
+            ["Can simple lack of sleep cause chronic fatigue?", "Yes: according to public health data, over a third of adults sleep less than six hours a night, a deficit directly linked to persistent daytime fatigue when it continues over time."],
+            ["Should you take supplements for fatigue?", "Only if a deficiency has been identified through blood tests, and for short periods — always ask a doctor before taking any, as self-medicating can mask an underlying cause that needs real follow-up."],
+            ["Is chronic fatigue always linked to an illness?", "No, it can also be purely lifestyle-related (insufficient sleep, stress, sedentary habits). But only a medical check-up can confirm this with certainty and rule out a physical cause that needs treatment."]
+          ]}
+        ],
+        verdict: "Chronic fatigue almost never has one single, obvious cause — it's often a combination of several factors (sleep, deficiencies, stress, sometimes a hormonal issue) that explains it. The good news: most of these causes can be identified through a simple medical check-up and treated once found. If your fatigue goes on for more than a few weeks, a medical opinion remains the first step, before any lifestyle adjustment."
+      },
+      es: {
+        title: "Fatiga Crónica: Las Causas Más Frecuentes Según la Medicina",
+        excerpt: "Carencias, trastornos del sueño, estrés, tiroides: lo que revelan los análisis médicos ante una fatiga que se instala.",
+        intro: "Una fatiga que no desaparece pese al descanso, que se instala semana tras semana y consume la energía diaria: es uno de los motivos de consulta más frecuentes en medicina general, representando entre el 10 y el 25% de las consultas. Esto es lo que los datos médicos identifican como causas más comunes, y sobre todo, cuándo hay que consultar.",
+        sections: [
+          {h:"Fatiga pasajera o fatiga crónica: la diferencia", p:["La fatiga pasajera está ligada a un momento concreto — un pico de estrés, una carga de trabajo intensa, una falta temporal de sueño — y suele desaparecer con el descanso. La fatiga crónica, en cambio, se instala progresivamente, resiste al descanso y dura más de 4 a 6 semanas según las definiciones médicas. Es esta persistencia, más que la intensidad puntual, lo que debe alertar."]},
+          {h:"Las causas más frecuentemente identificadas", ul:[
+            "<strong>Carencias nutricionales</strong> — hierro, vitamina B12 y vitamina D son las carencias más comúnmente encontradas en los análisis de sangre por fatiga inexplicada.",
+            "<strong>Trastornos del sueño</strong> — apnea del sueño, insomnio crónico o síndrome de piernas inquietas, a menudo infradiagnosticados.",
+            "<strong>Trastornos endocrinos</strong> — el hipotiroidismo y la diabetes figuran entre las causas más buscadas en primera instancia por los médicos.",
+            "<strong>Depresión y trastornos de ansiedad</strong> — la fatiga psíquica es una de las causas más frecuentes de fatiga persistente, a veces sin otro síntoma evidente en un primer momento.",
+            "<strong>Ciertos medicamentos</strong> — betabloqueantes, antihistamínicos y ansiolíticos pueden provocar fatiga como efecto secundario.",
+            "<strong>El estrés crónico y el exceso de trabajo</strong> — un agotamiento progresivo ligado a una carga mental o profesional prolongada, a menudo precursor del burnout."],
+           p2:["En la mayoría de los casos, la fatiga crónica es multifactorial: varias de estas causas se combinan en lugar de que una sola la explique de forma aislada."]},
+          {h:"El síndrome de fatiga crónica: una entidad aparte", p:["Es importante distinguir la fatiga crónica «síntoma» (ligada a las causas anteriores) del síndrome de fatiga crónica (SFC), también llamado encefalomielitis miálgica, reconocido como una enfermedad propia por las autoridades sanitarias. Este síndrome se caracteriza por un agotamiento invalidante, desproporcionado respecto al esfuerzo realizado, que no mejora con el descanso y suele acompañarse de otros síntomas específicos. Su diagnóstico requiere una evaluación médica especializada."]},
+          {h:"Cuándo consultar", p:["Una fatiga que dura más de 4 semanas sin causa evidente justifica una consulta médica. Algunas señales deben alertar aún más: fatiga nada más despertar pese a una noche completa, dolores musculares o articulares sin esfuerzo particular, dificultades de concentración o memoria, pérdida de peso inexplicada, o un estado de ánimo bajo asociado. El médico suele solicitar un análisis de sangre inicial (hemograma, perfil tiroideo, ferritina) para orientar el diagnóstico."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Puede la simple falta de sueño causar fatiga crónica?", "Sí: según datos de salud pública, más de un tercio de los adultos duerme menos de seis horas por noche, un déficit directamente asociado a la fatiga diurna persistente cuando se prolonga en el tiempo."],
+            ["¿Hay que tomar suplementos contra la fatiga?", "Solo en caso de carencia identificada mediante un análisis de sangre, y durante periodos cortos — consulta siempre a un médico antes de tomarlos, ya que la automedicación puede enmascarar una causa subyacente que necesite un seguimiento real."],
+            ["¿La fatiga crónica siempre está ligada a una enfermedad?", "No, también puede estar puramente relacionada con el estilo de vida (sueño insuficiente, estrés, sedentarismo). Pero solo un chequeo médico permite afirmarlo con certeza y descartar una causa física que deba tratarse."]
+          ]}
+        ],
+        verdict: "La fatiga crónica casi nunca tiene una única causa evidente — suele ser la combinación de varios factores (sueño, carencias, estrés, a veces un trastorno hormonal) lo que la explica. La buena noticia: la mayoría de estas causas son identificables mediante un chequeo médico sencillo y tratables una vez localizadas. Si tu fatiga supera unas semanas, la opinión médica sigue siendo el primer paso, antes de cualquier ajuste de estilo de vida."
+      }
+    }
+  },
+  {
+    slug: 'ecrans-sommeil-recommandations-specialistes',
+    catIndex: 3,
+    img: 'sommeil_banner.jpg',
+    commercial: false,
+    shortLabel: "Écrans et sommeil",
+    softLinkHref: '#/fr/produits',
+    softLinkLabel: "Découvrir nos solutions vitalité naturelles",
+    title: "Écrans et Sommeil : Ce Que Recommandent Vraiment les Spécialistes",
+    excerpt: "Lumière bleue, stimulation mentale, insomnie : le point complet sur l'impact réel des écrans sur vos nuits.",
+    meta: "Les écrans nuisent-ils vraiment au sommeil ? Ce que disent les études récentes sur la lumière bleue et les recommandations des spécialistes.",
+    intro: "Scroller une dernière fois avant de dormir, regarder un épisode au lit, vérifier ses messages une dernière fois : ces gestes sont devenus automatiques pour la plupart d'entre nous. Mais que se passe-t-il vraiment sur le sommeil quand on fait ça ? Les études les plus récentes nuancent certaines idées reçues, tout en confirmant un impact bien réel.",
+    sections: [
+      {h:"Ce que révèlent les études récentes", p:["Une étude publiée dans la revue Frontiers in Psychiatry, portant sur plus de 45 000 étudiants norvégiens, a montré que passer une heure devant un écran avant de dormir augmente de 59% le risque d'insomnie et réduit la durée du sommeil de 24 minutes en moyenne — et ce, quelle que soit l'activité pratiquée sur l'écran (série, réseaux sociaux, podcast). Un résultat qui contredit une idée reçue : ce n'est pas seulement le contenu « stimulant » qui pose problème, mais la présence même de l'écran avant le coucher."]},
+      {h:"La lumière bleue : coupable, mais pas seule", p:["Longtemps présentée comme l'unique responsable, la lumière bleue des écrans est bien reconnue pour inhiber la production de mélatonine, l'hormone qui déclenche l'endormissement. Mais les études récentes nuancent fortement son rôle exclusif : les spécialistes pointent aujourd'hui davantage la stimulation mentale et cognitive engendrée par le contenu consommé. Autrement dit, des lunettes anti-lumière bleue ou un mode « nuit » activé sur le téléphone réduisent un facteur, mais ne suppriment pas l'éveil mental provoqué par le scroll ou le visionnage."]},
+      {h:"Combien de temps avant le coucher faut-il arrêter les écrans ?", p:["Les recommandations varient selon les sources, mais convergent globalement : un minimum de 30 à 60 minutes sans écran avant le coucher est le seuil le plus souvent cité, avec une recommandation idéale allant jusqu'à 2 heures selon certains spécialistes du sommeil. Certaines institutions hospitalières, comme les Hôpitaux Universitaires de Genève, recommandent même de suspendre tout usage d'écran dès 21h pour privilégier des activités calmes en soirée."]},
+      {h:"Pourquoi le cerveau reste-t-il éveillé ?", ul:[
+        "<strong>Stimulation cognitive</strong> — regarder du contenu, répondre à des messages ou naviguer sollicite activement l'attention et retarde la sensation de somnolence.",
+        "<strong>Charge émotionnelle</strong> — contenu anxiogène, débats, notifications inattendues : autant de stimuli qui maintiennent le cerveau en état d'alerte.",
+        "<strong>Décalage de l'horloge biologique</strong> — l'exposition lumineuse, même modérée, peut retarder la libération de mélatonine et donc décaler l'heure d'endormissement naturel.",
+        "<strong>Report du signal de fatigue</strong> — rester éveillé et stimulé empêche de percevoir les signaux naturels de somnolence qui indiquent qu'il est temps de se coucher."]},
+      {h:"FAQ", faq:[
+        ["Les lunettes anti-lumière bleue suffisent-elles à protéger le sommeil ?", "Non, pas à elles seules : elles réduisent l'impact de la lumière bleue sur la mélatonine, mais n'annulent pas la stimulation mentale liée au contenu regardé ni le report du coucher que les écrans favorisent souvent."],
+        ["Le mode nuit ou la réduction de luminosité changent-ils vraiment la donne ?", "Ils aident modestement, mais les spécialistes rappellent que le facteur temps passé et le type de contenu consommé pèsent au moins autant, sinon plus, que l'intensité lumineuse elle-même."],
+        ["Faut-il totalement bannir les écrans de la chambre ?", "C'est la recommandation la plus stricte de plusieurs institutions du sommeil, en particulier pour ne pas associer inconsciemment le lit à une activité d'éveil plutôt qu'au repos. À défaut, réduire drastiquement l'usage dans la dernière heure avant le coucher reste le compromis le plus réaliste."]
+      ]}
+    ],
+    verdict: "Les écrans avant le coucher ne sont pas un mythe : plusieurs études récentes et à grande échelle confirment un impact réel sur la durée et la qualité du sommeil. La lumière bleue joue un rôle, mais la stimulation mentale du contenu consommé compte tout autant, sinon plus. Réduire l'usage des écrans dans l'heure précédant le coucher — au minimum — reste le geste le plus simple et le mieux documenté pour protéger ses nuits.",
+    translations: {
+      en: {
+        title: "Screens and Sleep: What Specialists Really Recommend",
+        excerpt: "Blue light, mental stimulation, insomnia: the full picture on how screens really affect your nights.",
+        intro: "One last scroll before sleep, an episode watched in bed, a final check of messages: these gestures have become automatic for most of us. But what does it actually do to sleep? The most recent studies nuance some common beliefs, while confirming a very real impact.",
+        sections: [
+          {h:"What recent studies reveal", p:["A study published in Frontiers in Psychiatry, covering over 45,000 Norwegian students, found that spending an hour on a screen before sleep increases the risk of insomnia by 59% and reduces sleep duration by 24 minutes on average — regardless of what was being done on the screen (a show, social media, a podcast). A result that contradicts a common belief: it's not just « stimulating » content that's the problem, but the presence of the screen itself before bedtime."]},
+          {h:"Blue light: guilty, but not alone", p:["Long presented as the sole culprit, blue light from screens is indeed recognised for inhibiting melatonin production, the hormone that triggers sleep onset. But recent studies strongly qualify its exclusive role: specialists now point more to the mental and cognitive stimulation caused by the content being consumed. In other words, blue-light-blocking glasses or a phone's « night mode » reduce one factor, but don't eliminate the mental alertness caused by scrolling or watching."]},
+          {h:"How long before bed should you stop using screens?", p:["Recommendations vary by source but broadly converge: a minimum of 30 to 60 minutes screen-free before bed is the threshold most often cited, with an ideal recommendation of up to 2 hours according to some sleep specialists. Some hospital institutions, such as Geneva's University Hospitals, even recommend suspending all screen use from 9pm onward in favour of calm evening activities."]},
+          {h:"Why does the brain stay awake?", ul:[
+            "<strong>Cognitive stimulation</strong> — watching content, replying to messages or browsing actively engages attention and delays the feeling of drowsiness.",
+            "<strong>Emotional load</strong> — anxiety-inducing content, debates, unexpected notifications: all stimuli that keep the brain on alert.",
+            "<strong>Body clock shift</strong> — light exposure, even moderate, can delay melatonin release and therefore shift the natural time of sleep onset.",
+            "<strong>Delayed fatigue signal</strong> — staying awake and stimulated prevents you from noticing the natural drowsiness signals that indicate it's time for bed."]},
+          {h:"FAQ", faq:[
+            ["Are blue-light glasses enough to protect sleep?", "No, not on their own: they reduce blue light's impact on melatonin, but don't cancel out the mental stimulation from the content watched, nor the delayed bedtime that screens often encourage."],
+            ["Does night mode or reduced brightness really change things?", "They help modestly, but specialists note that time spent and the type of content consumed weigh at least as much, if not more, than light intensity itself."],
+            ["Should screens be completely banned from the bedroom?", "That's the strictest recommendation from several sleep institutions, particularly to avoid unconsciously associating the bed with an alert activity rather than rest. Failing that, drastically cutting screen use in the last hour before bed remains the most realistic compromise."]
+          ]}
+        ],
+        verdict: "Screens before bed aren't a myth: several recent, large-scale studies confirm a real impact on sleep duration and quality. Blue light plays a role, but the mental stimulation from the content consumed matters just as much, if not more. Cutting screen use in the hour before bed — at minimum — remains the simplest, best-documented step to protect your nights."
+      },
+      es: {
+        title: "Pantallas y Sueño: Lo Que Realmente Recomiendan los Especialistas",
+        excerpt: "Luz azul, estimulación mental, insomnio: el panorama completo sobre el impacto real de las pantallas en tus noches.",
+        intro: "Un último scroll antes de dormir, un episodio visto en la cama, una última revisión de mensajes: estos gestos se han vuelto automáticos para la mayoría de nosotros. Pero, ¿qué ocurre realmente con el sueño cuando hacemos esto? Los estudios más recientes matizan algunas ideas extendidas, a la vez que confirman un impacto muy real.",
+        sections: [
+          {h:"Lo que revelan los estudios recientes", p:["Un estudio publicado en Frontiers in Psychiatry, con más de 45.000 estudiantes noruegos, mostró que pasar una hora frente a una pantalla antes de dormir aumenta el riesgo de insomnio en un 59% y reduce la duración del sueño en 24 minutos de media — independientemente de la actividad realizada en la pantalla (serie, redes sociales, podcast). Un resultado que contradice una idea muy extendida: no es solo el contenido «estimulante» el problema, sino la propia presencia de la pantalla antes de acostarse."]},
+          {h:"La luz azul: culpable, pero no la única", p:["Presentada durante mucho tiempo como la única responsable, la luz azul de las pantallas está efectivamente reconocida por inhibir la producción de melatonina, la hormona que activa el sueño. Pero los estudios recientes matizan fuertemente su papel exclusivo: los especialistas señalan hoy más a la estimulación mental y cognitiva generada por el contenido consumido. Es decir, unas gafas antiluz azul o el «modo noche» del teléfono reducen un factor, pero no eliminan el estado de alerta mental provocado por el scroll o el visionado."]},
+          {h:"¿Cuánto tiempo antes de acostarse hay que dejar las pantallas?", p:["Las recomendaciones varían según la fuente, pero convergen en general: un mínimo de 30 a 60 minutos sin pantallas antes de acostarse es el umbral más citado, con una recomendación ideal de hasta 2 horas según algunos especialistas del sueño. Algunas instituciones hospitalarias, como los Hospitales Universitarios de Ginebra, incluso recomiendan suspender todo uso de pantallas a partir de las 21h para priorizar actividades tranquilas por la noche."]},
+          {h:"¿Por qué el cerebro permanece despierto?", ul:[
+            "<strong>Estimulación cognitiva</strong> — ver contenido, responder mensajes o navegar solicita activamente la atención y retrasa la sensación de somnolencia.",
+            "<strong>Carga emocional</strong> — contenido ansiógeno, debates, notificaciones inesperadas: otros tantos estímulos que mantienen el cerebro en alerta.",
+            "<strong>Desajuste del reloj biológico</strong> — la exposición lumínica, incluso moderada, puede retrasar la liberación de melatonina y, por tanto, desplazar la hora natural de conciliar el sueño.",
+            "<strong>Retraso de la señal de fatiga</strong> — permanecer despierto y estimulado impide percibir las señales naturales de somnolencia que indican que es hora de acostarse."]},
+          {h:"Preguntas frecuentes", faq:[
+            ["¿Bastan las gafas antiluz azul para proteger el sueño?", "No, no por sí solas: reducen el impacto de la luz azul sobre la melatonina, pero no anulan la estimulación mental del contenido visto ni el retraso de la hora de acostarse que las pantallas suelen favorecer."],
+            ["¿El modo noche o reducir el brillo cambian realmente las cosas?", "Ayudan modestamente, pero los especialistas recuerdan que el tiempo empleado y el tipo de contenido consumido pesan tanto o más que la intensidad lumínica en sí."],
+            ["¿Hay que eliminar totalmente las pantallas del dormitorio?", "Es la recomendación más estricta de varias instituciones del sueño, en particular para no asociar inconscientemente la cama con una actividad de alerta en lugar de con el descanso. En su defecto, reducir drásticamente el uso en la última hora antes de acostarse sigue siendo el compromiso más realista."]
+          ]}
+        ],
+        verdict: "Las pantallas antes de dormir no son un mito: varios estudios recientes y a gran escala confirman un impacto real en la duración y calidad del sueño. La luz azul juega un papel, pero la estimulación mental del contenido consumido pesa tanto o más. Reducir el uso de pantallas en la hora previa a acostarse —como mínimo— sigue siendo el gesto más sencillo y mejor documentado para proteger tus noches."
+      }
+    }
   }
 ];
 
