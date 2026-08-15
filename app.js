@@ -624,7 +624,7 @@ function buildApropos(el){
 
   '<section><div class="wrap two">' +
     '<div><span class="eyebrow">' + t.ap2_tag + '</span><h2 class="sec-title">' + t.ap2_h + '</h2><p>' + t.ap2_p + '</p></div>' +
-    '<div class="two-img"><img src="img/vision.jpg" alt="' + t.ap2_h + '" loading="lazy"></div>' +
+    '<div class="two-img"><img src="img/apropos_philosophie.jpg" alt="' + t.ap2_h + '" loading="lazy"></div>' +
   '</div></section>' +
 
   '<section class="bg-alt"><div class="wrap">' +
